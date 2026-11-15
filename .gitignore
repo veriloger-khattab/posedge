@@ -1,0 +1,14 @@
+node_modules/
+dist/
+dist-vsix/
+dist-lite/
+preview/
+*.vsix
+.DS_Store
+Thumbs.db
+__pycache__/
+
+# The owner's private machine notes and VS Code patch tools: not part of Posedge
+AGENTS.local.md
+tools/explorer-order/
+tools/undo-sidebar-font.ps1

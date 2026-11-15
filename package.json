@@ -1,0 +1,992 @@
+{
+  "name": "posedge",
+  "displayName": "Posedge — SystemVerilog & UVM Theme",
+  "description": "SystemVerilog & UVM color themes, lexer, file icons and clock where every color means something. Designed by Ahmed Khattab.",
+  "version": "0.8.0",
+  "publisher": "ahmedkhattab",
+  "license": "MIT",
+  "homepage": "https://github.com/veriloger-khattab/posedge#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/veriloger-khattab/posedge.git"
+  },
+  "bugs": {
+    "url": "https://github.com/veriloger-khattab/posedge/issues"
+  },
+  "qna": "https://github.com/veriloger-khattab/posedge/issues",
+  "author": {
+    "name": "Ahmed Khattab",
+    "url": "https://github.com/veriloger-khattab"
+  },
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Themes",
+    "Programming Languages",
+    "Other"
+  ],
+  "keywords": [
+    "systemverilog",
+    "uvm",
+    "verilog",
+    "verification",
+    "sva",
+    "coverage",
+    "rtl",
+    "hdl",
+    "asic",
+    "fpga",
+    "dark theme",
+    "light theme",
+    "icon theme",
+    "file icons",
+    "clock",
+    "jetbrains mono"
+  ],
+  "icon": "assets/icon.png",
+  "galleryBanner": {
+    "color": "#141414",
+    "theme": "dark"
+  },
+  "extensionKind": [
+    "ui"
+  ],
+  "main": "./dist/extension.js",
+  "browser": "./dist/web/extension.js",
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "capabilities": {
+    "untrustedWorkspaces": {
+      "supported": true
+    },
+    "virtualWorkspaces": true
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Posedge Graphite",
+        "uiTheme": "vs-dark",
+        "path": "./themes/posedge-graphite-color-theme.json"
+      },
+      {
+        "label": "Posedge Midnight",
+        "uiTheme": "vs-dark",
+        "path": "./themes/posedge-midnight-color-theme.json"
+      },
+      {
+        "label": "Posedge Daylight",
+        "uiTheme": "vs",
+        "path": "./themes/posedge-daylight-color-theme.json"
+      },
+      {
+        "label": "Posedge High Contrast",
+        "uiTheme": "hc-black",
+        "path": "./themes/posedge-high-contrast-color-theme.json"
+      }
+    ],
+    "iconThemes": [
+      {
+        "id": "posedge-icons",
+        "label": "Posedge Icons",
+        "path": "./icons/posedge-icon-theme.json",
+        "_watch": true
+      },
+      {
+        "id": "posedge-icons-still",
+        "label": "Posedge Icons (Still)",
+        "path": "./icons/posedge-still-icon-theme.json",
+        "_watch": true
+      }
+    ],
+    "grammars": [
+      {
+        "scopeName": "posedge.injection.systemverilog",
+        "path": "./syntaxes/posedge-systemverilog.injection.json",
+        "injectTo": [
+          "source.systemverilog"
+        ]
+      },
+      {
+        "scopeName": "posedge.injection.verilog",
+        "path": "./syntaxes/posedge-verilog.injection.json",
+        "injectTo": [
+          "source.verilog"
+        ]
+      },
+      {
+        "scopeName": "posedge.injection.log",
+        "path": "./syntaxes/posedge-log.injection.json",
+        "injectTo": [
+          "text.log"
+        ]
+      },
+      {
+        "scopeName": "posedge.injection.verilog-filelist",
+        "path": "./syntaxes/posedge-filelist.injection.json",
+        "injectTo": [
+          "source.verilog-filelist"
+        ]
+      }
+    ],
+    "languages": [
+      {
+        "id": "systemverilog",
+        "extensions": [
+          ".sva",
+          ".svi"
+        ]
+      },
+      {
+        "id": "tcl",
+        "extensions": [
+          ".do"
+        ]
+      },
+      {
+        "id": "log",
+        "filenames": [
+          "transcript"
+        ]
+      },
+      {
+        "id": "verilog-filelist",
+        "extensions": [
+          ".vc",
+          ".flist"
+        ]
+      }
+    ],
+    "configurationDefaults": {
+      "[systemverilog]": {
+        "editor.language.colorizedBracketPairs": [
+          [
+            "(",
+            ")"
+          ],
+          [
+            "[",
+            "]"
+          ],
+          [
+            "{",
+            "}"
+          ]
+        ]
+      },
+      "[verilog]": {
+        "editor.language.colorizedBracketPairs": [
+          [
+            "(",
+            ")"
+          ],
+          [
+            "[",
+            "]"
+          ],
+          [
+            "{",
+            "}"
+          ]
+        ]
+      }
+    },
+    "configuration": {
+      "title": "Posedge",
+      "properties": {
+        "posedge.clock.enabled": {
+          "type": "boolean",
+          "default": true,
+          "markdownDescription": "Show the Posedge clock (time and date) in the status bar.",
+          "order": 0
+        },
+        "posedge.clock.timeFormat": {
+          "type": "string",
+          "default": "{HH}:{mm}",
+          "markdownDescription": "Format of the time item. Tokens: `{HH}` `{H}` `{hh}` `{h}` `{mm}` `{ss}` `{A}` `{a}`. Including `{ss}` makes the clock tick every second. Leave empty to hide the time item.",
+          "order": 1
+        },
+        "posedge.clock.dateFormat": {
+          "type": "string",
+          "default": "{ddd} {DD} {MMM} · WW{WW}",
+          "markdownDescription": "Format of the date item. Tokens: `{ddd}` `{dddd}` `{DD}` `{D}` `{MMM}` `{MMMM}` `{MM}` `{M}` `{YYYY}` `{YY}` `{WW}` (work week) `{W}` `{WD}` (work-week day) `{Q}` (quarter) `{DOY}` (day of year). Leave empty to hide the date item.",
+          "order": 2
+        },
+        "posedge.clock.workWeekStyle": {
+          "type": "string",
+          "enum": [
+            "iso",
+            "sunday"
+          ],
+          "enumDescriptions": [
+            "ISO 8601: weeks start on Monday and week 1 contains the first Thursday. Work-week day {WD} is 1 (Mon) to 7 (Sun).",
+            "Sunday-start (Intel style): weeks start on Sunday and WW01 is the week that contains January 1. Work-week day {WD} is 0 (Sun) to 6 (Sat)."
+          ],
+          "default": "iso",
+          "markdownDescription": "How the `{WW}` work-week number is computed.",
+          "order": 3
+        },
+        "posedge.clock.timeZones": {
+          "type": "array",
+          "default": [],
+          "markdownDescription": "Extra clocks shown in the tooltip, for teammates in other sites. Each entry is `{ \"label\": \"Austin\", \"timeZone\": \"America/Chicago\" }` using IANA time zone names.",
+          "items": {
+            "type": "object",
+            "required": [
+              "label",
+              "timeZone"
+            ],
+            "properties": {
+              "label": {
+                "type": "string"
+              },
+              "timeZone": {
+                "type": "string"
+              }
+            }
+          },
+          "order": 4
+        },
+        "posedge.clock.clickAction": {
+          "type": "string",
+          "enum": [
+            "copyTimestamp",
+            "toggleSeconds",
+            "none"
+          ],
+          "enumDescriptions": [
+            "Copy an ISO-8601 timestamp (2026-10-18 14:37:05) to the clipboard.",
+            "Show or hide seconds.",
+            "Do nothing."
+          ],
+          "default": "copyTimestamp",
+          "markdownDescription": "What happens when you click the clock.",
+          "order": 5
+        },
+        "posedge.clock.alignment": {
+          "type": "string",
+          "enum": [
+            "right",
+            "left"
+          ],
+          "default": "right",
+          "markdownDescription": "Which side of the status bar the clock sits on.",
+          "order": 6
+        },
+        "posedge.clock.priority": {
+          "type": "number",
+          "default": -1000,
+          "markdownDescription": "Status bar priority. Higher values place the clock further left.",
+          "order": 7
+        },
+        "posedge.clock.useGlyphFont": {
+          "type": "boolean",
+          "default": true,
+          "markdownDescription": "Render the clock with the bundled JetBrains Mono glyphs. Turn off to use the regular status bar font.",
+          "order": 8
+        },
+        "posedge.explorer.uvmRoleBadges": {
+          "type": "boolean",
+          "default": true,
+          "markdownDescription": "Show a two-letter UVM role badge (DR driver, MO monitor, SB scoreboard, …) next to SystemVerilog files in the Explorer, based on the class inside or the file name suffix. Badges never change label colors.",
+          "order": 20
+        },
+        "posedge.explorer.classIcons": {
+          "type": "boolean",
+          "default": true,
+          "markdownDescription": "Give `.sv`, `.svh` and `.svi` files the icon of the class they declare: an eye for a monitor, a steering wheel for a driver, a Wi-Fi signal for coverage, … Requires *Posedge Icons*. Reads those files as plain text and records the result in Posedge's own icon theme files, inside its extension folder. Turn off to go back to fixed icons.",
+          "order": 21
+        }
+      }
+    },
+    "commands": [
+      {
+        "command": "posedge.clock.copyTimestamp",
+        "title": "Copy Timestamp",
+        "category": "Posedge"
+      },
+      {
+        "command": "posedge.clock.insertTimestamp",
+        "title": "Insert Timestamp",
+        "category": "Posedge"
+      },
+      {
+        "command": "posedge.clock.toggle",
+        "title": "Toggle Clock",
+        "category": "Posedge"
+      },
+      {
+        "command": "posedge.clock.toggleSeconds",
+        "title": "Toggle Clock Seconds",
+        "category": "Posedge"
+      },
+      {
+        "command": "posedge.explorer.toggleRoleBadges",
+        "title": "Toggle UVM Role Badges",
+        "category": "Posedge"
+      },
+      {
+        "command": "posedge.explorer.refreshClassIcons",
+        "title": "Refresh Class Icons",
+        "category": "Posedge"
+      }
+    ],
+    "colors": [
+      {
+        "id": "posedge.clockForeground",
+        "description": "Color of the time shown by the Posedge clock in the status bar.",
+        "defaults": {
+          "dark": "#FD9720",
+          "light": "#9F5400",
+          "highContrast": "#FFB45C",
+          "highContrastLight": "#7A4100"
+        }
+      },
+      {
+        "id": "posedge.dateForeground",
+        "description": "Color of the date shown by the Posedge clock in the status bar.",
+        "defaults": {
+          "dark": "statusBar.foreground",
+          "light": "statusBar.foreground",
+          "highContrast": "statusBar.foreground",
+          "highContrastLight": "statusBar.foreground"
+        }
+      }
+    ],
+    "icons": {
+      "posedge-c-0": {
+        "description": "Posedge clock glyph \"0\" (JetBrains Mono)",
+        "default": {
+          "fontPath": "./fonts/posedge-clock.woff",
+          "fontCharacter": "\\E000"
+        }
+      },
+      "posedge-c-1": {
+        "description": "Posedge clock glyph \"1\" (JetBrains Mono)",
+        "default": {
+          "fontPath": "./fonts/posedge-clock.woff",
+          "fontCharacter": "\\E001"
+        }
+      },
+      "posedge-c-2": {
+        "description": "Posedge clock glyph \"2\" (JetBrains Mono)",
+        "default": {
+          "fontPath": "./fonts/posedge-clock.woff",
+          "fontCharacter": "\\E002"
+        }
+      },
+      "posedge-c-3": {
+        "description": "Posedge clock glyph \"3\" (JetBrains Mono)",
+        "default": {
+          "fontPath": "./fonts/posedge-clock.woff",
+          "fontCharacter": "\\E003"
+        }
+      },
+      "posedge-c-4": {
+        "description": "Posedge clock glyph \"4\" (JetBrains Mono)",
+        "default": {
+          "fontPath": "./fonts/posedge-clock.woff",
+          "fontCharacter": "\\E004"
+        }
+      },
+      "posedge-c-5": {
+        "description": "Posedge clock glyph \"5\" (JetBrains Mono)",
+        "default": {
+          "fontPath": "./fonts/posedge-clock.woff",
+          "fontCharacter": "\\E005"
+        }
+      },
+      "posedge-c-6": {
+        "description": "Posedge clock glyph \"6\" (JetBrains Mono)",
+        "default": {
+          "fontPath": "./fonts/posedge-clock.woff",
+          "fontCharacter": "\\E006"
+        }
+      },
+      "posedge-c-7": {
+        "description": "Posedge clock glyph \"7\" (JetBrains Mono)",
+        "default": {
+          "fontPath": "./fonts/posedge-clock.woff",
+          "fontCharacter": "\\E007"
+        }
+      },
+      "posedge-c-8": {
+        "description": "Posedge clock glyph \"8\" (JetBrains Mono)",
+        "default": {
+          "fontPath": "./fonts/posedge-clock.woff",
+          "fontCharacter": "\\E008"
+        }
+      },
+      "posedge-c-9": {
+        "description": "Posedge clock glyph \"9\" (JetBrains Mono)",
+        "default": {
+          "fontPath": "./fonts/posedge-clock.woff",
+          "fontCharacter": "\\E009"
+        }
+      },
+      "posedge-c-up-a": {
+        "description": "Posedge clock glyph \"A\" (JetBrains Mono)",
+        "default": {
+          "fontPath": "./fonts/posedge-clock.woff",
+          "fontCharacter": "\\E00A"
+        }
+      },
+      "posedge-c-up-b": {
+        "description": "Posedge clock glyph \"B\" (JetBrains Mono)",
+        "default": {
+          "fontPath": "./fonts/posedge-clock.woff",
+          "fontCharacter": "\\E00B"
+        }
+      },
+      "posedge-c-up-c": {
+        "description": "Posedge clock glyph \"C\" (JetBrains Mono)",
+        "default": {
+          "fontPath": "./fonts/posedge-clock.woff",
+          "fontCharacter": "\\E00C"
+        }
+      },
+      "posedge-c-up-d": {
+        "description": "Posedge clock glyph \"D\" (JetBrains Mono)",
+        "default": {
+          "fontPath": "./fonts/posedge-clock.woff",
+          "fontCharacter": "\\E00D"
+        }
+      },
+      "posedge-c-up-e": {
+        "description": "Posedge clock glyph \"E\" (JetBrains Mono)",
+        "default": {
+          "fontPath": "./fonts/posedge-clock.woff",
+          "fontCharacter": "\\E00E"
+        }
+      },
+      "posedge-c-up-f": {
+        "description": "Posedge clock glyph \"F\" (JetBrains Mono)",
+        "default": {
+          "fontPath": "./fonts/posedge-clock.woff",
+          "fontCharacter": "\\E00F"
+        }
+      },
+      "posedge-c-up-g": {
+        "description": "Posedge clock glyph \"G\" (JetBrains Mono)",
+        "default": {
+          "fontPath": "./fonts/posedge-clock.woff",
+          "fontCharacter": "\\E010"
+        }
+      },
+      "posedge-c-up-h": {
+        "description": "Posedge clock glyph \"H\" (JetBrains Mono)",
+        "default": {
+          "fontPath": "./fonts/posedge-clock.woff",
+          "fontCharacter": "\\E011"
+        }
+      },
+      "posedge-c-up-i": {
+        "description": "Posedge clock glyph \"I\" (JetBrains Mono)",
+        "default": {
+          "fontPath": "./fonts/posedge-clock.woff",
+          "fontCharacter": "\\E012"
+        }
+      },
+      "posedge-c-up-j": {
+        "description": "Posedge clock glyph \"J\" (JetBrains Mono)",
+        "default": {
+          "fontPath": "./fonts/posedge-clock.woff",
+          "fontCharacter": "\\E013"
+        }
+      },
+      "posedge-c-up-k": {
+        "description": "Posedge clock glyph \"K\" (JetBrains Mono)",
+        "default": {
+          "fontPath": "./fonts/posedge-clock.woff",
+          "fontCharacter": "\\E014"
+        }
+      },
+      "posedge-c-up-l": {
+        "description": "Posedge clock glyph \"L\" (JetBrains Mono)",
+        "default": {
+          "fontPath": "./fonts/posedge-clock.woff",
+          "fontCharacter": "\\E015"
+        }
+      },
+      "posedge-c-up-m": {
+        "description": "Posedge clock glyph \"M\" (JetBrains Mono)",
+        "default": {
+          "fontPath": "./fonts/posedge-clock.woff",
+          "fontCharacter": "\\E016"
+        }
+      },
+      "posedge-c-up-n": {
+        "description": "Posedge clock glyph \"N\" (JetBrains Mono)",
+        "default": {
+          "fontPath": "./fonts/posedge-clock.woff",
+          "fontCharacter": "\\E017"
+        }
+      },
+      "posedge-c-up-o": {
+        "description": "Posedge clock glyph \"O\" (JetBrains Mono)",
+        "default": {
+          "fontPath": "./fonts/posedge-clock.woff",
+          "fontCharacter": "\\E018"
+        }
+      },
+      "posedge-c-up-p": {
+        "description": "Posedge clock glyph \"P\" (JetBrains Mono)",
+        "default": {
+          "fontPath": "./fonts/posedge-clock.woff",
+          "fontCharacter": "\\E019"
+        }
+      },
+      "posedge-c-up-q": {
+        "description": "Posedge clock glyph \"Q\" (JetBrains Mono)",
+        "default": {
+          "fontPath": "./fonts/posedge-clock.woff",
+          "fontCharacter": "\\E01A"
+        }
+      },
+      "posedge-c-up-r": {
+        "description": "Posedge clock glyph \"R\" (JetBrains Mono)",
+        "default": {
+          "fontPath": "./fonts/posedge-clock.woff",
+          "fontCharacter": "\\E01B"
+        }
+      },
+      "posedge-c-up-s": {
+        "description": "Posedge clock glyph \"S\" (JetBrains Mono)",
+        "default": {
+          "fontPath": "./fonts/posedge-clock.woff",
+          "fontCharacter": "\\E01C"
+        }
+      },
+      "posedge-c-up-t": {
+        "description": "Posedge clock glyph \"T\" (JetBrains Mono)",
+        "default": {
+          "fontPath": "./fonts/posedge-clock.woff",
+          "fontCharacter": "\\E01D"
+        }
+      },
+      "posedge-c-up-u": {
+        "description": "Posedge clock glyph \"U\" (JetBrains Mono)",
+        "default": {
+          "fontPath": "./fonts/posedge-clock.woff",
+          "fontCharacter": "\\E01E"
+        }
+      },
+      "posedge-c-up-v": {
+        "description": "Posedge clock glyph \"V\" (JetBrains Mono)",
+        "default": {
+          "fontPath": "./fonts/posedge-clock.woff",
+          "fontCharacter": "\\E01F"
+        }
+      },
+      "posedge-c-up-w": {
+        "description": "Posedge clock glyph \"W\" (JetBrains Mono)",
+        "default": {
+          "fontPath": "./fonts/posedge-clock.woff",
+          "fontCharacter": "\\E020"
+        }
+      },
+      "posedge-c-up-x": {
+        "description": "Posedge clock glyph \"X\" (JetBrains Mono)",
+        "default": {
+          "fontPath": "./fonts/posedge-clock.woff",
+          "fontCharacter": "\\E021"
+        }
+      },
+      "posedge-c-up-y": {
+        "description": "Posedge clock glyph \"Y\" (JetBrains Mono)",
+        "default": {
+          "fontPath": "./fonts/posedge-clock.woff",
+          "fontCharacter": "\\E022"
+        }
+      },
+      "posedge-c-up-z": {
+        "description": "Posedge clock glyph \"Z\" (JetBrains Mono)",
+        "default": {
+          "fontPath": "./fonts/posedge-clock.woff",
+          "fontCharacter": "\\E023"
+        }
+      },
+      "posedge-c-a": {
+        "description": "Posedge clock glyph \"a\" (JetBrains Mono)",
+        "default": {
+          "fontPath": "./fonts/posedge-clock.woff",
+          "fontCharacter": "\\E024"
+        }
+      },
+      "posedge-c-b": {
+        "description": "Posedge clock glyph \"b\" (JetBrains Mono)",
+        "default": {
+          "fontPath": "./fonts/posedge-clock.woff",
+          "fontCharacter": "\\E025"
+        }
+      },
+      "posedge-c-c": {
+        "description": "Posedge clock glyph \"c\" (JetBrains Mono)",
+        "default": {
+          "fontPath": "./fonts/posedge-clock.woff",
+          "fontCharacter": "\\E026"
+        }
+      },
+      "posedge-c-d": {
+        "description": "Posedge clock glyph \"d\" (JetBrains Mono)",
+        "default": {
+          "fontPath": "./fonts/posedge-clock.woff",
+          "fontCharacter": "\\E027"
+        }
+      },
+      "posedge-c-e": {
+        "description": "Posedge clock glyph \"e\" (JetBrains Mono)",
+        "default": {
+          "fontPath": "./fonts/posedge-clock.woff",
+          "fontCharacter": "\\E028"
+        }
+      },
+      "posedge-c-f": {
+        "description": "Posedge clock glyph \"f\" (JetBrains Mono)",
+        "default": {
+          "fontPath": "./fonts/posedge-clock.woff",
+          "fontCharacter": "\\E029"
+        }
+      },
+      "posedge-c-g": {
+        "description": "Posedge clock glyph \"g\" (JetBrains Mono)",
+        "default": {
+          "fontPath": "./fonts/posedge-clock.woff",
+          "fontCharacter": "\\E02A"
+        }
+      },
+      "posedge-c-h": {
+        "description": "Posedge clock glyph \"h\" (JetBrains Mono)",
+        "default": {
+          "fontPath": "./fonts/posedge-clock.woff",
+          "fontCharacter": "\\E02B"
+        }
+      },
+      "posedge-c-i": {
+        "description": "Posedge clock glyph \"i\" (JetBrains Mono)",
+        "default": {
+          "fontPath": "./fonts/posedge-clock.woff",
+          "fontCharacter": "\\E02C"
+        }
+      },
+      "posedge-c-j": {
+        "description": "Posedge clock glyph \"j\" (JetBrains Mono)",
+        "default": {
+          "fontPath": "./fonts/posedge-clock.woff",
+          "fontCharacter": "\\E02D"
+        }
+      },
+      "posedge-c-k": {
+        "description": "Posedge clock glyph \"k\" (JetBrains Mono)",
+        "default": {
+          "fontPath": "./fonts/posedge-clock.woff",
+          "fontCharacter": "\\E02E"
+        }
+      },
+      "posedge-c-l": {
+        "description": "Posedge clock glyph \"l\" (JetBrains Mono)",
+        "default": {
+          "fontPath": "./fonts/posedge-clock.woff",
+          "fontCharacter": "\\E02F"
+        }
+      },
+      "posedge-c-m": {
+        "description": "Posedge clock glyph \"m\" (JetBrains Mono)",
+        "default": {
+          "fontPath": "./fonts/posedge-clock.woff",
+          "fontCharacter": "\\E030"
+        }
+      },
+      "posedge-c-n": {
+        "description": "Posedge clock glyph \"n\" (JetBrains Mono)",
+        "default": {
+          "fontPath": "./fonts/posedge-clock.woff",
+          "fontCharacter": "\\E031"
+        }
+      },
+      "posedge-c-o": {
+        "description": "Posedge clock glyph \"o\" (JetBrains Mono)",
+        "default": {
+          "fontPath": "./fonts/posedge-clock.woff",
+          "fontCharacter": "\\E032"
+        }
+      },
+      "posedge-c-p": {
+        "description": "Posedge clock glyph \"p\" (JetBrains Mono)",
+        "default": {
+          "fontPath": "./fonts/posedge-clock.woff",
+          "fontCharacter": "\\E033"
+        }
+      },
+      "posedge-c-q": {
+        "description": "Posedge clock glyph \"q\" (JetBrains Mono)",
+        "default": {
+          "fontPath": "./fonts/posedge-clock.woff",
+          "fontCharacter": "\\E034"
+        }
+      },
+      "posedge-c-r": {
+        "description": "Posedge clock glyph \"r\" (JetBrains Mono)",
+        "default": {
+          "fontPath": "./fonts/posedge-clock.woff",
+          "fontCharacter": "\\E035"
+        }
+      },
+      "posedge-c-s": {
+        "description": "Posedge clock glyph \"s\" (JetBrains Mono)",
+        "default": {
+          "fontPath": "./fonts/posedge-clock.woff",
+          "fontCharacter": "\\E036"
+        }
+      },
+      "posedge-c-t": {
+        "description": "Posedge clock glyph \"t\" (JetBrains Mono)",
+        "default": {
+          "fontPath": "./fonts/posedge-clock.woff",
+          "fontCharacter": "\\E037"
+        }
+      },
+      "posedge-c-u": {
+        "description": "Posedge clock glyph \"u\" (JetBrains Mono)",
+        "default": {
+          "fontPath": "./fonts/posedge-clock.woff",
+          "fontCharacter": "\\E038"
+        }
+      },
+      "posedge-c-v": {
+        "description": "Posedge clock glyph \"v\" (JetBrains Mono)",
+        "default": {
+          "fontPath": "./fonts/posedge-clock.woff",
+          "fontCharacter": "\\E039"
+        }
+      },
+      "posedge-c-w": {
+        "description": "Posedge clock glyph \"w\" (JetBrains Mono)",
+        "default": {
+          "fontPath": "./fonts/posedge-clock.woff",
+          "fontCharacter": "\\E03A"
+        }
+      },
+      "posedge-c-x": {
+        "description": "Posedge clock glyph \"x\" (JetBrains Mono)",
+        "default": {
+          "fontPath": "./fonts/posedge-clock.woff",
+          "fontCharacter": "\\E03B"
+        }
+      },
+      "posedge-c-y": {
+        "description": "Posedge clock glyph \"y\" (JetBrains Mono)",
+        "default": {
+          "fontPath": "./fonts/posedge-clock.woff",
+          "fontCharacter": "\\E03C"
+        }
+      },
+      "posedge-c-z": {
+        "description": "Posedge clock glyph \"z\" (JetBrains Mono)",
+        "default": {
+          "fontPath": "./fonts/posedge-clock.woff",
+          "fontCharacter": "\\E03D"
+        }
+      },
+      "posedge-c-colon": {
+        "description": "Posedge clock glyph \":\" (JetBrains Mono)",
+        "default": {
+          "fontPath": "./fonts/posedge-clock.woff",
+          "fontCharacter": "\\E03E"
+        }
+      },
+      "posedge-c-dot": {
+        "description": "Posedge clock glyph \".\" (JetBrains Mono)",
+        "default": {
+          "fontPath": "./fonts/posedge-clock.woff",
+          "fontCharacter": "\\E03F"
+        }
+      },
+      "posedge-c-dash": {
+        "description": "Posedge clock glyph \"-\" (JetBrains Mono)",
+        "default": {
+          "fontPath": "./fonts/posedge-clock.woff",
+          "fontCharacter": "\\E040"
+        }
+      },
+      "posedge-c-slash": {
+        "description": "Posedge clock glyph \"/\" (JetBrains Mono)",
+        "default": {
+          "fontPath": "./fonts/posedge-clock.woff",
+          "fontCharacter": "\\E041"
+        }
+      },
+      "posedge-c-middot": {
+        "description": "Posedge clock glyph \"·\" (JetBrains Mono)",
+        "default": {
+          "fontPath": "./fonts/posedge-clock.woff",
+          "fontCharacter": "\\E042"
+        }
+      },
+      "posedge-c-at": {
+        "description": "Posedge clock glyph \"@\" (JetBrains Mono)",
+        "default": {
+          "fontPath": "./fonts/posedge-clock.woff",
+          "fontCharacter": "\\E043"
+        }
+      },
+      "posedge-c-lparen": {
+        "description": "Posedge clock glyph \"(\" (JetBrains Mono)",
+        "default": {
+          "fontPath": "./fonts/posedge-clock.woff",
+          "fontCharacter": "\\E044"
+        }
+      },
+      "posedge-c-rparen": {
+        "description": "Posedge clock glyph \")\" (JetBrains Mono)",
+        "default": {
+          "fontPath": "./fonts/posedge-clock.woff",
+          "fontCharacter": "\\E045"
+        }
+      },
+      "posedge-c-lbracket": {
+        "description": "Posedge clock glyph \"[\" (JetBrains Mono)",
+        "default": {
+          "fontPath": "./fonts/posedge-clock.woff",
+          "fontCharacter": "\\E046"
+        }
+      },
+      "posedge-c-rbracket": {
+        "description": "Posedge clock glyph \"]\" (JetBrains Mono)",
+        "default": {
+          "fontPath": "./fonts/posedge-clock.woff",
+          "fontCharacter": "\\E047"
+        }
+      },
+      "posedge-c-percent": {
+        "description": "Posedge clock glyph \"%\" (JetBrains Mono)",
+        "default": {
+          "fontPath": "./fonts/posedge-clock.woff",
+          "fontCharacter": "\\E048"
+        }
+      },
+      "posedge-c-comma": {
+        "description": "Posedge clock glyph \",\" (JetBrains Mono)",
+        "default": {
+          "fontPath": "./fonts/posedge-clock.woff",
+          "fontCharacter": "\\E049"
+        }
+      },
+      "posedge-c-plus": {
+        "description": "Posedge clock glyph \"+\" (JetBrains Mono)",
+        "default": {
+          "fontPath": "./fonts/posedge-clock.woff",
+          "fontCharacter": "\\E04A"
+        }
+      },
+      "posedge-c-hash": {
+        "description": "Posedge clock glyph \"#\" (JetBrains Mono)",
+        "default": {
+          "fontPath": "./fonts/posedge-clock.woff",
+          "fontCharacter": "\\E04B"
+        }
+      },
+      "posedge-c-space": {
+        "description": "Posedge clock glyph \" \" (JetBrains Mono)",
+        "default": {
+          "fontPath": "./fonts/posedge-clock.woff",
+          "fontCharacter": "\\E04C"
+        }
+      }
+    },
+    "walkthroughs": [
+      {
+        "id": "getStarted",
+        "title": "Get started with Posedge",
+        "description": "Colors that mean something in SystemVerilog and UVM, lit folders and a JetBrains Mono clock. Designed by Ahmed Khattab.",
+        "steps": [
+          {
+            "id": "theme",
+            "title": "Pick a Posedge color theme",
+            "description": "Graphite is the default, Midnight is darker, Daylight is the light one, High Contrast meets WCAG AAA.\n[Choose a color theme](command:workbench.action.selectTheme)",
+            "media": {
+              "markdown": "media/walkthrough/theme.md"
+            },
+            "completionEvents": [
+              "onSettingChanged:workbench.colorTheme"
+            ]
+          },
+          {
+            "id": "icons",
+            "title": "Turn on Posedge Icons",
+            "description": "Closed folders stay dark; open folders light up amber and run a tiny clock. A Still variant has no motion.\n[Choose a file icon theme](command:workbench.action.selectIconTheme)",
+            "media": {
+              "markdown": "media/walkthrough/icons.md"
+            },
+            "completionEvents": [
+              "onSettingChanged:workbench.iconTheme"
+            ]
+          },
+          {
+            "id": "settings",
+            "title": "Recommended editor settings",
+            "description": "JetBrains Mono NL, sticky scroll and always-on tree indent guides.\n[Open user settings (JSON)](command:workbench.action.openSettingsJson)",
+            "media": {
+              "markdown": "media/walkthrough/settings.md"
+            }
+          },
+          {
+            "id": "clock",
+            "title": "Configure the clock",
+            "description": "Time, date and work week in JetBrains Mono, with extra time zones in the tooltip.\n[Open clock settings](command:workbench.action.openSettings?%5B%22posedge.clock%22%5D)",
+            "media": {
+              "markdown": "media/walkthrough/clock.md"
+            }
+          },
+          {
+            "id": "legend",
+            "title": "Learn the color language",
+            "description": "One meaning per color: keywords, macros, types, functions, time and concurrency, verification, and the reserved severity colors.",
+            "media": {
+              "image": {
+                "dark": "media/walkthrough/legend.svg",
+                "light": "media/walkthrough/legend-daylight.svg",
+                "hc": "media/walkthrough/legend.svg",
+                "hcLight": "media/walkthrough/legend-daylight.svg"
+              },
+              "altText": "The Posedge color legend"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "scripts": {
+    "build": "node build/themes.mts && node build/grammars.mts && node build/icons.mts && node build/legend.mts && node build/reference.mts && node build/manifest.mts && node build/bundle.mts",
+    "build:themes": "node build/themes.mts",
+    "build:grammars": "node build/grammars.mts",
+    "build:icons": "node build/icons.mts",
+    "build:manifest": "node build/manifest.mts",
+    "build:font": "python build/font/build_clock_font.py",
+    "build:ext": "node build/bundle.mts",
+    "typecheck": "tsc -p tsconfig.json && tsc -p tsconfig.node.json",
+    "validate": "node build/validate.mts",
+    "test": "node --test \"test/*.test.mts\"",
+    "verify": "node build/verify.mts",
+    "preview": "node build/preview.mts",
+    "package": "npm run build && npm run verify && node -e \"require('fs').mkdirSync('dist-vsix',{recursive:true})\" && vsce package --no-dependencies --out dist-vsix/",
+    "package:lite": "node build/package-lite.mts",
+    "install:local": "node tools/install-local.mts",
+    "build:legend": "node build/legend.mts",
+    "gallery": "node build/gallery.mts && node build/clock-mock.mts",
+    "screenshots": "node build/preview.mts && node build/gallery.mts && node build/clock-mock.mts && node build/screenshots.mts",
+    "build:reference": "node build/reference.mts",
+    "test:local": "node --test \"test/*.test.mts\" \"tools/**/*.test.mts\"",
+    "publish:openvsx": "node build/publish-openvsx.mts"
+  },
+  "devDependencies": {
+    "@types/node": "^24.19.2",
+    "@types/vscode": "1.85.0",
+    "@vscode/vsce": "^4.0.0",
+    "esbuild": "^0.28.2",
+    "typescript": "^7.0.2",
+    "vscode-oniguruma": "^2.0.1",
+    "vscode-textmate": "^9.3.2"
+  }
+}

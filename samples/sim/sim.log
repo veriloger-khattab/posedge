@@ -1,0 +1,34 @@
+Chronologic VCS simulator copyright 1991-2026
+Contains Synopsys proprietary information.
+Compiler version W-2026.03; Runtime version W-2026.03;  Oct 18 14:37 2026
+UVM_INFO @ 0: reporter [RNTST] Running test apb_base_test...
+UVM_INFO /proj/apb/verif/env/apb_env.sv(24) @ 0: uvm_test_top.env [UVMTOP] UVM testbench topology:
+UVM_INFO /proj/apb/verif/agents/apb/apb_driver.sv(31) @ 1250ns: uvm_test_top.env.agent.drv [apb_driver] Driving WRITE addr=0x00000010 data=0xcafef00d strb=1111
+UVM_WARNING /proj/apb/verif/agents/apb/apb_driver.sv(37) @ 2100ns: uvm_test_top.env.agent.drv [APB_TIMEOUT] No PREADY after 850 ns at 2100000
+UVM_ERROR /proj/apb/verif/agents/apb/apb_driver.sv(24) @ 2500ns: uvm_test_top.env.agent.drv [ALGORITHM_ISSUE] The apb virtual interface is not configured before run phase
+UVM_ERROR /proj/apb/verif/env/apb_scoreboard.sv(33) @ 3010ns: uvm_test_top.env.sb [SB_MISMATCH] Expected READ addr=0x00000010 data=0xcafef00d
+"/proj/apb/verif/sva/apb_sva.sv", 31: tb_top.apb_vif.u_apb_sva.a_addr_stable: started at 3005ns failed at 3015ns
+	Offending '$stable(paddr)'
+Warning-[TFIPC] Too few instance port connections
+Error-[XMRE] Cross-module reference resolution error
+UVM_FATAL /proj/apb/verif/agents/apb/apb_driver.sv(22) @ 0: uvm_test_top.env.agent.drv [NOVIF] Virtual interface must be set for: apb_driver.vif
+
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :   42
+UVM_WARNING :    1
+UVM_ERROR :    2
+UVM_FATAL :    0
+** Report counts by id
+[ALGORITHM_ISSUE]     1
+[APB_TIMEOUT]     1
+[RNTST]     1
+[SB_MISMATCH]     1
+
+$finish called from file "/tools/uvm/src/base/uvm_root.svh", line 527.
+$finish at simulation time 3015ns
+*** TEST FAILED ***
+           V C S   S i m u l a t i o n   R e p o r t
+Time: 3015000 ps
+CPU Time:      1.840 seconds;       Data structure size:   0.4Mb

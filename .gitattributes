@@ -1,0 +1,4 @@
+# One line-ending style in the repository and in every checkout, so generated files compare equal on any OS.
+* text=auto eol=lf
+*.png binary
+*.woff binary

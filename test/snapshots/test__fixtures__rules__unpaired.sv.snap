@@ -1,0 +1,192 @@
+1:1	"//"	comment.line.double-slash.posedge.systemverilog
+1:3	" Keywords that the Verilog-HDL extension registers as brackets but that are legitimately unpaired"	comment.line.double-slash.posedge.systemverilog
+2:1	"//"	comment.line.double-slash.posedge.systemverilog
+2:3	" here. They must keep their color AND must not be bracket tokens (or VS Code paints them red)."	comment.line.double-slash.posedge.systemverilog
+3:1	"package"	keyword.control.posedge.systemverilog
+3:9	"unpaired_pkg"	entity.name.namespace.posedge.systemverilog entity.name.type.declaration.posedge.systemverilog
+3:21	";"	punctuation.separator.posedge.systemverilog
+4:3	"typedef"	keyword.control.posedge.systemverilog
+4:11	"class"	variable.other.identifier.systemverilog keyword.control.posedge.systemverilog
+4:17	"fwd_c"	variable.other.identifier.systemverilog
+4:22	";"	punctuation.separator.posedge.systemverilog
+5:3	"typedef"	keyword.control.posedge.systemverilog
+5:11	"interface"	variable.other.identifier.systemverilog keyword.control.posedge.systemverilog
+5:21	"class"	variable.other.identifier.systemverilog keyword.control.posedge.systemverilog
+5:27	"fwd_ifc"	variable.other.identifier.systemverilog
+5:34	";"	punctuation.separator.posedge.systemverilog
+6:3	"import"	keyword.control.posedge.systemverilog
+6:10	"\"DPI-C\""	string.quoted.double.posedge.systemverilog constant.other.dpi.posedge.systemverilog
+6:18	"context"	storage.modifier.posedge.systemverilog
+6:26	"function"	variable.other.identifier.systemverilog keyword.control.posedge.systemverilog
+6:35	"int"	storage.type.posedge.systemverilog
+6:39	"c_add"	entity.name.function.declaration.posedge.systemverilog
+6:44	"("	punctuation.separator.posedge.systemverilog
+6:45	"int"	storage.type.posedge.systemverilog
+6:49	"a"	variable.other.identifier.systemverilog
+6:50	","	punctuation.separator.posedge.systemverilog
+6:52	"int"	storage.type.posedge.systemverilog
+6:56	"b"	variable.other.identifier.systemverilog
+6:57	");"	punctuation.separator.posedge.systemverilog
+7:3	"import"	keyword.control.posedge.systemverilog
+7:10	"\"DPI-C\""	string.quoted.double.posedge.systemverilog constant.other.dpi.posedge.systemverilog
+7:18	"sv_name"	entity.name.function.declaration.posedge.systemverilog
+7:26	"="	keyword.operator.posedge.systemverilog
+7:28	"function"	variable.other.identifier.systemverilog keyword.control.posedge.systemverilog
+7:37	"void"	storage.type.posedge.systemverilog
+7:42	"c_print"	entity.name.function.declaration.posedge.systemverilog
+7:49	"("	punctuation.separator.posedge.systemverilog
+7:50	"string"	storage.type.posedge.systemverilog
+7:57	"s"	variable.other.identifier.systemverilog
+7:58	");"	punctuation.separator.posedge.systemverilog
+8:3	"export"	keyword.control.posedge.systemverilog
+8:10	"\"DPI-C\""	string.quoted.double.posedge.systemverilog constant.other.dpi.posedge.systemverilog
+8:18	"task"	variable.other.identifier.systemverilog keyword.control.posedge.systemverilog
+8:23	"sv_task"	entity.name.function.declaration.posedge.systemverilog
+8:30	";"	punctuation.separator.posedge.systemverilog
+10:3	"interface"	variable.other.identifier.systemverilog keyword.control.posedge.systemverilog
+10:13	"class"	keyword.control.posedge.systemverilog
+10:19	"shape_ifc"	entity.name.type.declaration.posedge.systemverilog
+10:28	";"	punctuation.separator.posedge.systemverilog
+11:5	"pure"	storage.modifier.posedge.systemverilog
+11:10	"virtual"	storage.modifier.posedge.systemverilog
+11:18	"function"	variable.other.identifier.systemverilog keyword.control.posedge.systemverilog
+11:27	"real"	storage.type.posedge.systemverilog
+11:32	"area"	entity.name.function.declaration.posedge.systemverilog
+11:36	"();"	punctuation.separator.posedge.systemverilog
+12:3	"endclass"	keyword.control.posedge.systemverilog
+14:3	"virtual"	storage.modifier.posedge.systemverilog
+14:11	"class"	keyword.control.posedge.systemverilog
+14:17	"base_c"	entity.name.type.declaration.posedge.systemverilog
+14:23	";"	punctuation.separator.posedge.systemverilog
+15:5	"extern"	storage.modifier.posedge.systemverilog
+15:12	"function"	variable.other.identifier.systemverilog keyword.control.posedge.systemverilog
+15:21	"void"	storage.type.posedge.systemverilog
+15:26	"ext_f"	entity.name.function.declaration.posedge.systemverilog
+15:31	"();"	punctuation.separator.posedge.systemverilog
+16:5	"pure"	storage.modifier.posedge.systemverilog
+16:10	"virtual"	storage.modifier.posedge.systemverilog
+16:18	"task"	variable.other.identifier.systemverilog keyword.control.posedge.systemverilog
+16:23	"run_t"	entity.name.function.declaration.posedge.systemverilog
+16:28	"();"	punctuation.separator.posedge.systemverilog
+17:5	"extern"	storage.modifier.posedge.systemverilog
+17:12	"protected"	storage.modifier.posedge.systemverilog
+17:22	"virtual"	storage.modifier.posedge.systemverilog
+17:30	"function"	variable.other.identifier.systemverilog keyword.control.posedge.systemverilog
+17:39	"int"	storage.type.posedge.systemverilog
+17:43	"ext_g"	entity.name.function.declaration.posedge.systemverilog
+17:48	"("	punctuation.separator.posedge.systemverilog
+17:49	"int"	storage.type.posedge.systemverilog
+17:53	"x"	variable.other.identifier.systemverilog
+17:54	");"	punctuation.separator.posedge.systemverilog
+18:3	"endclass"	keyword.control.posedge.systemverilog
+20:3	"class"	keyword.control.posedge.systemverilog
+20:9	"user_c"	entity.name.type.declaration.posedge.systemverilog
+20:15	";"	punctuation.separator.posedge.systemverilog
+21:5	"virtual"	storage.modifier.posedge.systemverilog
+21:13	"interface"	variable.other.identifier.systemverilog keyword.control.posedge.systemverilog
+21:23	"apb_if"	entity.name.type.posedge.systemverilog
+21:30	"vif"	variable.other.identifier.systemverilog
+21:33	";"	punctuation.separator.posedge.systemverilog
+22:5	"function"	keyword.control.posedge.systemverilog
+22:14	"virtual"	storage.modifier.posedge.systemverilog
+22:22	"interface"	variable.other.identifier.systemverilog keyword.control.posedge.systemverilog
+22:32	"apb_if"	entity.name.type.posedge.systemverilog
+22:39	"vif_get"	entity.name.function.declaration.posedge.systemverilog
+22:46	"();"	punctuation.separator.posedge.systemverilog
+23:5	"endfunction"	keyword.control.posedge.systemverilog
+24:5	"covergroup"	keyword.other.verification.posedge.systemverilog
+24:16	"cg"	entity.name.type.declaration.posedge.systemverilog
+24:19	"with"	keyword.other.verification.posedge.systemverilog
+24:24	"function"	variable.other.identifier.systemverilog keyword.control.posedge.systemverilog
+24:33	"sample"	entity.name.function.declaration.posedge.systemverilog
+24:39	"("	punctuation.separator.posedge.systemverilog
+24:40	"bit"	storage.type.posedge.systemverilog
+24:44	"["	punctuation.separator.posedge.systemverilog
+24:45	"3"	constant.numeric.posedge.systemverilog
+24:46	":"	punctuation.separator.posedge.systemverilog
+24:47	"0"	constant.numeric.posedge.systemverilog
+24:48	"]"	punctuation.separator.posedge.systemverilog
+24:50	"v"	variable.other.identifier.systemverilog
+24:51	");"	punctuation.separator.posedge.systemverilog
+25:7	"coverpoint"	keyword.other.verification.posedge.systemverilog
+25:18	"v"	variable.other.identifier.systemverilog
+25:19	";"	punctuation.separator.posedge.systemverilog
+26:5	"endgroup"	keyword.other.verification.posedge.systemverilog
+27:5	"task"	keyword.control.posedge.systemverilog
+27:10	"t"	entity.name.function.declaration.posedge.systemverilog
+27:11	"();"	punctuation.separator.posedge.systemverilog
+28:7	"fork"	keyword.other.timing.posedge.systemverilog
+29:9	"begin"	keyword.control.posedge.systemverilog
+29:15	"end"	keyword.control.posedge.systemverilog
+30:7	"join_none"	keyword.other.timing.posedge.systemverilog
+31:7	"disable"	keyword.other.timing.posedge.systemverilog
+31:15	"fork"	variable.other.identifier.systemverilog keyword.other.timing.posedge.systemverilog
+31:19	";"	punctuation.separator.posedge.systemverilog
+32:7	"wait"	keyword.other.timing.posedge.systemverilog
+32:12	"fork"	variable.other.identifier.systemverilog keyword.other.timing.posedge.systemverilog
+32:16	";"	punctuation.separator.posedge.systemverilog
+33:5	"endtask"	keyword.control.posedge.systemverilog
+34:3	"endclass"	keyword.control.posedge.systemverilog
+35:1	"endpackage"	keyword.control.posedge.systemverilog
+37:1	"module"	keyword.control.posedge.systemverilog
+37:8	"unpaired_m"	entity.name.type.declaration.posedge.systemverilog
+37:19	"("	punctuation.separator.posedge.systemverilog
+37:20	"input"	storage.modifier.posedge.systemverilog
+37:26	"logic"	storage.type.posedge.systemverilog
+37:32	"clk"	variable.other.clock.posedge.systemverilog
+37:35	","	punctuation.separator.posedge.systemverilog
+37:37	"input"	storage.modifier.posedge.systemverilog
+37:43	"logic"	storage.type.posedge.systemverilog
+37:49	"a"	variable.other.identifier.systemverilog
+37:50	","	punctuation.separator.posedge.systemverilog
+37:52	"input"	storage.modifier.posedge.systemverilog
+37:58	"logic"	storage.type.posedge.systemverilog
+37:64	"b"	variable.other.identifier.systemverilog
+37:65	");"	punctuation.separator.posedge.systemverilog
+38:3	"default"	keyword.control.posedge.systemverilog
+38:11	"clocking"	keyword.other.timing.posedge.systemverilog
+38:20	"cb"	entity.name.label.posedge.systemverilog
+38:23	"@"	keyword.operator.timing.posedge.systemverilog
+38:24	"("	punctuation.separator.posedge.systemverilog
+38:25	"posedge"	keyword.other.timing.posedge.systemverilog
+38:33	"clk"	variable.other.clock.posedge.systemverilog
+38:36	");"	punctuation.separator.posedge.systemverilog
+38:39	"endclocking"	keyword.other.timing.posedge.systemverilog
+39:3	"a_p"	entity.name.label.verification.posedge.systemverilog
+39:6	":"	punctuation.separator.posedge.systemverilog
+39:8	"assert"	keyword.other.verification.posedge.systemverilog
+39:15	"property"	variable.other.identifier.systemverilog keyword.other.verification.posedge.systemverilog
+39:24	"("	punctuation.separator.posedge.systemverilog
+39:25	"@"	keyword.operator.timing.posedge.systemverilog
+39:26	"("	punctuation.separator.posedge.systemverilog
+39:27	"posedge"	keyword.other.timing.posedge.systemverilog
+39:35	"clk"	variable.other.clock.posedge.systemverilog
+39:38	")"	punctuation.separator.posedge.systemverilog
+39:40	"a"	variable.other.identifier.systemverilog
+39:42	"|->"	keyword.operator.verification.posedge.systemverilog
+39:46	"b"	variable.other.identifier.systemverilog
+39:47	");"	punctuation.separator.posedge.systemverilog
+40:3	"c_s"	entity.name.label.verification.posedge.systemverilog
+40:6	":"	punctuation.separator.posedge.systemverilog
+40:8	"cover"	keyword.other.verification.posedge.systemverilog
+40:14	"sequence"	variable.other.identifier.systemverilog keyword.other.verification.posedge.systemverilog
+40:23	"("	punctuation.separator.posedge.systemverilog
+40:24	"a"	variable.other.identifier.systemverilog
+40:26	"##1"	keyword.operator.timing.posedge.systemverilog
+40:30	"b"	variable.other.identifier.systemverilog
+40:31	");"	punctuation.separator.posedge.systemverilog
+41:3	"assume"	keyword.other.verification.posedge.systemverilog
+41:10	"property"	variable.other.identifier.systemverilog keyword.other.verification.posedge.systemverilog
+41:19	"("	punctuation.separator.posedge.systemverilog
+41:20	"@"	keyword.operator.timing.posedge.systemverilog
+41:21	"("	punctuation.separator.posedge.systemverilog
+41:22	"posedge"	keyword.other.timing.posedge.systemverilog
+41:30	"clk"	variable.other.clock.posedge.systemverilog
+41:33	")"	punctuation.separator.posedge.systemverilog
+41:35	"!"	keyword.operator.posedge.systemverilog
+41:36	"("	punctuation.separator.posedge.systemverilog
+41:37	"a"	variable.other.identifier.systemverilog
+41:39	"&&"	keyword.operator.posedge.systemverilog
+41:42	"b"	variable.other.identifier.systemverilog
+41:43	"));"	punctuation.separator.posedge.systemverilog
+42:1	"endmodule"	keyword.control.posedge.systemverilog

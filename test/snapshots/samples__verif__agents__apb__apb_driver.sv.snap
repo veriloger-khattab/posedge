@@ -1,0 +1,437 @@
+1:1	"//"	comment.line.double-slash.posedge.systemverilog
+1:3	"------------------------------------------------------------------------------"	comment.line.double-slash.posedge.systemverilog
+2:1	"//"	comment.line.double-slash.posedge.systemverilog
+2:3	" apb_driver.sv : drives APB transfers from the sequencer onto the bus"	comment.line.double-slash.posedge.systemverilog
+3:1	"//"	comment.line.double-slash.posedge.systemverilog
+3:3	"------------------------------------------------------------------------------"	comment.line.double-slash.posedge.systemverilog
+4:1	"`ifndef"	variable.other.constant.preprocessor.systemverilog keyword.preprocessor.posedge.systemverilog
+4:9	"APB_DRIVER_SV"	variable.other.constant.preprocessor.systemverilog keyword.preprocessor.posedge.systemverilog
+5:1	"`define"	variable.other.constant.preprocessor.systemverilog keyword.preprocessor.posedge.systemverilog
+5:9	"APB_DRIVER_SV"	variable.other.constant.preprocessor.systemverilog keyword.preprocessor.definition.posedge.systemverilog
+7:1	"//"	comment.line.double-slash.posedge.systemverilog
+7:4	"TODO"	comment.line.double-slash.posedge.systemverilog comment.other.tag.todo.posedge.systemverilog
+7:8	": add a configurable PREADY timeout per slave"	comment.line.double-slash.posedge.systemverilog
+8:1	"class"	keyword.control.posedge.systemverilog
+8:7	"apb_driver"	entity.name.type.declaration.posedge.systemverilog
+8:18	"extends"	keyword.control.posedge.systemverilog
+8:26	"uvm_driver"	support.type.library.posedge.systemverilog
+8:37	"#"	keyword.operator.posedge.systemverilog
+8:38	"("	punctuation.separator.posedge.systemverilog
+8:39	"apb_seq_item"	entity.name.type.posedge.systemverilog
+8:51	")"	punctuation.separator.posedge.systemverilog
+8:52	";"	punctuation.separator.posedge.systemverilog
+9:3	"`uvm_component_utils"	variable.other.constant.preprocessor.systemverilog keyword.preprocessor.posedge.systemverilog
+9:23	"("	punctuation.separator.posedge.systemverilog
+9:24	"apb_driver"	entity.name.type.posedge.systemverilog
+9:34	")"	punctuation.separator.posedge.systemverilog
+11:3	"virtual"	storage.modifier.posedge.systemverilog
+11:11	"apb_if"	entity.name.type.posedge.systemverilog
+11:18	"vif"	variable.other.identifier.systemverilog
+11:21	";"	punctuation.separator.posedge.systemverilog
+12:3	"apb_config"	entity.name.type.posedge.systemverilog
+12:18	"cfg"	variable.other.identifier.systemverilog
+12:21	";"	punctuation.separator.posedge.systemverilog
+13:3	"local"	storage.modifier.posedge.systemverilog
+13:9	"int"	storage.type.posedge.systemverilog
+13:13	"unsigned"	storage.type.posedge.systemverilog
+13:22	"m_num_sent"	variable.other.identifier.systemverilog
+13:32	";"	punctuation.separator.posedge.systemverilog
+15:3	"function"	keyword.control.posedge.systemverilog
+15:12	"new"	entity.name.function.declaration.posedge.systemverilog
+15:15	"("	punctuation.separator.posedge.systemverilog
+15:16	"string"	storage.type.posedge.systemverilog
+15:23	"name"	variable.other.identifier.systemverilog
+15:28	"="	keyword.operator.posedge.systemverilog
+15:29	" \""	string.quoted.double.posedge.systemverilog
+15:31	"apb_driver"	string.quoted.double.posedge.systemverilog
+15:41	"\""	string.quoted.double.posedge.systemverilog
+15:42	","	punctuation.separator.posedge.systemverilog
+15:44	"uvm_component"	support.type.library.posedge.systemverilog
+15:58	"parent"	variable.other.identifier.systemverilog
+15:65	"="	keyword.operator.posedge.systemverilog
+15:67	"null"	constant.language.null.posedge.systemverilog
+15:71	");"	punctuation.separator.posedge.systemverilog
+16:5	"super"	variable.language.posedge.systemverilog
+16:10	"."	punctuation.separator.posedge.systemverilog
+16:11	"new"	entity.name.function.posedge.systemverilog
+16:14	"("	punctuation.separator.posedge.systemverilog
+16:15	"name"	variable.other.identifier.systemverilog
+16:19	","	punctuation.separator.posedge.systemverilog
+16:21	"parent"	variable.other.identifier.systemverilog
+16:27	");"	punctuation.separator.posedge.systemverilog
+17:3	"endfunction"	keyword.control.posedge.systemverilog
+17:15	":"	punctuation.separator.posedge.systemverilog
+17:17	"new"	entity.name.function.posedge.systemverilog
+19:3	"virtual"	storage.modifier.posedge.systemverilog
+19:11	"function"	keyword.control.posedge.systemverilog
+19:20	"void"	storage.type.posedge.systemverilog
+19:25	"build_phase"	entity.name.function.declaration.posedge.systemverilog
+19:36	"("	punctuation.separator.posedge.systemverilog
+19:37	"uvm_phase"	support.type.library.posedge.systemverilog
+19:47	"phase"	variable.other.identifier.systemverilog
+19:52	");"	punctuation.separator.posedge.systemverilog
+20:5	"super"	variable.language.posedge.systemverilog
+20:10	"."	punctuation.separator.posedge.systemverilog
+20:11	"build_phase"	entity.name.function.phase.posedge.systemverilog
+20:22	"("	punctuation.separator.posedge.systemverilog
+20:23	"phase"	variable.other.identifier.systemverilog
+20:28	");"	punctuation.separator.posedge.systemverilog
+21:5	"if"	keyword.control.posedge.systemverilog
+21:8	"("	punctuation.separator.posedge.systemverilog
+21:9	"!"	keyword.operator.posedge.systemverilog
+21:10	"uvm_config_db"	support.type.library.posedge.systemverilog
+21:23	"#"	keyword.operator.posedge.systemverilog
+21:24	"("	punctuation.separator.posedge.systemverilog
+21:25	"virtual"	storage.modifier.posedge.systemverilog
+21:33	"apb_if"	variable.other.identifier.systemverilog
+21:39	")::"	punctuation.separator.posedge.systemverilog
+21:42	"get"	entity.name.function.posedge.systemverilog
+21:45	"("	punctuation.separator.posedge.systemverilog
+21:46	"this"	variable.language.posedge.systemverilog
+21:50	","	punctuation.separator.posedge.systemverilog
+21:51	" \""	string.quoted.double.posedge.systemverilog
+21:53	"\""	string.quoted.double.posedge.systemverilog
+21:54	","	punctuation.separator.posedge.systemverilog
+21:55	" \""	string.quoted.double.posedge.systemverilog
+21:57	"vif"	string.quoted.double.posedge.systemverilog
+21:60	"\""	string.quoted.double.posedge.systemverilog
+21:61	","	punctuation.separator.posedge.systemverilog
+21:63	"vif"	variable.other.identifier.systemverilog
+21:66	"))"	punctuation.separator.posedge.systemverilog
+22:7	"`uvm_fatal"	variable.other.constant.preprocessor.systemverilog keyword.preprocessor.posedge.systemverilog
+22:17	"("	punctuation.separator.posedge.systemverilog
+22:18	"\""	string.quoted.double.posedge.systemverilog constant.other.severity.fatal.posedge.systemverilog
+22:19	"NOVIF"	string.quoted.double.posedge.systemverilog constant.other.severity.fatal.posedge.systemverilog
+22:24	"\""	string.quoted.double.posedge.systemverilog constant.other.severity.fatal.posedge.systemverilog
+22:25	","	punctuation.separator.posedge.systemverilog
+22:26	" \""	string.quoted.double.posedge.systemverilog
+22:28	"Virtual interface must be set for: apb_driver.vif"	string.quoted.double.posedge.systemverilog
+22:77	"\""	string.quoted.double.posedge.systemverilog
+22:78	")"	punctuation.separator.posedge.systemverilog
+23:5	"if"	keyword.control.posedge.systemverilog
+23:8	"("	punctuation.separator.posedge.systemverilog
+23:9	"!"	keyword.operator.posedge.systemverilog
+23:10	"uvm_config_db"	support.type.library.posedge.systemverilog
+23:23	"#"	keyword.operator.posedge.systemverilog
+23:24	"("	punctuation.separator.posedge.systemverilog
+23:25	"apb_config"	entity.name.type.posedge.systemverilog
+23:35	")"	punctuation.separator.posedge.systemverilog
+23:36	"::"	keyword.operator.posedge.systemverilog
+23:38	"get"	entity.name.function.posedge.systemverilog
+23:41	"("	punctuation.separator.posedge.systemverilog
+23:42	"this"	variable.language.posedge.systemverilog
+23:46	","	punctuation.separator.posedge.systemverilog
+23:47	" \""	string.quoted.double.posedge.systemverilog
+23:49	"\""	string.quoted.double.posedge.systemverilog
+23:50	","	punctuation.separator.posedge.systemverilog
+23:51	" \""	string.quoted.double.posedge.systemverilog
+23:53	"cfg"	string.quoted.double.posedge.systemverilog
+23:56	"\""	string.quoted.double.posedge.systemverilog
+23:57	","	punctuation.separator.posedge.systemverilog
+23:59	"cfg"	variable.other.identifier.systemverilog
+23:62	"))"	punctuation.separator.posedge.systemverilog
+24:7	"`uvm_error"	variable.other.constant.preprocessor.systemverilog keyword.preprocessor.posedge.systemverilog
+24:17	"("	punctuation.separator.posedge.systemverilog
+24:18	"\""	string.quoted.double.posedge.systemverilog constant.other.severity.error.posedge.systemverilog
+24:19	"ALGORITHM_ISSUE"	string.quoted.double.posedge.systemverilog constant.other.severity.error.posedge.systemverilog
+24:34	"\""	string.quoted.double.posedge.systemverilog constant.other.severity.error.posedge.systemverilog
+24:35	","	punctuation.separator.posedge.systemverilog
+24:36	" \""	string.quoted.double.posedge.systemverilog
+24:38	"The apb virtual interface is not configured before run phase"	string.quoted.double.posedge.systemverilog
+24:98	"\""	string.quoted.double.posedge.systemverilog
+24:99	")"	punctuation.separator.posedge.systemverilog
+25:3	"endfunction"	keyword.control.posedge.systemverilog
+25:15	":"	punctuation.separator.posedge.systemverilog
+25:17	"build_phase"	entity.name.function.phase.posedge.systemverilog
+27:3	"virtual"	storage.modifier.posedge.systemverilog
+27:11	"task"	keyword.control.posedge.systemverilog
+27:16	"run_phase"	entity.name.function.declaration.posedge.systemverilog
+27:25	"("	punctuation.separator.posedge.systemverilog
+27:26	"uvm_phase"	support.type.library.posedge.systemverilog
+27:36	"phase"	variable.other.identifier.systemverilog
+27:41	");"	punctuation.separator.posedge.systemverilog
+28:5	"reset_signals"	entity.name.function.posedge.systemverilog
+28:18	"();"	punctuation.separator.posedge.systemverilog
+29:5	"wait"	keyword.other.timing.posedge.systemverilog
+29:10	"("	punctuation.separator.posedge.systemverilog
+29:11	"vif"	variable.other.identifier.systemverilog
+29:14	"."	punctuation.separator.posedge.systemverilog
+29:15	"presetn"	variable.other.reset.posedge.systemverilog
+29:23	"==="	keyword.operator.posedge.systemverilog
+29:27	"1"	constant.numeric.base.posedge.systemverilog
+29:28	"'"	constant.numeric.base.posedge.systemverilog
+29:29	"b"	constant.numeric.base.posedge.systemverilog
+29:30	"1"	constant.numeric.posedge.systemverilog
+29:31	");"	punctuation.separator.posedge.systemverilog
+30:5	"forever"	keyword.control.posedge.systemverilog
+30:13	"begin"	keyword.control.posedge.systemverilog
+31:7	"seq_item_port"	variable.other.identifier.systemverilog
+31:20	"."	punctuation.separator.posedge.systemverilog
+31:21	"get_next_item"	entity.name.function.posedge.systemverilog
+31:34	"("	punctuation.separator.posedge.systemverilog
+31:35	"req"	variable.other.identifier.systemverilog
+31:38	");"	punctuation.separator.posedge.systemverilog
+32:7	"`uvm_info"	variable.other.constant.preprocessor.systemverilog keyword.preprocessor.posedge.systemverilog
+32:16	"("	punctuation.separator.posedge.systemverilog
+32:17	"get_type_name"	constant.other.severity.info.posedge.systemverilog
+32:30	"("	punctuation.separator.posedge.systemverilog
+32:31	")"	punctuation.separator.posedge.systemverilog
+32:32	","	punctuation.separator.posedge.systemverilog
+32:34	"$sformatf"	support.function.library.posedge.systemverilog
+32:43	"("	punctuation.separator.posedge.systemverilog
+32:44	"\""	string.quoted.double.posedge.systemverilog
+32:45	"Driving"	string.quoted.double.posedge.systemverilog
+32:53	"%s"	string.quoted.double.posedge.systemverilog constant.character.format.posedge.systemverilog
+32:55	"\""	string.quoted.double.posedge.systemverilog
+32:56	","	punctuation.separator.posedge.systemverilog
+32:58	"req"	variable.other.identifier.systemverilog
+32:61	"."	punctuation.separator.posedge.systemverilog
+32:62	"convert2string"	entity.name.function.posedge.systemverilog
+32:76	"()),"	punctuation.separator.posedge.systemverilog
+32:81	"UVM_HIGH"	constant.other.verbosity.high.posedge.systemverilog
+32:89	")"	punctuation.separator.posedge.systemverilog
+33:7	"fork"	keyword.other.timing.posedge.systemverilog
+33:12	":"	punctuation.separator.posedge.systemverilog
+33:14	"drive_with_timeout"	entity.name.label.posedge.systemverilog
+34:9	"drive_transfer"	entity.name.function.posedge.systemverilog
+34:23	"("	punctuation.separator.posedge.systemverilog
+34:24	"req"	variable.other.identifier.systemverilog
+34:27	");"	punctuation.separator.posedge.systemverilog
+35:9	"begin"	keyword.control.posedge.systemverilog
+36:11	"#"	keyword.operator.timing.posedge.systemverilog
+36:12	"("	punctuation.separator.posedge.systemverilog
+36:13	"cfg"	variable.other.identifier.systemverilog
+36:16	"."	punctuation.separator.posedge.systemverilog
+36:17	"timeout_ns"	variable.other.identifier.systemverilog
+36:28	"*"	keyword.operator.posedge.systemverilog
+36:30	"1ns"	constant.numeric.time.posedge.systemverilog
+36:33	");"	punctuation.separator.posedge.systemverilog
+37:11	"`uvm_warning"	variable.other.constant.preprocessor.systemverilog keyword.preprocessor.posedge.systemverilog
+37:23	"("	punctuation.separator.posedge.systemverilog
+37:24	"\""	string.quoted.double.posedge.systemverilog constant.other.severity.warning.posedge.systemverilog
+37:25	"APB_TIMEOUT"	string.quoted.double.posedge.systemverilog constant.other.severity.warning.posedge.systemverilog
+37:36	"\""	string.quoted.double.posedge.systemverilog constant.other.severity.warning.posedge.systemverilog
+37:37	","	punctuation.separator.posedge.systemverilog
+37:39	"$sformatf"	support.function.library.posedge.systemverilog
+37:48	"("	punctuation.separator.posedge.systemverilog
+37:49	"\""	string.quoted.double.posedge.systemverilog
+37:50	"No PREADY after"	string.quoted.double.posedge.systemverilog
+37:66	"%0d"	string.quoted.double.posedge.systemverilog constant.character.format.posedge.systemverilog
+37:69	" ns at"	string.quoted.double.posedge.systemverilog
+37:76	"%0t"	string.quoted.double.posedge.systemverilog constant.character.format.posedge.systemverilog
+37:79	"\""	string.quoted.double.posedge.systemverilog
+37:80	","	punctuation.separator.posedge.systemverilog
+37:82	"cfg"	variable.other.identifier.systemverilog
+37:85	"."	punctuation.separator.posedge.systemverilog
+37:86	"timeout_ns"	variable.other.identifier.systemverilog
+37:96	","	punctuation.separator.posedge.systemverilog
+37:98	"$time"	support.function.library.posedge.systemverilog
+37:103	"))"	punctuation.separator.posedge.systemverilog
+38:9	"end"	keyword.control.posedge.systemverilog
+39:7	"join_any"	keyword.other.timing.posedge.systemverilog
+40:7	"disable"	keyword.other.timing.posedge.systemverilog
+40:15	"fork"	variable.other.identifier.systemverilog keyword.other.timing.posedge.systemverilog
+40:19	";"	punctuation.separator.posedge.systemverilog
+41:7	"m_num_sent"	variable.other.identifier.systemverilog
+41:17	"++"	keyword.operator.posedge.systemverilog
+41:19	";"	punctuation.separator.posedge.systemverilog
+42:7	"seq_item_port"	variable.other.identifier.systemverilog
+42:20	"."	punctuation.separator.posedge.systemverilog
+42:21	"item_done"	entity.name.function.posedge.systemverilog
+42:30	"();"	punctuation.separator.posedge.systemverilog
+43:5	"end"	keyword.control.posedge.systemverilog
+44:3	"endtask"	keyword.control.posedge.systemverilog
+44:11	":"	punctuation.separator.posedge.systemverilog
+44:13	"run_phase"	entity.name.function.phase.posedge.systemverilog
+46:3	"protected"	storage.modifier.posedge.systemverilog
+46:13	"task"	keyword.control.posedge.systemverilog
+46:18	"drive_transfer"	entity.name.function.declaration.posedge.systemverilog
+46:32	"("	punctuation.separator.posedge.systemverilog
+46:33	"apb_seq_item"	entity.name.type.posedge.systemverilog
+46:46	"tr"	variable.other.identifier.systemverilog
+46:48	");"	punctuation.separator.posedge.systemverilog
+47:5	"@"	keyword.operator.timing.posedge.systemverilog
+47:6	"("	punctuation.separator.posedge.systemverilog
+47:7	"posedge"	keyword.other.timing.posedge.systemverilog
+47:15	"vif"	variable.other.identifier.systemverilog
+47:18	"."	punctuation.separator.posedge.systemverilog
+47:19	"pclk"	variable.other.clock.posedge.systemverilog
+47:23	");"	punctuation.separator.posedge.systemverilog
+48:5	"vif"	variable.other.identifier.systemverilog
+48:8	"."	punctuation.separator.posedge.systemverilog
+48:9	"paddr"	variable.other.identifier.systemverilog
+48:17	"<="	keyword.operator.posedge.systemverilog
+48:20	"tr"	variable.other.identifier.systemverilog
+48:22	"."	punctuation.separator.posedge.systemverilog
+48:23	"addr"	variable.other.identifier.systemverilog
+48:27	";"	punctuation.separator.posedge.systemverilog
+49:5	"vif"	variable.other.identifier.systemverilog
+49:8	"."	punctuation.separator.posedge.systemverilog
+49:9	"pwrite"	variable.other.identifier.systemverilog
+49:17	"<="	keyword.operator.posedge.systemverilog
+49:20	"("	punctuation.separator.posedge.systemverilog
+49:21	"tr"	variable.other.identifier.systemverilog
+49:23	"."	punctuation.separator.posedge.systemverilog
+49:24	"kind"	variable.other.identifier.systemverilog
+49:29	"=="	keyword.operator.posedge.systemverilog
+49:32	"APB_WRITE"	variable.other.constant.posedge.systemverilog
+49:41	");"	punctuation.separator.posedge.systemverilog
+50:5	"vif"	variable.other.identifier.systemverilog
+50:8	"."	punctuation.separator.posedge.systemverilog
+50:9	"pwdata"	variable.other.identifier.systemverilog
+50:17	"<="	keyword.operator.posedge.systemverilog
+50:20	"tr"	variable.other.identifier.systemverilog
+50:22	"."	punctuation.separator.posedge.systemverilog
+50:23	"data"	variable.other.identifier.systemverilog
+50:27	";"	punctuation.separator.posedge.systemverilog
+51:5	"vif"	variable.other.identifier.systemverilog
+51:8	"."	punctuation.separator.posedge.systemverilog
+51:9	"psel"	variable.other.identifier.systemverilog
+51:17	"<="	keyword.operator.posedge.systemverilog
+51:20	"1"	constant.numeric.base.posedge.systemverilog
+51:21	"'"	constant.numeric.base.posedge.systemverilog
+51:22	"b"	constant.numeric.base.posedge.systemverilog
+51:23	"1"	constant.numeric.posedge.systemverilog
+51:24	";"	punctuation.separator.posedge.systemverilog
+52:5	"vif"	variable.other.identifier.systemverilog
+52:8	"."	punctuation.separator.posedge.systemverilog
+52:9	"penable"	variable.other.identifier.systemverilog
+52:17	"<="	keyword.operator.posedge.systemverilog
+52:20	"1"	constant.numeric.base.posedge.systemverilog
+52:21	"'"	constant.numeric.base.posedge.systemverilog
+52:22	"b"	constant.numeric.base.posedge.systemverilog
+52:23	"0"	constant.numeric.posedge.systemverilog
+52:24	";"	punctuation.separator.posedge.systemverilog
+53:5	"@"	keyword.operator.timing.posedge.systemverilog
+53:6	"("	punctuation.separator.posedge.systemverilog
+53:7	"posedge"	keyword.other.timing.posedge.systemverilog
+53:15	"vif"	variable.other.identifier.systemverilog
+53:18	"."	punctuation.separator.posedge.systemverilog
+53:19	"pclk"	variable.other.clock.posedge.systemverilog
+53:23	");"	punctuation.separator.posedge.systemverilog
+54:5	"vif"	variable.other.identifier.systemverilog
+54:8	"."	punctuation.separator.posedge.systemverilog
+54:9	"penable"	variable.other.identifier.systemverilog
+54:17	"<="	keyword.operator.posedge.systemverilog
+54:20	"1"	constant.numeric.base.posedge.systemverilog
+54:21	"'"	constant.numeric.base.posedge.systemverilog
+54:22	"b"	constant.numeric.base.posedge.systemverilog
+54:23	"1"	constant.numeric.posedge.systemverilog
+54:24	";"	punctuation.separator.posedge.systemverilog
+55:5	"do"	keyword.control.posedge.systemverilog
+55:8	"@"	keyword.operator.timing.posedge.systemverilog
+55:9	"("	punctuation.separator.posedge.systemverilog
+55:10	"posedge"	keyword.other.timing.posedge.systemverilog
+55:18	"vif"	variable.other.identifier.systemverilog
+55:21	"."	punctuation.separator.posedge.systemverilog
+55:22	"pclk"	variable.other.clock.posedge.systemverilog
+55:26	");"	punctuation.separator.posedge.systemverilog
+55:29	"while"	keyword.control.posedge.systemverilog
+55:35	"("	punctuation.separator.posedge.systemverilog
+55:36	"!"	keyword.operator.posedge.systemverilog
+55:37	"vif"	variable.other.identifier.systemverilog
+55:40	"."	punctuation.separator.posedge.systemverilog
+55:41	"pready"	variable.other.identifier.systemverilog
+55:47	");"	punctuation.separator.posedge.systemverilog
+56:5	"if"	keyword.control.posedge.systemverilog
+56:8	"("	punctuation.separator.posedge.systemverilog
+56:9	"tr"	variable.other.identifier.systemverilog
+56:11	"."	punctuation.separator.posedge.systemverilog
+56:12	"kind"	variable.other.identifier.systemverilog
+56:17	"=="	keyword.operator.posedge.systemverilog
+56:20	"APB_READ"	variable.other.constant.posedge.systemverilog
+56:28	")"	punctuation.separator.posedge.systemverilog
+56:30	"tr"	variable.other.identifier.systemverilog
+56:32	"."	punctuation.separator.posedge.systemverilog
+56:33	"data"	variable.other.identifier.systemverilog
+56:38	"="	keyword.operator.posedge.systemverilog
+56:40	"vif"	variable.other.identifier.systemverilog
+56:43	"."	punctuation.separator.posedge.systemverilog
+56:44	"prdata"	variable.other.identifier.systemverilog
+56:50	";"	punctuation.separator.posedge.systemverilog
+57:5	"vif"	variable.other.identifier.systemverilog
+57:8	"."	punctuation.separator.posedge.systemverilog
+57:9	"psel"	variable.other.identifier.systemverilog
+57:17	"<="	keyword.operator.posedge.systemverilog
+57:20	"1"	constant.numeric.base.posedge.systemverilog
+57:21	"'"	constant.numeric.base.posedge.systemverilog
+57:22	"b"	constant.numeric.base.posedge.systemverilog
+57:23	"0"	constant.numeric.posedge.systemverilog
+57:24	";"	punctuation.separator.posedge.systemverilog
+58:5	"vif"	variable.other.identifier.systemverilog
+58:8	"."	punctuation.separator.posedge.systemverilog
+58:9	"penable"	variable.other.identifier.systemverilog
+58:17	"<="	keyword.operator.posedge.systemverilog
+58:20	"1"	constant.numeric.base.posedge.systemverilog
+58:21	"'"	constant.numeric.base.posedge.systemverilog
+58:22	"b"	constant.numeric.base.posedge.systemverilog
+58:23	"0"	constant.numeric.posedge.systemverilog
+58:24	";"	punctuation.separator.posedge.systemverilog
+59:3	"endtask"	keyword.control.posedge.systemverilog
+59:11	":"	punctuation.separator.posedge.systemverilog
+59:13	"drive_transfer"	entity.name.function.posedge.systemverilog
+61:3	"protected"	storage.modifier.posedge.systemverilog
+61:13	"task"	keyword.control.posedge.systemverilog
+61:18	"reset_signals"	entity.name.function.declaration.posedge.systemverilog
+61:31	"();"	punctuation.separator.posedge.systemverilog
+62:5	"vif"	variable.other.identifier.systemverilog
+62:8	"."	punctuation.separator.posedge.systemverilog
+62:9	"psel"	variable.other.identifier.systemverilog
+62:17	"<="	keyword.operator.posedge.systemverilog
+62:20	"'0"	constant.numeric.posedge.systemverilog
+62:22	";"	punctuation.separator.posedge.systemverilog
+63:5	"vif"	variable.other.identifier.systemverilog
+63:8	"."	punctuation.separator.posedge.systemverilog
+63:9	"penable"	variable.other.identifier.systemverilog
+63:17	"<="	keyword.operator.posedge.systemverilog
+63:20	"'0"	constant.numeric.posedge.systemverilog
+63:22	";"	punctuation.separator.posedge.systemverilog
+64:5	"vif"	variable.other.identifier.systemverilog
+64:8	"."	punctuation.separator.posedge.systemverilog
+64:9	"paddr"	variable.other.identifier.systemverilog
+64:17	"<="	keyword.operator.posedge.systemverilog
+64:20	"'x"	constant.numeric.xz.posedge.systemverilog
+64:22	";"	punctuation.separator.posedge.systemverilog
+65:5	"vif"	variable.other.identifier.systemverilog
+65:8	"."	punctuation.separator.posedge.systemverilog
+65:9	"pwdata"	variable.other.identifier.systemverilog
+65:17	"<="	keyword.operator.posedge.systemverilog
+65:20	"32"	constant.numeric.base.posedge.systemverilog
+65:22	"'"	constant.numeric.base.posedge.systemverilog
+65:23	"h"	constant.numeric.base.posedge.systemverilog
+65:24	"DEAD_BEEF"	constant.numeric.posedge.systemverilog
+65:33	";"	punctuation.separator.posedge.systemverilog
+66:3	"endtask"	keyword.control.posedge.systemverilog
+68:3	"virtual"	storage.modifier.posedge.systemverilog
+68:11	"function"	keyword.control.posedge.systemverilog
+68:20	"void"	storage.type.posedge.systemverilog
+68:25	"report_phase"	entity.name.function.declaration.posedge.systemverilog
+68:37	"("	punctuation.separator.posedge.systemverilog
+68:38	"uvm_phase"	support.type.library.posedge.systemverilog
+68:48	"phase"	variable.other.identifier.systemverilog
+68:53	");"	punctuation.separator.posedge.systemverilog
+69:5	"`uvm_info"	variable.other.constant.preprocessor.systemverilog keyword.preprocessor.posedge.systemverilog
+69:14	"("	punctuation.separator.posedge.systemverilog
+69:15	"\""	string.quoted.double.posedge.systemverilog constant.other.severity.info.posedge.systemverilog
+69:16	"DRV"	string.quoted.double.posedge.systemverilog constant.other.severity.info.posedge.systemverilog
+69:19	"\""	string.quoted.double.posedge.systemverilog constant.other.severity.info.posedge.systemverilog
+69:20	","	punctuation.separator.posedge.systemverilog
+69:22	"$sformatf"	support.function.library.posedge.systemverilog
+69:31	"("	punctuation.separator.posedge.systemverilog
+69:32	"\""	string.quoted.double.posedge.systemverilog
+69:33	"Sent"	string.quoted.double.posedge.systemverilog
+69:38	"%0d"	string.quoted.double.posedge.systemverilog constant.character.format.posedge.systemverilog
+69:41	" transfers"	string.quoted.double.posedge.systemverilog
+69:51	"\""	string.quoted.double.posedge.systemverilog
+69:52	","	punctuation.separator.posedge.systemverilog
+69:54	"m_num_sent"	variable.other.identifier.systemverilog
+69:64	"),"	punctuation.separator.posedge.systemverilog
+69:67	"UVM_LOW"	constant.other.verbosity.low.posedge.systemverilog
+69:74	")"	punctuation.separator.posedge.systemverilog
+70:3	"endfunction"	keyword.control.posedge.systemverilog
+71:1	"endclass"	keyword.control.posedge.systemverilog
+71:10	":"	punctuation.separator.posedge.systemverilog
+71:12	"apb_driver"	entity.name.type.posedge.systemverilog
+73:1	"`endif"	variable.other.constant.preprocessor.systemverilog keyword.preprocessor.posedge.systemverilog
+73:7	" //"	comment.line.double-slash.posedge.systemverilog
+73:10	" APB_DRIVER_SV"	comment.line.double-slash.posedge.systemverilog

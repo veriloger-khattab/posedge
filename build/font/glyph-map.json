@@ -1,0 +1,390 @@
+{
+  "font": "./fonts/posedge-clock.woff",
+  "glyphs": [
+    {
+      "char": "0",
+      "id": "posedge-c-0",
+      "codepoint": 57344
+    },
+    {
+      "char": "1",
+      "id": "posedge-c-1",
+      "codepoint": 57345
+    },
+    {
+      "char": "2",
+      "id": "posedge-c-2",
+      "codepoint": 57346
+    },
+    {
+      "char": "3",
+      "id": "posedge-c-3",
+      "codepoint": 57347
+    },
+    {
+      "char": "4",
+      "id": "posedge-c-4",
+      "codepoint": 57348
+    },
+    {
+      "char": "5",
+      "id": "posedge-c-5",
+      "codepoint": 57349
+    },
+    {
+      "char": "6",
+      "id": "posedge-c-6",
+      "codepoint": 57350
+    },
+    {
+      "char": "7",
+      "id": "posedge-c-7",
+      "codepoint": 57351
+    },
+    {
+      "char": "8",
+      "id": "posedge-c-8",
+      "codepoint": 57352
+    },
+    {
+      "char": "9",
+      "id": "posedge-c-9",
+      "codepoint": 57353
+    },
+    {
+      "char": "A",
+      "id": "posedge-c-up-a",
+      "codepoint": 57354
+    },
+    {
+      "char": "B",
+      "id": "posedge-c-up-b",
+      "codepoint": 57355
+    },
+    {
+      "char": "C",
+      "id": "posedge-c-up-c",
+      "codepoint": 57356
+    },
+    {
+      "char": "D",
+      "id": "posedge-c-up-d",
+      "codepoint": 57357
+    },
+    {
+      "char": "E",
+      "id": "posedge-c-up-e",
+      "codepoint": 57358
+    },
+    {
+      "char": "F",
+      "id": "posedge-c-up-f",
+      "codepoint": 57359
+    },
+    {
+      "char": "G",
+      "id": "posedge-c-up-g",
+      "codepoint": 57360
+    },
+    {
+      "char": "H",
+      "id": "posedge-c-up-h",
+      "codepoint": 57361
+    },
+    {
+      "char": "I",
+      "id": "posedge-c-up-i",
+      "codepoint": 57362
+    },
+    {
+      "char": "J",
+      "id": "posedge-c-up-j",
+      "codepoint": 57363
+    },
+    {
+      "char": "K",
+      "id": "posedge-c-up-k",
+      "codepoint": 57364
+    },
+    {
+      "char": "L",
+      "id": "posedge-c-up-l",
+      "codepoint": 57365
+    },
+    {
+      "char": "M",
+      "id": "posedge-c-up-m",
+      "codepoint": 57366
+    },
+    {
+      "char": "N",
+      "id": "posedge-c-up-n",
+      "codepoint": 57367
+    },
+    {
+      "char": "O",
+      "id": "posedge-c-up-o",
+      "codepoint": 57368
+    },
+    {
+      "char": "P",
+      "id": "posedge-c-up-p",
+      "codepoint": 57369
+    },
+    {
+      "char": "Q",
+      "id": "posedge-c-up-q",
+      "codepoint": 57370
+    },
+    {
+      "char": "R",
+      "id": "posedge-c-up-r",
+      "codepoint": 57371
+    },
+    {
+      "char": "S",
+      "id": "posedge-c-up-s",
+      "codepoint": 57372
+    },
+    {
+      "char": "T",
+      "id": "posedge-c-up-t",
+      "codepoint": 57373
+    },
+    {
+      "char": "U",
+      "id": "posedge-c-up-u",
+      "codepoint": 57374
+    },
+    {
+      "char": "V",
+      "id": "posedge-c-up-v",
+      "codepoint": 57375
+    },
+    {
+      "char": "W",
+      "id": "posedge-c-up-w",
+      "codepoint": 57376
+    },
+    {
+      "char": "X",
+      "id": "posedge-c-up-x",
+      "codepoint": 57377
+    },
+    {
+      "char": "Y",
+      "id": "posedge-c-up-y",
+      "codepoint": 57378
+    },
+    {
+      "char": "Z",
+      "id": "posedge-c-up-z",
+      "codepoint": 57379
+    },
+    {
+      "char": "a",
+      "id": "posedge-c-a",
+      "codepoint": 57380
+    },
+    {
+      "char": "b",
+      "id": "posedge-c-b",
+      "codepoint": 57381
+    },
+    {
+      "char": "c",
+      "id": "posedge-c-c",
+      "codepoint": 57382
+    },
+    {
+      "char": "d",
+      "id": "posedge-c-d",
+      "codepoint": 57383
+    },
+    {
+      "char": "e",
+      "id": "posedge-c-e",
+      "codepoint": 57384
+    },
+    {
+      "char": "f",
+      "id": "posedge-c-f",
+      "codepoint": 57385
+    },
+    {
+      "char": "g",
+      "id": "posedge-c-g",
+      "codepoint": 57386
+    },
+    {
+      "char": "h",
+      "id": "posedge-c-h",
+      "codepoint": 57387
+    },
+    {
+      "char": "i",
+      "id": "posedge-c-i",
+      "codepoint": 57388
+    },
+    {
+      "char": "j",
+      "id": "posedge-c-j",
+      "codepoint": 57389
+    },
+    {
+      "char": "k",
+      "id": "posedge-c-k",
+      "codepoint": 57390
+    },
+    {
+      "char": "l",
+      "id": "posedge-c-l",
+      "codepoint": 57391
+    },
+    {
+      "char": "m",
+      "id": "posedge-c-m",
+      "codepoint": 57392
+    },
+    {
+      "char": "n",
+      "id": "posedge-c-n",
+      "codepoint": 57393
+    },
+    {
+      "char": "o",
+      "id": "posedge-c-o",
+      "codepoint": 57394
+    },
+    {
+      "char": "p",
+      "id": "posedge-c-p",
+      "codepoint": 57395
+    },
+    {
+      "char": "q",
+      "id": "posedge-c-q",
+      "codepoint": 57396
+    },
+    {
+      "char": "r",
+      "id": "posedge-c-r",
+      "codepoint": 57397
+    },
+    {
+      "char": "s",
+      "id": "posedge-c-s",
+      "codepoint": 57398
+    },
+    {
+      "char": "t",
+      "id": "posedge-c-t",
+      "codepoint": 57399
+    },
+    {
+      "char": "u",
+      "id": "posedge-c-u",
+      "codepoint": 57400
+    },
+    {
+      "char": "v",
+      "id": "posedge-c-v",
+      "codepoint": 57401
+    },
+    {
+      "char": "w",
+      "id": "posedge-c-w",
+      "codepoint": 57402
+    },
+    {
+      "char": "x",
+      "id": "posedge-c-x",
+      "codepoint": 57403
+    },
+    {
+      "char": "y",
+      "id": "posedge-c-y",
+      "codepoint": 57404
+    },
+    {
+      "char": "z",
+      "id": "posedge-c-z",
+      "codepoint": 57405
+    },
+    {
+      "char": ":",
+      "id": "posedge-c-colon",
+      "codepoint": 57406
+    },
+    {
+      "char": ".",
+      "id": "posedge-c-dot",
+      "codepoint": 57407
+    },
+    {
+      "char": "-",
+      "id": "posedge-c-dash",
+      "codepoint": 57408
+    },
+    {
+      "char": "/",
+      "id": "posedge-c-slash",
+      "codepoint": 57409
+    },
+    {
+      "char": "·",
+      "id": "posedge-c-middot",
+      "codepoint": 57410
+    },
+    {
+      "char": "@",
+      "id": "posedge-c-at",
+      "codepoint": 57411
+    },
+    {
+      "char": "(",
+      "id": "posedge-c-lparen",
+      "codepoint": 57412
+    },
+    {
+      "char": ")",
+      "id": "posedge-c-rparen",
+      "codepoint": 57413
+    },
+    {
+      "char": "[",
+      "id": "posedge-c-lbracket",
+      "codepoint": 57414
+    },
+    {
+      "char": "]",
+      "id": "posedge-c-rbracket",
+      "codepoint": 57415
+    },
+    {
+      "char": "%",
+      "id": "posedge-c-percent",
+      "codepoint": 57416
+    },
+    {
+      "char": ",",
+      "id": "posedge-c-comma",
+      "codepoint": 57417
+    },
+    {
+      "char": "+",
+      "id": "posedge-c-plus",
+      "codepoint": 57418
+    },
+    {
+      "char": "#",
+      "id": "posedge-c-hash",
+      "codepoint": 57419
+    },
+    {
+      "char": " ",
+      "id": "posedge-c-space",
+      "codepoint": 57420
+    }
+  ]
+}

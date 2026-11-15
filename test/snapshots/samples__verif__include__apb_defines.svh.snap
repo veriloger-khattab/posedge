@@ -1,0 +1,103 @@
+1:1	"`ifndef"	variable.other.constant.preprocessor.systemverilog keyword.preprocessor.posedge.systemverilog
+1:9	"APB_DEFINES_SVH"	variable.other.constant.preprocessor.systemverilog keyword.preprocessor.posedge.systemverilog
+2:1	"`define"	variable.other.constant.preprocessor.systemverilog keyword.preprocessor.posedge.systemverilog
+2:9	"APB_DEFINES_SVH"	variable.other.constant.preprocessor.systemverilog keyword.preprocessor.definition.posedge.systemverilog
+4:1	"`timescale"	variable.other.constant.preprocessor.systemverilog keyword.preprocessor.posedge.systemverilog
+4:12	"1ns"	constant.numeric.time.posedge.systemverilog
+4:15	"/"	keyword.operator.posedge.systemverilog
+4:16	"1ps"	constant.numeric.time.posedge.systemverilog
+5:1	"`default_nettype"	variable.other.constant.preprocessor.systemverilog keyword.preprocessor.posedge.systemverilog
+5:18	"none"	variable.other.identifier.systemverilog
+7:1	"`define"	variable.other.constant.preprocessor.systemverilog keyword.preprocessor.posedge.systemverilog
+7:9	"APB_ADDR_WIDTH"	variable.other.constant.preprocessor.systemverilog keyword.preprocessor.definition.posedge.systemverilog
+7:24	"32"	constant.numeric.posedge.systemverilog
+8:1	"`define"	variable.other.constant.preprocessor.systemverilog keyword.preprocessor.posedge.systemverilog
+8:9	"APB_DATA_WIDTH"	variable.other.constant.preprocessor.systemverilog keyword.preprocessor.definition.posedge.systemverilog
+8:24	"32"	constant.numeric.posedge.systemverilog
+10:1	"//"	comment.line.double-slash.posedge.systemverilog
+10:3	" Wraps a sequence start with the standard objection handling"	comment.line.double-slash.posedge.systemverilog
+11:1	"`define"	variable.other.constant.preprocessor.systemverilog keyword.preprocessor.posedge.systemverilog
+11:9	"APB_START_SEQ"	variable.other.constant.preprocessor.systemverilog keyword.preprocessor.definition.posedge.systemverilog
+11:22	"("	punctuation.separator.posedge.systemverilog
+11:23	"SEQ"	variable.parameter.macro.posedge.systemverilog
+11:26	","	punctuation.separator.posedge.systemverilog
+11:28	"SQR"	variable.parameter.macro.posedge.systemverilog
+11:31	")"	punctuation.separator.posedge.systemverilog
+11:33	"\\"	variable.other.constant.preprocessor.systemverilog keyword.preprocessor.posedge.systemverilog
+12:3	"begin"	keyword.control.posedge.systemverilog
+12:9	"\\"	variable.other.constant.preprocessor.systemverilog keyword.preprocessor.posedge.systemverilog
+13:5	"phase"	variable.other.identifier.systemverilog
+13:10	"."	punctuation.separator.posedge.systemverilog
+13:11	"raise_objection"	entity.name.function.phase.posedge.systemverilog
+13:26	"("	punctuation.separator.posedge.systemverilog
+13:27	"this"	variable.language.posedge.systemverilog
+13:31	");"	punctuation.separator.posedge.systemverilog
+13:34	"\\"	variable.other.constant.preprocessor.systemverilog keyword.preprocessor.posedge.systemverilog
+14:5	"SEQ"	variable.other.constant.posedge.systemverilog
+14:8	"."	punctuation.separator.posedge.systemverilog
+14:9	"start"	entity.name.function.posedge.systemverilog
+14:14	"("	punctuation.separator.posedge.systemverilog
+14:15	"SQR"	variable.other.constant.posedge.systemverilog
+14:18	");"	punctuation.separator.posedge.systemverilog
+14:21	"\\"	variable.other.constant.preprocessor.systemverilog keyword.preprocessor.posedge.systemverilog
+15:5	"phase"	variable.other.identifier.systemverilog
+15:10	"."	punctuation.separator.posedge.systemverilog
+15:11	"drop_objection"	entity.name.function.phase.posedge.systemverilog
+15:25	"("	punctuation.separator.posedge.systemverilog
+15:26	"this"	variable.language.posedge.systemverilog
+15:30	");"	punctuation.separator.posedge.systemverilog
+15:33	"\\"	variable.other.constant.preprocessor.systemverilog keyword.preprocessor.posedge.systemverilog
+16:3	"end"	keyword.control.posedge.systemverilog
+18:1	"`define"	variable.other.constant.preprocessor.systemverilog keyword.preprocessor.posedge.systemverilog
+18:9	"APB_ASSERT_KNOWN"	variable.other.constant.preprocessor.systemverilog keyword.preprocessor.definition.posedge.systemverilog
+18:25	"("	punctuation.separator.posedge.systemverilog
+18:26	"NAME"	variable.parameter.macro.posedge.systemverilog
+18:30	","	punctuation.separator.posedge.systemverilog
+18:32	"SIG"	variable.parameter.macro.posedge.systemverilog
+18:35	")"	punctuation.separator.posedge.systemverilog
+18:37	"\\"	variable.other.constant.preprocessor.systemverilog keyword.preprocessor.posedge.systemverilog
+19:3	"NAME"	entity.name.label.verification.posedge.systemverilog
+19:7	":"	punctuation.separator.posedge.systemverilog
+19:9	"assert"	keyword.other.verification.posedge.systemverilog
+19:16	"property"	variable.other.identifier.systemverilog keyword.other.verification.posedge.systemverilog
+19:25	"("	punctuation.separator.posedge.systemverilog
+19:26	"@"	keyword.operator.timing.posedge.systemverilog
+19:27	"("	punctuation.separator.posedge.systemverilog
+19:28	"posedge"	keyword.other.timing.posedge.systemverilog
+19:36	"pclk"	variable.other.clock.posedge.systemverilog
+19:40	")"	punctuation.separator.posedge.systemverilog
+19:42	"!"	keyword.operator.posedge.systemverilog
+19:43	"$isunknown"	support.function.library.posedge.systemverilog
+19:53	"("	punctuation.separator.posedge.systemverilog
+19:54	"SIG"	variable.other.constant.posedge.systemverilog
+19:57	"))"	punctuation.separator.posedge.systemverilog
+19:60	"\\"	variable.other.constant.preprocessor.systemverilog keyword.preprocessor.posedge.systemverilog
+20:5	"else"	keyword.control.posedge.systemverilog
+20:10	"`uvm_error"	variable.other.constant.preprocessor.systemverilog keyword.preprocessor.posedge.systemverilog
+20:20	"("	punctuation.separator.posedge.systemverilog
+20:21	"`\""	variable.other.constant.preprocessor.systemverilog keyword.preprocessor.posedge.systemverilog
+20:23	"NAME"	constant.other.severity.error.posedge.systemverilog
+20:27	"`\""	variable.other.constant.preprocessor.systemverilog keyword.preprocessor.posedge.systemverilog
+20:29	","	punctuation.separator.posedge.systemverilog
+20:30	" \""	string.quoted.double.posedge.systemverilog
+20:32	"signal is X"	string.quoted.double.posedge.systemverilog
+20:43	"\""	string.quoted.double.posedge.systemverilog
+20:44	")"	punctuation.separator.posedge.systemverilog
+22:1	"`ifdef"	variable.other.constant.preprocessor.systemverilog keyword.preprocessor.posedge.systemverilog
+22:8	"APB_DEBUG"	variable.other.constant.preprocessor.systemverilog keyword.preprocessor.posedge.systemverilog
+23:3	"`define"	variable.other.constant.preprocessor.systemverilog keyword.preprocessor.posedge.systemverilog
+23:11	"APB_VERBOSITY"	variable.other.constant.preprocessor.systemverilog keyword.preprocessor.definition.posedge.systemverilog
+23:25	"UVM_DEBUG"	constant.other.verbosity.debug.posedge.systemverilog
+24:1	"`elsif"	variable.other.constant.preprocessor.systemverilog keyword.preprocessor.posedge.systemverilog
+24:8	"APB_QUIET"	variable.other.constant.preprocessor.systemverilog keyword.preprocessor.posedge.systemverilog
+25:3	"`define"	variable.other.constant.preprocessor.systemverilog keyword.preprocessor.posedge.systemverilog
+25:11	"APB_VERBOSITY"	variable.other.constant.preprocessor.systemverilog keyword.preprocessor.definition.posedge.systemverilog
+25:25	"UVM_NONE"	constant.other.verbosity.none.posedge.systemverilog
+26:1	"`else"	variable.other.constant.preprocessor.systemverilog keyword.preprocessor.posedge.systemverilog
+27:3	"`define"	variable.other.constant.preprocessor.systemverilog keyword.preprocessor.posedge.systemverilog
+27:11	"APB_VERBOSITY"	variable.other.constant.preprocessor.systemverilog keyword.preprocessor.definition.posedge.systemverilog
+27:25	"UVM_MEDIUM"	constant.other.verbosity.medium.posedge.systemverilog
+28:1	"`endif"	variable.other.constant.preprocessor.systemverilog keyword.preprocessor.posedge.systemverilog
+30:1	"`endif"	variable.other.constant.preprocessor.systemverilog keyword.preprocessor.posedge.systemverilog
+30:7	" //"	comment.line.double-slash.posedge.systemverilog
+30:10	" APB_DEFINES_SVH"	comment.line.double-slash.posedge.systemverilog

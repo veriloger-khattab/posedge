@@ -1,0 +1,137 @@
+1:1	"class"	keyword.control.posedge.systemverilog
+1:7	"apb_rand_seq"	entity.name.type.declaration.posedge.systemverilog
+1:20	"extends"	keyword.control.posedge.systemverilog
+1:28	"uvm_sequence"	support.type.library.posedge.systemverilog
+1:41	"#"	keyword.operator.posedge.systemverilog
+1:42	"("	punctuation.separator.posedge.systemverilog
+1:43	"apb_seq_item"	entity.name.type.posedge.systemverilog
+1:55	")"	punctuation.separator.posedge.systemverilog
+1:56	";"	punctuation.separator.posedge.systemverilog
+2:3	"`uvm_object_utils"	variable.other.constant.preprocessor.systemverilog keyword.preprocessor.posedge.systemverilog
+2:20	"("	punctuation.separator.posedge.systemverilog
+2:21	"apb_rand_seq"	entity.name.type.posedge.systemverilog
+2:33	")"	punctuation.separator.posedge.systemverilog
+3:3	"`uvm_declare_p_sequencer"	variable.other.constant.preprocessor.systemverilog keyword.preprocessor.posedge.systemverilog
+3:27	"("	punctuation.separator.posedge.systemverilog
+3:28	"apb_sequencer"	entity.name.type.posedge.systemverilog
+3:41	")"	punctuation.separator.posedge.systemverilog
+5:3	"rand"	keyword.other.verification.posedge.systemverilog
+5:8	"int"	storage.type.posedge.systemverilog
+5:12	"unsigned"	storage.type.posedge.systemverilog
+5:21	"num_items"	variable.other.identifier.systemverilog
+5:30	";"	punctuation.separator.posedge.systemverilog
+6:3	"constraint"	keyword.other.verification.posedge.systemverilog
+6:14	"c_num"	entity.name.label.verification.posedge.systemverilog
+6:20	"{"	punctuation.separator.posedge.systemverilog
+6:22	"num_items"	variable.other.identifier.systemverilog
+6:32	"inside"	keyword.other.verification.posedge.systemverilog
+6:38	" {"	punctuation.separator.posedge.systemverilog
+6:40	"["	punctuation.separator.posedge.systemverilog
+6:41	"8"	constant.numeric.posedge.systemverilog
+6:42	":"	punctuation.separator.posedge.systemverilog
+6:43	"32"	constant.numeric.posedge.systemverilog
+6:45	"]};"	punctuation.separator.posedge.systemverilog
+6:49	"}"	punctuation.separator.posedge.systemverilog
+8:3	"function"	keyword.control.posedge.systemverilog
+8:12	"new"	entity.name.function.declaration.posedge.systemverilog
+8:15	"("	punctuation.separator.posedge.systemverilog
+8:16	"string"	storage.type.posedge.systemverilog
+8:23	"name"	variable.other.identifier.systemverilog
+8:28	"="	keyword.operator.posedge.systemverilog
+8:29	" \""	string.quoted.double.posedge.systemverilog
+8:31	"apb_rand_seq"	string.quoted.double.posedge.systemverilog
+8:43	"\""	string.quoted.double.posedge.systemverilog
+8:44	");"	punctuation.separator.posedge.systemverilog
+9:5	"super"	variable.language.posedge.systemverilog
+9:10	"."	punctuation.separator.posedge.systemverilog
+9:11	"new"	entity.name.function.posedge.systemverilog
+9:14	"("	punctuation.separator.posedge.systemverilog
+9:15	"name"	variable.other.identifier.systemverilog
+9:19	");"	punctuation.separator.posedge.systemverilog
+10:3	"endfunction"	keyword.control.posedge.systemverilog
+12:3	"virtual"	storage.modifier.posedge.systemverilog
+12:11	"task"	keyword.control.posedge.systemverilog
+12:16	"body"	entity.name.function.declaration.posedge.systemverilog
+12:20	"();"	punctuation.separator.posedge.systemverilog
+13:5	"repeat"	keyword.control.posedge.systemverilog
+13:12	"("	punctuation.separator.posedge.systemverilog
+13:13	"num_items"	variable.other.identifier.systemverilog
+13:22	")"	punctuation.separator.posedge.systemverilog
+13:24	"begin"	keyword.control.posedge.systemverilog
+14:7	"req"	variable.other.identifier.systemverilog
+14:11	"="	keyword.operator.posedge.systemverilog
+14:13	"apb_seq_item"	entity.name.type.posedge.systemverilog
+14:25	"::"	keyword.operator.posedge.systemverilog
+14:27	"type_id"	support.type.library.posedge.systemverilog
+14:34	"::"	keyword.operator.posedge.systemverilog
+14:36	"create"	entity.name.function.posedge.systemverilog
+14:42	"("	punctuation.separator.posedge.systemverilog
+14:43	"\""	string.quoted.double.posedge.systemverilog
+14:44	"req"	string.quoted.double.posedge.systemverilog
+14:47	"\""	string.quoted.double.posedge.systemverilog
+14:48	");"	punctuation.separator.posedge.systemverilog
+15:7	"start_item"	entity.name.function.posedge.systemverilog
+15:17	"("	punctuation.separator.posedge.systemverilog
+15:18	"req"	variable.other.identifier.systemverilog
+15:21	");"	punctuation.separator.posedge.systemverilog
+16:7	"if"	keyword.control.posedge.systemverilog
+16:10	"("	punctuation.separator.posedge.systemverilog
+16:11	"!"	keyword.operator.posedge.systemverilog
+16:12	"req"	variable.other.identifier.systemverilog
+16:15	"."	punctuation.separator.posedge.systemverilog
+16:16	"randomize"	entity.name.function.posedge.systemverilog
+16:25	"()"	punctuation.separator.posedge.systemverilog
+16:28	"with"	keyword.other.verification.posedge.systemverilog
+16:33	"{"	punctuation.separator.posedge.systemverilog
+16:35	"kind"	variable.other.identifier.systemverilog
+16:40	"=="	keyword.operator.posedge.systemverilog
+16:43	"APB_WRITE"	variable.other.constant.posedge.systemverilog
+16:53	"->"	keyword.operator.verification.posedge.systemverilog
+16:56	"addr"	variable.other.identifier.systemverilog
+16:61	"<"	keyword.operator.posedge.systemverilog
+16:63	"32"	constant.numeric.base.posedge.systemverilog
+16:65	"'"	constant.numeric.base.posedge.systemverilog
+16:66	"h"	constant.numeric.base.posedge.systemverilog
+16:67	"100"	constant.numeric.posedge.systemverilog
+16:70	";"	punctuation.separator.posedge.systemverilog
+16:72	"})"	punctuation.separator.posedge.systemverilog
+17:9	"`uvm_error"	variable.other.constant.preprocessor.systemverilog keyword.preprocessor.posedge.systemverilog
+17:19	"("	punctuation.separator.posedge.systemverilog
+17:20	"\""	string.quoted.double.posedge.systemverilog constant.other.severity.error.posedge.systemverilog
+17:21	"RAND"	string.quoted.double.posedge.systemverilog constant.other.severity.error.posedge.systemverilog
+17:25	"\""	string.quoted.double.posedge.systemverilog constant.other.severity.error.posedge.systemverilog
+17:26	","	punctuation.separator.posedge.systemverilog
+17:27	" \""	string.quoted.double.posedge.systemverilog
+17:29	"Randomization of the APB item failed"	string.quoted.double.posedge.systemverilog
+17:65	"\""	string.quoted.double.posedge.systemverilog
+17:66	")"	punctuation.separator.posedge.systemverilog
+18:7	"finish_item"	entity.name.function.posedge.systemverilog
+18:18	"("	punctuation.separator.posedge.systemverilog
+18:19	"req"	variable.other.identifier.systemverilog
+18:22	");"	punctuation.separator.posedge.systemverilog
+19:7	"get_response"	entity.name.function.posedge.systemverilog
+19:19	"("	punctuation.separator.posedge.systemverilog
+19:20	"rsp"	variable.other.identifier.systemverilog
+19:23	");"	punctuation.separator.posedge.systemverilog
+20:5	"end"	keyword.control.posedge.systemverilog
+21:5	"`uvm_do_with"	variable.other.constant.preprocessor.systemverilog keyword.preprocessor.posedge.systemverilog
+21:17	"("	punctuation.separator.posedge.systemverilog
+21:18	"req"	variable.other.identifier.systemverilog
+21:21	","	punctuation.separator.posedge.systemverilog
+21:22	" {"	punctuation.separator.posedge.systemverilog
+21:25	"addr"	variable.other.identifier.systemverilog
+21:30	"=="	keyword.operator.posedge.systemverilog
+21:33	"32"	constant.numeric.base.posedge.systemverilog
+21:35	"'"	constant.numeric.base.posedge.systemverilog
+21:36	"h"	constant.numeric.base.posedge.systemverilog
+21:37	"10"	constant.numeric.posedge.systemverilog
+21:39	";"	punctuation.separator.posedge.systemverilog
+21:41	"kind"	variable.other.identifier.systemverilog
+21:46	"=="	keyword.operator.posedge.systemverilog
+21:49	"APB_READ"	variable.other.constant.posedge.systemverilog
+21:57	";"	punctuation.separator.posedge.systemverilog
+21:59	"})"	punctuation.separator.posedge.systemverilog
+22:3	"endtask"	keyword.control.posedge.systemverilog
+23:1	"endclass"	keyword.control.posedge.systemverilog
+23:10	":"	punctuation.separator.posedge.systemverilog
+23:12	"apb_rand_seq"	entity.name.type.posedge.systemverilog

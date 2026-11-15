@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#262626"/>
+      <stop offset="1" stop-color="#161616"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#FD9720" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#FD9720" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect x="8" y="8" width="240" height="240" rx="52" fill="url(#bg)"/>
+  <rect x="8.5" y="8.5" width="239" height="239" rx="51.5" fill="none" stroke="#3A3A3A"/>
+  <!-- faint grid, like a waveform viewer -->
+  <path d="M48 64v128M88 64v128M128 64v128M168 64v128M208 64v128" stroke="#FFFFFF" stroke-opacity="0.05" stroke-width="2"/>
+  <!-- the clock: low, rising edge, high -->
+  <circle cx="112" cy="128" r="70" fill="url(#glow)"/>
+  <path d="M40 172H112V84H216" fill="none" stroke="#FD9720" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- the posedge arrow, as drawn in timing diagrams -->
+  <path d="M112 106l-18 26h36z" fill="#FFF3E2"/>
+  <!-- the status LED -->
+  <circle cx="200" cy="56" r="14" fill="#48E0FD" fill-opacity="0.25"/>
+  <circle cx="200" cy="56" r="7" fill="#48E0FD"/>
+</svg>

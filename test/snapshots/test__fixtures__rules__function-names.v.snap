@@ -1,0 +1,284 @@
+1:1	"//"	comment.line.double-slash.posedge.verilog
+1:3	" Bold marks where a function or task is declared, and nowhere else (tags: see function-names.sv)."	comment.line.double-slash.posedge.verilog
+2:1	"`define"	variable.other.constant.preprocessor.verilog keyword.preprocessor.posedge.verilog
+2:9	"MY_LIMIT"	variable.other.constant.preprocessor.verilog keyword.preprocessor.definition.posedge.verilog
+2:18	"4"	constant.numeric.posedge.verilog
+2:19	"                                  //"	comment.line.double-slash.posedge.verilog
+2:55	" keep: MY_LIMIT"	comment.line.double-slash.posedge.verilog
+4:1	"module"	keyword.control.posedge.verilog
+4:8	"names_v"	entity.name.type.declaration.posedge.verilog
+4:15	";"	punctuation.separator.posedge.verilog
+4:16	"                                     //"	comment.line.double-slash.posedge.verilog
+4:55	" keep: names_v"	comment.line.double-slash.posedge.verilog
+5:3	"reg"	storage.type.posedge.verilog
+5:7	"["	punctuation.separator.posedge.verilog
+5:8	"7"	constant.numeric.posedge.verilog
+5:9	":"	punctuation.separator.posedge.verilog
+5:10	"0"	constant.numeric.posedge.verilog
+5:11	"]"	punctuation.separator.posedge.verilog
+5:13	"state"	variable.other.identifier.verilog
+5:18	";"	punctuation.separator.posedge.verilog
+7:3	"function"	keyword.control.posedge.verilog
+7:12	"["	punctuation.separator.posedge.verilog
+7:13	"7"	constant.numeric.posedge.verilog
+7:14	":"	punctuation.separator.posedge.verilog
+7:15	"0"	constant.numeric.posedge.verilog
+7:16	"]"	punctuation.separator.posedge.verilog
+7:18	"next_state"	entity.name.function.declaration.posedge.verilog
+7:28	";"	punctuation.separator.posedge.verilog
+7:29	"                        //"	comment.line.double-slash.posedge.verilog
+7:55	" decl: next_state"	comment.line.double-slash.posedge.verilog
+8:5	"input"	storage.modifier.posedge.verilog
+8:11	"["	punctuation.separator.posedge.verilog
+8:12	"7"	constant.numeric.posedge.verilog
+8:13	":"	punctuation.separator.posedge.verilog
+8:14	"0"	constant.numeric.posedge.verilog
+8:15	"]"	punctuation.separator.posedge.verilog
+8:17	"cur"	variable.other.identifier.verilog
+8:20	";"	punctuation.separator.posedge.verilog
+9:5	"next_state"	variable.other.identifier.verilog
+9:16	"="	keyword.operator.posedge.verilog
+9:18	"cur"	variable.other.identifier.verilog
+9:22	"+"	keyword.operator.posedge.verilog
+9:24	"1"	constant.numeric.posedge.verilog
+9:25	";"	punctuation.separator.posedge.verilog
+10:3	"endfunction"	keyword.control.posedge.verilog
+12:3	"function"	keyword.control.posedge.verilog
+12:12	"["	punctuation.separator.posedge.verilog
+12:13	"7"	constant.numeric.posedge.verilog
+12:14	":"	punctuation.separator.posedge.verilog
+12:15	"0"	constant.numeric.posedge.verilog
+12:16	"]"	punctuation.separator.posedge.verilog
+12:18	"add_one"	entity.name.function.declaration.posedge.verilog
+12:25	"("	punctuation.separator.posedge.verilog
+12:26	"input"	storage.modifier.posedge.verilog
+12:32	"["	punctuation.separator.posedge.verilog
+12:33	"7"	constant.numeric.posedge.verilog
+12:34	":"	punctuation.separator.posedge.verilog
+12:35	"0"	constant.numeric.posedge.verilog
+12:36	"]"	punctuation.separator.posedge.verilog
+12:38	"a"	variable.other.identifier.verilog
+12:39	");"	punctuation.separator.posedge.verilog
+12:41	"            //"	comment.line.double-slash.posedge.verilog
+12:55	" decl: add_one"	comment.line.double-slash.posedge.verilog
+13:5	"add_one"	variable.other.identifier.verilog
+13:13	"="	keyword.operator.posedge.verilog
+13:15	"a"	variable.other.identifier.verilog
+13:17	"+"	keyword.operator.posedge.verilog
+13:19	"1"	constant.numeric.posedge.verilog
+13:20	";"	punctuation.separator.posedge.verilog
+14:3	"endfunction"	keyword.control.posedge.verilog
+16:3	"function"	keyword.control.posedge.verilog
+16:12	"automatic"	storage.modifier.posedge.verilog
+16:22	"["	punctuation.separator.posedge.verilog
+16:23	"31"	constant.numeric.posedge.verilog
+16:25	":"	punctuation.separator.posedge.verilog
+16:26	"0"	constant.numeric.posedge.verilog
+16:27	"]"	punctuation.separator.posedge.verilog
+16:29	"auto_range"	entity.name.function.declaration.posedge.verilog
+16:39	"("	punctuation.separator.posedge.verilog
+16:40	"input"	storage.modifier.posedge.verilog
+16:46	"a"	variable.other.identifier.verilog
+16:47	");"	punctuation.separator.posedge.verilog
+16:49	"    //"	comment.line.double-slash.posedge.verilog
+16:55	" decl: auto_range"	comment.line.double-slash.posedge.verilog
+17:5	"auto_range"	variable.other.identifier.verilog
+17:16	"="	keyword.operator.posedge.verilog
+17:18	"a"	variable.other.identifier.verilog
+17:19	";"	punctuation.separator.posedge.verilog
+18:3	"endfunction"	keyword.control.posedge.verilog
+20:3	"function"	keyword.control.posedge.verilog
+20:12	"signed"	storage.type.posedge.verilog
+20:19	"["	punctuation.separator.posedge.verilog
+20:20	"7"	constant.numeric.posedge.verilog
+20:21	":"	punctuation.separator.posedge.verilog
+20:22	"0"	constant.numeric.posedge.verilog
+20:23	"]"	punctuation.separator.posedge.verilog
+20:25	"signed_range"	entity.name.function.declaration.posedge.verilog
+20:37	";"	punctuation.separator.posedge.verilog
+20:38	"               //"	comment.line.double-slash.posedge.verilog
+20:55	" decl: signed_range"	comment.line.double-slash.posedge.verilog
+21:5	"input"	storage.modifier.posedge.verilog
+21:11	"a"	variable.other.identifier.verilog
+21:12	";"	punctuation.separator.posedge.verilog
+22:5	"signed_range"	variable.other.identifier.verilog
+22:18	"="	keyword.operator.posedge.verilog
+22:20	"a"	variable.other.identifier.verilog
+22:21	";"	punctuation.separator.posedge.verilog
+23:3	"endfunction"	keyword.control.posedge.verilog
+25:3	"function"	keyword.control.posedge.verilog
+25:12	"integer"	storage.type.posedge.verilog
+25:20	"clog2"	entity.name.function.declaration.posedge.verilog
+25:25	";"	punctuation.separator.posedge.verilog
+25:26	"                           //"	comment.line.double-slash.posedge.verilog
+25:55	" decl: clog2"	comment.line.double-slash.posedge.verilog
+26:5	"input"	storage.modifier.posedge.verilog
+26:11	"integer"	storage.type.posedge.verilog
+26:19	"depth"	variable.other.identifier.verilog
+26:24	";"	punctuation.separator.posedge.verilog
+27:5	"clog2"	variable.other.identifier.verilog
+27:11	"="	keyword.operator.posedge.verilog
+27:13	"depth"	variable.other.identifier.verilog
+27:18	";"	punctuation.separator.posedge.verilog
+28:3	"endfunction"	keyword.control.posedge.verilog
+30:3	"function"	keyword.control.posedge.verilog
+30:12	"automatic"	storage.modifier.posedge.verilog
+30:22	"integer"	storage.type.posedge.verilog
+30:30	"auto_int"	entity.name.function.declaration.posedge.verilog
+30:38	"("	punctuation.separator.posedge.verilog
+30:39	"input"	storage.modifier.posedge.verilog
+30:45	"a"	variable.other.identifier.verilog
+30:46	");"	punctuation.separator.posedge.verilog
+30:48	"     //"	comment.line.double-slash.posedge.verilog
+30:55	" decl: auto_int"	comment.line.double-slash.posedge.verilog
+31:5	"auto_int"	variable.other.identifier.verilog
+31:14	"="	keyword.operator.posedge.verilog
+31:16	"clog2"	entity.name.function.posedge.verilog
+31:21	"("	punctuation.separator.posedge.verilog
+31:22	"a"	variable.other.identifier.verilog
+31:23	");"	punctuation.separator.posedge.verilog
+31:25	"                            //"	comment.line.double-slash.posedge.verilog
+31:55	" use: clog2"	comment.line.double-slash.posedge.verilog
+32:3	"endfunction"	keyword.control.posedge.verilog
+34:3	"function"	keyword.control.posedge.verilog
+34:12	"real"	storage.type.posedge.verilog
+34:17	"half"	entity.name.function.declaration.posedge.verilog
+34:21	"("	punctuation.separator.posedge.verilog
+34:22	"input"	storage.modifier.posedge.verilog
+34:28	"real"	storage.type.posedge.verilog
+34:33	"r"	variable.other.identifier.verilog
+34:34	");"	punctuation.separator.posedge.verilog
+34:36	"                 //"	comment.line.double-slash.posedge.verilog
+34:55	" decl: half"	comment.line.double-slash.posedge.verilog
+35:5	"half"	variable.other.identifier.verilog
+35:10	"="	keyword.operator.posedge.verilog
+35:12	"r"	variable.other.identifier.verilog
+35:14	"/"	keyword.operator.posedge.verilog
+35:16	"2"	constant.numeric.posedge.verilog
+35:17	";"	punctuation.separator.posedge.verilog
+36:3	"endfunction"	keyword.control.posedge.verilog
+38:3	"function"	keyword.control.posedge.verilog
+38:12	"plain_bit"	entity.name.function.declaration.posedge.verilog
+38:21	";"	punctuation.separator.posedge.verilog
+38:22	"                               //"	comment.line.double-slash.posedge.verilog
+38:55	" decl: plain_bit"	comment.line.double-slash.posedge.verilog
+39:5	"input"	storage.modifier.posedge.verilog
+39:11	"a"	variable.other.identifier.verilog
+39:12	";"	punctuation.separator.posedge.verilog
+40:5	"plain_bit"	variable.other.identifier.verilog
+40:15	"="	keyword.operator.posedge.verilog
+40:17	"a"	variable.other.identifier.verilog
+40:18	";"	punctuation.separator.posedge.verilog
+41:3	"endfunction"	keyword.control.posedge.verilog
+43:3	"task"	keyword.control.posedge.verilog
+43:8	"reset_all"	entity.name.function.declaration.posedge.verilog
+43:17	";"	punctuation.separator.posedge.verilog
+43:18	"                                   //"	comment.line.double-slash.posedge.verilog
+43:55	" decl: reset_all"	comment.line.double-slash.posedge.verilog
+44:5	"state"	variable.other.identifier.verilog
+44:11	"="	keyword.operator.posedge.verilog
+44:13	"0"	constant.numeric.posedge.verilog
+44:14	";"	punctuation.separator.posedge.verilog
+45:3	"endtask"	keyword.control.posedge.verilog
+47:3	"task"	keyword.control.posedge.verilog
+47:8	"automatic"	storage.modifier.posedge.verilog
+47:18	"wait_cycles"	entity.name.function.declaration.posedge.verilog
+47:29	"("	punctuation.separator.posedge.verilog
+47:30	"input"	storage.modifier.posedge.verilog
+47:36	"integer"	storage.type.posedge.verilog
+47:44	"n"	variable.other.identifier.verilog
+47:45	");"	punctuation.separator.posedge.verilog
+47:47	"      //"	comment.line.double-slash.posedge.verilog
+47:55	" decl: wait_cycles"	comment.line.double-slash.posedge.verilog
+48:5	"wait_cycles"	entity.name.function.posedge.verilog
+48:16	"("	punctuation.separator.posedge.verilog
+48:17	"n"	variable.other.identifier.verilog
+48:19	"-"	keyword.operator.posedge.verilog
+48:21	"1"	constant.numeric.posedge.verilog
+48:22	");"	punctuation.separator.posedge.verilog
+48:24	"                             //"	comment.line.double-slash.posedge.verilog
+48:55	" use: wait_cycles"	comment.line.double-slash.posedge.verilog
+49:3	"endtask"	keyword.control.posedge.verilog
+51:1	"  //"	comment.line.double-slash.posedge.verilog
+51:5	" SystemVerilog code in a .v file resolves the same way"	comment.line.double-slash.posedge.verilog
+52:3	"function"	keyword.control.posedge.verilog
+52:12	"void"	entity.name.type.posedge.verilog
+52:17	"build_phase"	entity.name.function.declaration.posedge.verilog
+52:28	"("	punctuation.separator.posedge.verilog
+52:29	"uvm_phase"	support.type.library.posedge.verilog
+52:39	"phase"	variable.other.identifier.verilog
+52:44	");"	punctuation.separator.posedge.verilog
+52:46	"       //"	comment.line.double-slash.posedge.verilog
+52:55	" decl: build_phase"	comment.line.double-slash.posedge.verilog
+53:5	"super"	variable.other.identifier.verilog
+53:10	"."	punctuation.separator.posedge.verilog
+53:11	"build_phase"	entity.name.function.phase.posedge.verilog
+53:22	"("	punctuation.separator.posedge.verilog
+53:23	"phase"	variable.other.identifier.verilog
+53:28	");"	punctuation.separator.posedge.verilog
+53:30	"                       //"	comment.line.double-slash.posedge.verilog
+53:55	" use: build_phase"	comment.line.double-slash.posedge.verilog
+54:3	"endfunction"	keyword.control.posedge.verilog
+54:15	":"	punctuation.separator.posedge.verilog
+54:17	"build_phase"	entity.name.function.phase.posedge.verilog
+54:28	"                         //"	comment.line.double-slash.posedge.verilog
+54:55	" use: build_phase"	comment.line.double-slash.posedge.verilog
+56:3	"task"	keyword.control.posedge.verilog
+56:8	"run_phase"	entity.name.function.declaration.posedge.verilog
+56:17	"("	punctuation.separator.posedge.verilog
+56:18	"uvm_phase"	support.type.library.posedge.verilog
+56:28	"phase"	variable.other.identifier.verilog
+56:33	");"	punctuation.separator.posedge.verilog
+56:35	"                  //"	comment.line.double-slash.posedge.verilog
+56:55	" decl: run_phase"	comment.line.double-slash.posedge.verilog
+57:5	"phase"	variable.other.identifier.verilog
+57:10	"."	punctuation.separator.posedge.verilog
+57:11	"raise_objection"	entity.name.function.phase.posedge.verilog
+57:26	"("	punctuation.separator.posedge.verilog
+57:27	"this"	variable.other.identifier.verilog
+57:31	");"	punctuation.separator.posedge.verilog
+57:33	"                    //"	comment.line.double-slash.posedge.verilog
+57:55	" use: raise_objection"	comment.line.double-slash.posedge.verilog
+58:5	"super"	variable.other.identifier.verilog
+58:10	"."	punctuation.separator.posedge.verilog
+58:11	"new"	entity.name.function.posedge.verilog
+58:14	"("	punctuation.separator.posedge.verilog
+58:15	"name"	variable.other.identifier.verilog
+58:19	");"	punctuation.separator.posedge.verilog
+58:21	"                                //"	comment.line.double-slash.posedge.verilog
+58:55	" use: new"	comment.line.double-slash.posedge.verilog
+59:3	"endtask"	keyword.control.posedge.verilog
+59:11	":"	punctuation.separator.posedge.verilog
+59:13	"run_phase"	entity.name.function.phase.posedge.verilog
+59:22	"                               //"	comment.line.double-slash.posedge.verilog
+59:55	" use: run_phase"	comment.line.double-slash.posedge.verilog
+61:3	"initial"	keyword.other.timing.posedge.verilog
+61:11	"begin"	keyword.control.posedge.verilog
+62:5	"state"	variable.other.identifier.verilog
+62:11	"="	keyword.operator.posedge.verilog
+62:13	"add_one"	entity.name.function.posedge.verilog
+62:20	"("	punctuation.separator.posedge.verilog
+62:21	"state"	variable.other.identifier.verilog
+62:26	");"	punctuation.separator.posedge.verilog
+62:28	"                         //"	comment.line.double-slash.posedge.verilog
+62:55	" use: add_one"	comment.line.double-slash.posedge.verilog
+63:5	"$display"	support.function.library.posedge.verilog
+63:13	"("	punctuation.separator.posedge.verilog
+63:14	"\""	string.quoted.double.posedge.verilog
+63:15	"%0d"	string.quoted.double.posedge.verilog constant.character.format.posedge.verilog
+63:18	"\""	string.quoted.double.posedge.verilog
+63:19	","	punctuation.separator.posedge.verilog
+63:21	"state"	variable.other.identifier.verilog
+63:26	");"	punctuation.separator.posedge.verilog
+63:28	"                         //"	comment.line.double-slash.posedge.verilog
+63:55	" use: $display"	comment.line.double-slash.posedge.verilog
+64:5	"u_dut"	variable.other.identifier.verilog
+64:10	"."	punctuation.separator.posedge.verilog
+64:11	"write"	entity.name.function.posedge.verilog
+64:16	"("	punctuation.separator.posedge.verilog
+64:17	"1"	constant.numeric.posedge.verilog
+64:18	");"	punctuation.separator.posedge.verilog
+64:20	"                                 //"	comment.line.double-slash.posedge.verilog
+64:55	" use: write"	comment.line.double-slash.posedge.verilog
+65:3	"end"	keyword.control.posedge.verilog
+66:1	"endmodule"	keyword.control.posedge.verilog

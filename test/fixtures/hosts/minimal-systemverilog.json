@@ -1,0 +1,8 @@
+{
+  "name": "Minimal SystemVerilog host (test fixture)",
+  "scopeName": "source.systemverilog",
+  "patterns": [
+    { "match": "//.*$", "name": "comment.line.double-slash.minimal" },
+    { "match": "\b(module|class)\b", "name": "keyword.minimal" }
+  ]
+}

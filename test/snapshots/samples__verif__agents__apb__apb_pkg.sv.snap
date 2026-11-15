@@ -1,0 +1,63 @@
+1:1	"package"	keyword.control.posedge.systemverilog
+1:9	"apb_pkg"	entity.name.namespace.posedge.systemverilog entity.name.type.declaration.posedge.systemverilog
+1:16	";"	punctuation.separator.posedge.systemverilog
+2:3	"import"	keyword.control.posedge.systemverilog
+2:10	"uvm_pkg"	support.type.library.posedge.systemverilog
+2:17	"::"	keyword.operator.posedge.systemverilog
+2:19	"*"	keyword.operator.posedge.systemverilog
+2:20	";"	punctuation.separator.posedge.systemverilog
+3:3	"`include"	variable.other.constant.preprocessor.systemverilog keyword.preprocessor.posedge.systemverilog
+3:12	"\"uvm_macros.svh\""	string.quoted.double.posedge.systemverilog
+4:3	"`include"	variable.other.constant.preprocessor.systemverilog keyword.preprocessor.posedge.systemverilog
+4:12	"\"apb_defines.svh\""	string.quoted.double.posedge.systemverilog
+6:3	"typedef"	keyword.control.posedge.systemverilog
+6:11	"class"	variable.other.identifier.systemverilog keyword.control.posedge.systemverilog
+6:17	"apb_driver"	variable.other.identifier.systemverilog
+6:27	";"	punctuation.separator.posedge.systemverilog
+8:3	"typedef"	keyword.control.posedge.systemverilog
+8:11	"struct"	storage.type.posedge.systemverilog
+8:18	"packed"	storage.type.posedge.systemverilog
+8:24	" {"	punctuation.separator.posedge.systemverilog
+9:5	"logic"	storage.type.posedge.systemverilog
+9:11	"["	punctuation.separator.posedge.systemverilog
+9:12	"31"	constant.numeric.posedge.systemverilog
+9:14	":"	punctuation.separator.posedge.systemverilog
+9:15	"0"	constant.numeric.posedge.systemverilog
+9:16	"]"	punctuation.separator.posedge.systemverilog
+9:18	"addr"	variable.other.identifier.systemverilog
+9:22	";"	punctuation.separator.posedge.systemverilog
+10:5	"logic"	storage.type.posedge.systemverilog
+10:11	"["	punctuation.separator.posedge.systemverilog
+10:12	"31"	constant.numeric.posedge.systemverilog
+10:14	":"	punctuation.separator.posedge.systemverilog
+10:15	"0"	constant.numeric.posedge.systemverilog
+10:16	"]"	punctuation.separator.posedge.systemverilog
+10:18	"data"	variable.other.identifier.systemverilog
+10:22	";"	punctuation.separator.posedge.systemverilog
+11:5	"logic"	storage.type.posedge.systemverilog
+11:18	"write"	variable.other.identifier.systemverilog
+11:23	";"	punctuation.separator.posedge.systemverilog
+12:3	"}"	punctuation.separator.posedge.systemverilog
+12:5	"apb_bus_s"	variable.other.identifier.systemverilog
+12:14	";"	punctuation.separator.posedge.systemverilog
+14:3	"typedef"	keyword.control.posedge.systemverilog
+14:11	"uvm_sequencer"	support.type.library.posedge.systemverilog
+14:25	"#"	keyword.operator.posedge.systemverilog
+14:26	"("	punctuation.separator.posedge.systemverilog
+14:27	"apb_seq_item"	entity.name.type.posedge.systemverilog
+14:39	")"	punctuation.separator.posedge.systemverilog
+14:41	"apb_sequencer"	variable.other.identifier.systemverilog
+14:54	";"	punctuation.separator.posedge.systemverilog
+16:3	"`include"	variable.other.constant.preprocessor.systemverilog keyword.preprocessor.posedge.systemverilog
+16:12	"\"apb_config.sv\""	string.quoted.double.posedge.systemverilog
+17:3	"`include"	variable.other.constant.preprocessor.systemverilog keyword.preprocessor.posedge.systemverilog
+17:12	"\"apb_seq_item.sv\""	string.quoted.double.posedge.systemverilog
+18:3	"`include"	variable.other.constant.preprocessor.systemverilog keyword.preprocessor.posedge.systemverilog
+18:12	"\"apb_driver.sv\""	string.quoted.double.posedge.systemverilog
+19:3	"`include"	variable.other.constant.preprocessor.systemverilog keyword.preprocessor.posedge.systemverilog
+19:12	"\"apb_monitor.sv\""	string.quoted.double.posedge.systemverilog
+20:3	"`include"	variable.other.constant.preprocessor.systemverilog keyword.preprocessor.posedge.systemverilog
+20:12	"\"apb_agent.sv\""	string.quoted.double.posedge.systemverilog
+21:1	"endpackage"	keyword.control.posedge.systemverilog
+21:12	":"	punctuation.separator.posedge.systemverilog
+21:14	"apb_pkg"	entity.name.namespace.posedge.systemverilog

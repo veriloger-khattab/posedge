@@ -1,0 +1,10 @@
+$date Oct 18 2026 $end
+$timescale 1ps $end
+$scope module tb_top $end
+$var wire 1 ! pclk $end
+$upscope $end
+$enddefinitions $end
+#0
+0!
+#5000
+1!

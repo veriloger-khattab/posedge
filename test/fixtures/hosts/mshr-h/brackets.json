@@ -1,0 +1,37 @@
+[
+  {
+    "language": "verilog",
+    "scopeName": "source.verilog",
+    "balancedBracketScopes": [
+      "*"
+    ],
+    "unbalancedBracketScopes": [
+      "variable.other.identifier.verilog",
+      "variable.other.constant.verilog",
+      "entity.name.type.module.verilog",
+      "entity.name.tag.module.reference.verilog",
+      "entity.name.tag.module.identifier.verilog"
+    ]
+  },
+  {
+    "language": "systemverilog",
+    "scopeName": "source.systemverilog",
+    "balancedBracketScopes": [
+      "*"
+    ],
+    "unbalancedBracketScopes": [
+      "variable.other.identifier.systemverilog",
+      "variable.other.constant.preprocessor.systemverilog",
+      "entity.name.section.systemverilog",
+      "entity.name.type.module.systemverilog",
+      "entity.name.type.class.systemverilog",
+      "entity.name.function.systemverilog",
+      "entity.name.goto-label.php",
+      "storage.type.user-defined.systemverilog",
+      "storage.type.userdefined.systemverilog",
+      "support.type.scope.systemverilog",
+      "support.function.port.systemverilog",
+      "variable.other.module.systemverilog"
+    ]
+  }
+]

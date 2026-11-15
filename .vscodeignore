@@ -1,0 +1,19 @@
+# Only the generated, runtime-relevant files ship in the VSIX.
+**
+!package.json
+!README.md
+!CHANGELOG.md
+!LICENSE
+!SECURITY.md
+!THIRD_PARTY_NOTICES.md
+!assets/icon.png
+!assets/legend.png
+!dist/extension.js
+!dist/web/extension.js
+!themes/*.json
+!syntaxes/*.json
+!icons/*.json
+!icons/svg/**
+!fonts/*.woff
+!fonts/OFL.txt
+!media/**

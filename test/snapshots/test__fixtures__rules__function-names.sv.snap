@@ -1,0 +1,793 @@
+1:1	"//"	comment.line.double-slash.posedge.systemverilog
+1:3	" Bold marks where a function or task is declared, and nowhere else."	comment.line.double-slash.posedge.systemverilog
+2:1	"//"	comment.line.double-slash.posedge.systemverilog
+2:3	" A trailing tag names the word to check on its line:"	comment.line.double-slash.posedge.systemverilog
+3:1	"//"	comment.line.double-slash.posedge.systemverilog
+3:3	"   decl: NAME   declared here: bold"	comment.line.double-slash.posedge.systemverilog
+4:1	"//"	comment.line.double-slash.posedge.systemverilog
+4:3	"   use: NAME    merely used here: not bold"	comment.line.double-slash.posedge.systemverilog
+5:1	"//"	comment.line.double-slash.posedge.systemverilog
+5:3	"   keep: NAME   not a function: keeps its own bold"	comment.line.double-slash.posedge.systemverilog
+6:1	"`define"	variable.other.constant.preprocessor.systemverilog keyword.preprocessor.posedge.systemverilog
+6:9	"MY_LIMIT"	variable.other.constant.preprocessor.systemverilog keyword.preprocessor.definition.posedge.systemverilog
+6:18	"4"	constant.numeric.posedge.systemverilog
+6:19	"                                          //"	comment.line.double-slash.posedge.systemverilog
+6:63	" keep: MY_LIMIT"	comment.line.double-slash.posedge.systemverilog
+8:1	"package"	keyword.control.posedge.systemverilog
+8:9	"names_pkg"	entity.name.namespace.posedge.systemverilog entity.name.type.declaration.posedge.systemverilog
+8:18	";"	punctuation.separator.posedge.systemverilog
+8:19	"                                          //"	comment.line.double-slash.posedge.systemverilog
+8:63	" keep: names_pkg"	comment.line.double-slash.posedge.systemverilog
+10:1	"typedef"	keyword.control.posedge.systemverilog
+10:9	"int"	storage.type.posedge.systemverilog
+10:13	"my_t"	variable.other.identifier.systemverilog
+10:17	";"	punctuation.separator.posedge.systemverilog
+12:1	"class"	keyword.control.posedge.systemverilog
+12:7	"my_class"	entity.name.type.declaration.posedge.systemverilog
+12:16	"#"	keyword.operator.posedge.systemverilog
+12:17	"("	punctuation.separator.posedge.systemverilog
+12:18	"type"	storage.type.posedge.systemverilog
+12:23	"T"	variable.other.constant.posedge.systemverilog
+12:25	"="	keyword.operator.posedge.systemverilog
+12:27	"int"	storage.type.posedge.systemverilog
+12:30	")"	punctuation.separator.posedge.systemverilog
+12:32	"extends"	keyword.control.posedge.systemverilog
+12:40	"uvm_component"	support.type.library.posedge.systemverilog
+12:53	";"	punctuation.separator.posedge.systemverilog
+12:54	"       //"	comment.line.double-slash.posedge.systemverilog
+12:63	" keep: my_class"	comment.line.double-slash.posedge.systemverilog
+14:1	"  //"	comment.line.double-slash.posedge.systemverilog
+14:5	" the owner's example"	comment.line.double-slash.posedge.systemverilog
+15:3	"function"	keyword.control.posedge.systemverilog
+15:12	"new"	entity.name.function.declaration.posedge.systemverilog
+15:15	"("	punctuation.separator.posedge.systemverilog
+15:16	"string"	storage.type.posedge.systemverilog
+15:23	"name"	variable.other.identifier.systemverilog
+15:28	"="	keyword.operator.posedge.systemverilog
+15:29	" \""	string.quoted.double.posedge.systemverilog
+15:31	"\""	string.quoted.double.posedge.systemverilog
+15:32	");"	punctuation.separator.posedge.systemverilog
+15:34	"                           //"	comment.line.double-slash.posedge.systemverilog
+15:63	" decl: new"	comment.line.double-slash.posedge.systemverilog
+16:5	"super"	variable.language.posedge.systemverilog
+16:10	"."	punctuation.separator.posedge.systemverilog
+16:11	"new"	entity.name.function.posedge.systemverilog
+16:14	"("	punctuation.separator.posedge.systemverilog
+16:15	"name"	variable.other.identifier.systemverilog
+16:19	");"	punctuation.separator.posedge.systemverilog
+16:21	"                                        //"	comment.line.double-slash.posedge.systemverilog
+16:63	" use: new"	comment.line.double-slash.posedge.systemverilog
+17:3	"endfunction"	keyword.control.posedge.systemverilog
+19:1	"  //"	comment.line.double-slash.posedge.systemverilog
+19:5	" constructors"	comment.line.double-slash.posedge.systemverilog
+20:3	"extern"	storage.modifier.posedge.systemverilog
+20:10	"function"	variable.other.identifier.systemverilog keyword.control.posedge.systemverilog
+20:19	"new"	entity.name.function.declaration.posedge.systemverilog
+20:22	"("	punctuation.separator.posedge.systemverilog
+20:23	"string"	storage.type.posedge.systemverilog
+20:30	"name"	variable.other.identifier.systemverilog
+20:34	","	punctuation.separator.posedge.systemverilog
+20:36	"uvm_component"	support.type.library.posedge.systemverilog
+20:50	"parent"	variable.other.identifier.systemverilog
+20:56	");"	punctuation.separator.posedge.systemverilog
+20:58	"   //"	comment.line.double-slash.posedge.systemverilog
+20:63	" decl: new"	comment.line.double-slash.posedge.systemverilog
+21:3	"function"	keyword.control.posedge.systemverilog
+21:12	"new"	entity.name.function.declaration.posedge.systemverilog
+21:15	"("	punctuation.separator.posedge.systemverilog
+21:16	"string"	storage.type.posedge.systemverilog
+21:23	"name"	variable.other.identifier.systemverilog
+21:27	","	punctuation.separator.posedge.systemverilog
+21:29	"uvm_component"	support.type.library.posedge.systemverilog
+21:43	"parent"	variable.other.identifier.systemverilog
+21:50	"="	keyword.operator.posedge.systemverilog
+21:52	"null"	constant.language.null.posedge.systemverilog
+21:56	");"	punctuation.separator.posedge.systemverilog
+21:58	"   //"	comment.line.double-slash.posedge.systemverilog
+21:63	" decl: new"	comment.line.double-slash.posedge.systemverilog
+22:5	"super"	variable.language.posedge.systemverilog
+22:10	"."	punctuation.separator.posedge.systemverilog
+22:11	"new"	entity.name.function.posedge.systemverilog
+22:14	"("	punctuation.separator.posedge.systemverilog
+22:15	"name"	variable.other.identifier.systemverilog
+22:19	","	punctuation.separator.posedge.systemverilog
+22:21	"parent"	variable.other.identifier.systemverilog
+22:27	");"	punctuation.separator.posedge.systemverilog
+22:29	"                                //"	comment.line.double-slash.posedge.systemverilog
+22:63	" use: new"	comment.line.double-slash.posedge.systemverilog
+23:3	"endfunction"	keyword.control.posedge.systemverilog
+23:15	":"	punctuation.separator.posedge.systemverilog
+23:17	"new"	entity.name.function.posedge.systemverilog
+23:20	"                                         //"	comment.line.double-slash.posedge.systemverilog
+23:63	" use: new"	comment.line.double-slash.posedge.systemverilog
+25:1	"  //"	comment.line.double-slash.posedge.systemverilog
+25:5	" UVM phases: bold only at the declaration"	comment.line.double-slash.posedge.systemverilog
+26:3	"virtual"	storage.modifier.posedge.systemverilog
+26:11	"function"	keyword.control.posedge.systemverilog
+26:20	"void"	storage.type.posedge.systemverilog
+26:25	"build_phase"	entity.name.function.declaration.posedge.systemverilog
+26:36	"("	punctuation.separator.posedge.systemverilog
+26:37	"uvm_phase"	support.type.library.posedge.systemverilog
+26:47	"phase"	variable.other.identifier.systemverilog
+26:52	");"	punctuation.separator.posedge.systemverilog
+26:54	"       //"	comment.line.double-slash.posedge.systemverilog
+26:63	" decl: build_phase"	comment.line.double-slash.posedge.systemverilog
+27:5	"super"	variable.language.posedge.systemverilog
+27:10	"."	punctuation.separator.posedge.systemverilog
+27:11	"build_phase"	entity.name.function.phase.posedge.systemverilog
+27:22	"("	punctuation.separator.posedge.systemverilog
+27:23	"phase"	variable.other.identifier.systemverilog
+27:28	");"	punctuation.separator.posedge.systemverilog
+27:30	"                               //"	comment.line.double-slash.posedge.systemverilog
+27:63	" use: build_phase"	comment.line.double-slash.posedge.systemverilog
+28:3	"endfunction"	keyword.control.posedge.systemverilog
+28:15	":"	punctuation.separator.posedge.systemverilog
+28:17	"build_phase"	entity.name.function.phase.posedge.systemverilog
+28:28	"                                 //"	comment.line.double-slash.posedge.systemverilog
+28:63	" use: build_phase"	comment.line.double-slash.posedge.systemverilog
+30:3	"virtual"	storage.modifier.posedge.systemverilog
+30:11	"function"	keyword.control.posedge.systemverilog
+30:20	"void"	storage.type.posedge.systemverilog
+30:25	"connect_phase"	entity.name.function.declaration.posedge.systemverilog
+30:38	"("	punctuation.separator.posedge.systemverilog
+30:39	"uvm_phase"	support.type.library.posedge.systemverilog
+30:49	"phase"	variable.other.identifier.systemverilog
+30:54	");"	punctuation.separator.posedge.systemverilog
+30:56	"     //"	comment.line.double-slash.posedge.systemverilog
+30:63	" decl: connect_phase"	comment.line.double-slash.posedge.systemverilog
+31:5	"super"	variable.language.posedge.systemverilog
+31:10	"."	punctuation.separator.posedge.systemverilog
+31:11	"connect_phase"	entity.name.function.phase.posedge.systemverilog
+31:24	"("	punctuation.separator.posedge.systemverilog
+31:25	"phase"	variable.other.identifier.systemverilog
+31:30	");"	punctuation.separator.posedge.systemverilog
+31:32	"                             //"	comment.line.double-slash.posedge.systemverilog
+31:63	" use: connect_phase"	comment.line.double-slash.posedge.systemverilog
+32:3	"endfunction"	keyword.control.posedge.systemverilog
+34:3	"task"	keyword.control.posedge.systemverilog
+34:8	"run_phase"	entity.name.function.declaration.posedge.systemverilog
+34:17	"("	punctuation.separator.posedge.systemverilog
+34:18	"uvm_phase"	support.type.library.posedge.systemverilog
+34:28	"phase"	variable.other.identifier.systemverilog
+34:33	");"	punctuation.separator.posedge.systemverilog
+34:35	"                          //"	comment.line.double-slash.posedge.systemverilog
+34:63	" decl: run_phase"	comment.line.double-slash.posedge.systemverilog
+35:5	"phase"	variable.other.identifier.systemverilog
+35:10	"."	punctuation.separator.posedge.systemverilog
+35:11	"raise_objection"	entity.name.function.phase.posedge.systemverilog
+35:26	"("	punctuation.separator.posedge.systemverilog
+35:27	"this"	variable.language.posedge.systemverilog
+35:31	");"	punctuation.separator.posedge.systemverilog
+35:33	"                            //"	comment.line.double-slash.posedge.systemverilog
+35:63	" use: raise_objection"	comment.line.double-slash.posedge.systemverilog
+36:5	"foo"	entity.name.function.posedge.systemverilog
+36:8	"();"	punctuation.separator.posedge.systemverilog
+36:11	"                                                  //"	comment.line.double-slash.posedge.systemverilog
+36:63	" use: foo"	comment.line.double-slash.posedge.systemverilog
+37:5	"phase"	variable.other.identifier.systemverilog
+37:10	"."	punctuation.separator.posedge.systemverilog
+37:11	"drop_objection"	entity.name.function.phase.posedge.systemverilog
+37:25	"("	punctuation.separator.posedge.systemverilog
+37:26	"this"	variable.language.posedge.systemverilog
+37:30	");"	punctuation.separator.posedge.systemverilog
+37:32	"                             //"	comment.line.double-slash.posedge.systemverilog
+37:63	" use: drop_objection"	comment.line.double-slash.posedge.systemverilog
+38:3	"endtask"	keyword.control.posedge.systemverilog
+38:11	":"	punctuation.separator.posedge.systemverilog
+38:13	"run_phase"	entity.name.function.phase.posedge.systemverilog
+38:22	"                                       //"	comment.line.double-slash.posedge.systemverilog
+38:63	" use: run_phase"	comment.line.double-slash.posedge.systemverilog
+40:3	"virtual"	storage.modifier.posedge.systemverilog
+40:11	"task"	keyword.control.posedge.systemverilog
+40:16	"main_phase"	entity.name.function.declaration.posedge.systemverilog
+40:26	"("	punctuation.separator.posedge.systemverilog
+40:27	"uvm_phase"	support.type.library.posedge.systemverilog
+40:37	"phase"	variable.other.identifier.systemverilog
+40:42	");"	punctuation.separator.posedge.systemverilog
+40:44	"                 //"	comment.line.double-slash.posedge.systemverilog
+40:63	" decl: main_phase"	comment.line.double-slash.posedge.systemverilog
+41:5	"super"	variable.language.posedge.systemverilog
+41:10	"."	punctuation.separator.posedge.systemverilog
+41:11	"main_phase"	entity.name.function.phase.posedge.systemverilog
+41:21	"("	punctuation.separator.posedge.systemverilog
+41:22	"phase"	variable.other.identifier.systemverilog
+41:27	");"	punctuation.separator.posedge.systemverilog
+41:29	"                                //"	comment.line.double-slash.posedge.systemverilog
+41:63	" use: main_phase"	comment.line.double-slash.posedge.systemverilog
+42:5	"raise_objection"	entity.name.function.phase.posedge.systemverilog
+42:20	"("	punctuation.separator.posedge.systemverilog
+42:21	"this"	variable.language.posedge.systemverilog
+42:25	");"	punctuation.separator.posedge.systemverilog
+42:27	"                                  //"	comment.line.double-slash.posedge.systemverilog
+42:63	" use: raise_objection"	comment.line.double-slash.posedge.systemverilog
+43:3	"endtask"	keyword.control.posedge.systemverilog
+45:1	"  //"	comment.line.double-slash.posedge.systemverilog
+45:5	" qualifiers in front of the keyword and between it and the name"	comment.line.double-slash.posedge.systemverilog
+46:3	"function"	keyword.control.posedge.systemverilog
+46:12	"automatic"	storage.modifier.posedge.systemverilog
+46:22	"int"	storage.type.posedge.systemverilog
+46:26	"foo"	entity.name.function.declaration.posedge.systemverilog
+46:29	"("	punctuation.separator.posedge.systemverilog
+46:30	"int"	storage.type.posedge.systemverilog
+46:34	"a"	variable.other.identifier.systemverilog
+46:35	");"	punctuation.separator.posedge.systemverilog
+46:37	"                        //"	comment.line.double-slash.posedge.systemverilog
+46:63	" decl: foo"	comment.line.double-slash.posedge.systemverilog
+47:5	"obj"	variable.other.identifier.systemverilog
+47:8	"."	punctuation.separator.posedge.systemverilog
+47:9	"get_next_item"	entity.name.function.posedge.systemverilog
+47:22	"("	punctuation.separator.posedge.systemverilog
+47:23	"req"	variable.other.identifier.systemverilog
+47:26	");"	punctuation.separator.posedge.systemverilog
+47:28	"                                 //"	comment.line.double-slash.posedge.systemverilog
+47:63	" use: get_next_item"	comment.line.double-slash.posedge.systemverilog
+48:5	"a_seq"	variable.other.identifier.systemverilog
+48:11	"="	keyword.operator.posedge.systemverilog
+48:13	"my_seq"	entity.name.type.posedge.systemverilog
+48:19	"::"	keyword.operator.posedge.systemverilog
+48:21	"type_id"	support.type.library.posedge.systemverilog
+48:28	"::"	keyword.operator.posedge.systemverilog
+48:30	"create"	entity.name.function.posedge.systemverilog
+48:36	"("	punctuation.separator.posedge.systemverilog
+48:37	"\""	string.quoted.double.posedge.systemverilog
+48:38	"a_seq"	string.quoted.double.posedge.systemverilog
+48:43	"\""	string.quoted.double.posedge.systemverilog
+48:44	");"	punctuation.separator.posedge.systemverilog
+48:46	"               //"	comment.line.double-slash.posedge.systemverilog
+48:63	" use: create"	comment.line.double-slash.posedge.systemverilog
+49:5	"drv"	variable.other.identifier.systemverilog
+49:9	"="	keyword.operator.posedge.systemverilog
+49:11	"type_id"	support.type.library.posedge.systemverilog
+49:18	"::"	keyword.operator.posedge.systemverilog
+49:20	"create"	entity.name.function.posedge.systemverilog
+49:26	"("	punctuation.separator.posedge.systemverilog
+49:27	"\""	string.quoted.double.posedge.systemverilog
+49:28	"x"	string.quoted.double.posedge.systemverilog
+49:29	"\""	string.quoted.double.posedge.systemverilog
+49:30	","	punctuation.separator.posedge.systemverilog
+49:32	"this"	variable.language.posedge.systemverilog
+49:36	");"	punctuation.separator.posedge.systemverilog
+49:38	"                       //"	comment.line.double-slash.posedge.systemverilog
+49:63	" use: create"	comment.line.double-slash.posedge.systemverilog
+50:5	"$display"	support.function.library.posedge.systemverilog
+50:13	"("	punctuation.separator.posedge.systemverilog
+50:14	"\""	string.quoted.double.posedge.systemverilog
+50:15	"%0d"	string.quoted.double.posedge.systemverilog constant.character.format.posedge.systemverilog
+50:18	"\""	string.quoted.double.posedge.systemverilog
+50:19	","	punctuation.separator.posedge.systemverilog
+50:21	"a"	variable.other.identifier.systemverilog
+50:22	");"	punctuation.separator.posedge.systemverilog
+50:24	"                                     //"	comment.line.double-slash.posedge.systemverilog
+50:63	" use: $display"	comment.line.double-slash.posedge.systemverilog
+51:5	"uvm_config_db"	support.type.library.posedge.systemverilog
+51:18	"#"	keyword.operator.posedge.systemverilog
+51:19	"("	punctuation.separator.posedge.systemverilog
+51:20	"int"	storage.type.posedge.systemverilog
+51:23	")"	punctuation.separator.posedge.systemverilog
+51:24	"::"	keyword.operator.posedge.systemverilog
+51:26	"get"	entity.name.function.posedge.systemverilog
+51:29	"("	punctuation.separator.posedge.systemverilog
+51:30	"this"	variable.language.posedge.systemverilog
+51:34	","	punctuation.separator.posedge.systemverilog
+51:35	" \""	string.quoted.double.posedge.systemverilog
+51:37	"\""	string.quoted.double.posedge.systemverilog
+51:38	","	punctuation.separator.posedge.systemverilog
+51:39	" \""	string.quoted.double.posedge.systemverilog
+51:41	"a"	string.quoted.double.posedge.systemverilog
+51:42	"\""	string.quoted.double.posedge.systemverilog
+51:43	","	punctuation.separator.posedge.systemverilog
+51:45	"a"	variable.other.identifier.systemverilog
+51:46	");"	punctuation.separator.posedge.systemverilog
+51:48	"             //"	comment.line.double-slash.posedge.systemverilog
+51:63	" use: get"	comment.line.double-slash.posedge.systemverilog
+52:5	"c"	variable.other.identifier.systemverilog
+52:7	"="	keyword.operator.posedge.systemverilog
+52:9	"new"	entity.name.function.posedge.systemverilog
+52:12	"();"	punctuation.separator.posedge.systemverilog
+52:15	"                                              //"	comment.line.double-slash.posedge.systemverilog
+52:63	" use: new"	comment.line.double-slash.posedge.systemverilog
+53:5	"d"	variable.other.identifier.systemverilog
+53:7	"="	keyword.operator.posedge.systemverilog
+53:9	"new"	entity.name.function.posedge.systemverilog
+53:12	"["	punctuation.separator.posedge.systemverilog
+53:13	"4"	constant.numeric.posedge.systemverilog
+53:14	"];"	punctuation.separator.posedge.systemverilog
+53:16	"                                             //"	comment.line.double-slash.posedge.systemverilog
+53:63	" use: new"	comment.line.double-slash.posedge.systemverilog
+54:5	"return"	keyword.control.posedge.systemverilog
+54:12	"foo"	entity.name.function.posedge.systemverilog
+54:15	"("	punctuation.separator.posedge.systemverilog
+54:16	"a"	variable.other.identifier.systemverilog
+54:17	");"	punctuation.separator.posedge.systemverilog
+54:19	"                                          //"	comment.line.double-slash.posedge.systemverilog
+54:63	" use: foo"	comment.line.double-slash.posedge.systemverilog
+55:3	"endfunction"	keyword.control.posedge.systemverilog
+55:15	":"	punctuation.separator.posedge.systemverilog
+55:17	"foo"	entity.name.function.posedge.systemverilog
+55:20	"                                         //"	comment.line.double-slash.posedge.systemverilog
+55:63	" use: foo"	comment.line.double-slash.posedge.systemverilog
+56:3	"function"	keyword.control.posedge.systemverilog
+56:12	"static"	storage.modifier.posedge.systemverilog
+56:19	"int"	storage.type.posedge.systemverilog
+56:23	"s_fn"	entity.name.function.declaration.posedge.systemverilog
+56:27	"();"	punctuation.separator.posedge.systemverilog
+56:30	"                               //"	comment.line.double-slash.posedge.systemverilog
+56:63	" decl: s_fn"	comment.line.double-slash.posedge.systemverilog
+57:3	"endfunction"	keyword.control.posedge.systemverilog
+58:3	"task"	keyword.control.posedge.systemverilog
+58:8	"automatic"	storage.modifier.posedge.systemverilog
+58:18	"a_task"	entity.name.function.declaration.posedge.systemverilog
+58:24	"("	punctuation.separator.posedge.systemverilog
+58:25	"int"	storage.type.posedge.systemverilog
+58:29	"n"	variable.other.identifier.systemverilog
+58:30	");"	punctuation.separator.posedge.systemverilog
+58:32	"                             //"	comment.line.double-slash.posedge.systemverilog
+58:63	" decl: a_task"	comment.line.double-slash.posedge.systemverilog
+59:5	"a_task"	entity.name.function.posedge.systemverilog
+59:11	"("	punctuation.separator.posedge.systemverilog
+59:12	"n"	variable.other.identifier.systemverilog
+59:14	"-"	keyword.operator.posedge.systemverilog
+59:16	"1"	constant.numeric.posedge.systemverilog
+59:17	");"	punctuation.separator.posedge.systemverilog
+59:19	"                                          //"	comment.line.double-slash.posedge.systemverilog
+59:63	" use: a_task"	comment.line.double-slash.posedge.systemverilog
+60:3	"endtask"	keyword.control.posedge.systemverilog
+60:11	":"	punctuation.separator.posedge.systemverilog
+60:13	"a_task"	entity.name.function.posedge.systemverilog
+60:19	"                                          //"	comment.line.double-slash.posedge.systemverilog
+60:63	" use: a_task"	comment.line.double-slash.posedge.systemverilog
+61:3	"static"	storage.modifier.posedge.systemverilog
+61:10	"function"	keyword.control.posedge.systemverilog
+61:19	"void"	storage.type.posedge.systemverilog
+61:24	"st_fn"	entity.name.function.declaration.posedge.systemverilog
+61:29	"();"	punctuation.separator.posedge.systemverilog
+61:32	"                             //"	comment.line.double-slash.posedge.systemverilog
+61:63	" decl: st_fn"	comment.line.double-slash.posedge.systemverilog
+62:3	"endfunction"	keyword.control.posedge.systemverilog
+63:3	"local"	storage.modifier.posedge.systemverilog
+63:9	"function"	keyword.control.posedge.systemverilog
+63:18	"void"	storage.type.posedge.systemverilog
+63:23	"lo_fn"	entity.name.function.declaration.posedge.systemverilog
+63:28	"();"	punctuation.separator.posedge.systemverilog
+63:31	"                              //"	comment.line.double-slash.posedge.systemverilog
+63:63	" decl: lo_fn"	comment.line.double-slash.posedge.systemverilog
+64:3	"endfunction"	keyword.control.posedge.systemverilog
+65:3	"protected"	storage.modifier.posedge.systemverilog
+65:13	"virtual"	storage.modifier.posedge.systemverilog
+65:21	"task"	keyword.control.posedge.systemverilog
+65:26	"pv_task"	entity.name.function.declaration.posedge.systemverilog
+65:33	"();"	punctuation.separator.posedge.systemverilog
+65:36	"                         //"	comment.line.double-slash.posedge.systemverilog
+65:63	" decl: pv_task"	comment.line.double-slash.posedge.systemverilog
+66:3	"endtask"	keyword.control.posedge.systemverilog
+68:1	"  //"	comment.line.double-slash.posedge.systemverilog
+68:5	" prototypes"	comment.line.double-slash.posedge.systemverilog
+69:3	"extern"	storage.modifier.posedge.systemverilog
+69:10	"function"	variable.other.identifier.systemverilog keyword.control.posedge.systemverilog
+69:19	"void"	storage.type.posedge.systemverilog
+69:24	"ext_fn"	entity.name.function.declaration.posedge.systemverilog
+69:30	"();"	punctuation.separator.posedge.systemverilog
+69:33	"                            //"	comment.line.double-slash.posedge.systemverilog
+69:63	" decl: ext_fn"	comment.line.double-slash.posedge.systemverilog
+70:3	"extern"	storage.modifier.posedge.systemverilog
+70:10	"virtual"	storage.modifier.posedge.systemverilog
+70:18	"task"	variable.other.identifier.systemverilog keyword.control.posedge.systemverilog
+70:23	"ext_task"	entity.name.function.declaration.posedge.systemverilog
+70:31	"("	punctuation.separator.posedge.systemverilog
+70:32	"int"	storage.type.posedge.systemverilog
+70:36	"n"	variable.other.identifier.systemverilog
+70:37	");"	punctuation.separator.posedge.systemverilog
+70:39	"                      //"	comment.line.double-slash.posedge.systemverilog
+70:63	" decl: ext_task"	comment.line.double-slash.posedge.systemverilog
+71:3	"extern"	storage.modifier.posedge.systemverilog
+71:10	"protected"	storage.modifier.posedge.systemverilog
+71:20	"virtual"	storage.modifier.posedge.systemverilog
+71:28	"function"	variable.other.identifier.systemverilog keyword.control.posedge.systemverilog
+71:37	"int"	storage.type.posedge.systemverilog
+71:41	"ext_prot"	entity.name.function.declaration.posedge.systemverilog
+71:49	"("	punctuation.separator.posedge.systemverilog
+71:50	"int"	storage.type.posedge.systemverilog
+71:54	"x"	variable.other.identifier.systemverilog
+71:55	");"	punctuation.separator.posedge.systemverilog
+71:57	"    //"	comment.line.double-slash.posedge.systemverilog
+71:63	" decl: ext_prot"	comment.line.double-slash.posedge.systemverilog
+72:3	"extern"	storage.modifier.posedge.systemverilog
+72:10	"function"	variable.other.identifier.systemverilog keyword.control.posedge.systemverilog
+72:19	"void"	storage.type.posedge.systemverilog
+72:24	"build_phase"	entity.name.function.declaration.posedge.systemverilog
+72:35	"("	punctuation.separator.posedge.systemverilog
+72:36	"uvm_phase"	support.type.library.posedge.systemverilog
+72:46	"phase"	variable.other.identifier.systemverilog
+72:51	");"	punctuation.separator.posedge.systemverilog
+72:53	"        //"	comment.line.double-slash.posedge.systemverilog
+72:63	" decl: build_phase"	comment.line.double-slash.posedge.systemverilog
+73:3	"pure"	storage.modifier.posedge.systemverilog
+73:8	"virtual"	storage.modifier.posedge.systemverilog
+73:16	"function"	variable.other.identifier.systemverilog keyword.control.posedge.systemverilog
+73:25	"void"	storage.type.posedge.systemverilog
+73:30	"pure_fn"	entity.name.function.declaration.posedge.systemverilog
+73:37	"();"	punctuation.separator.posedge.systemverilog
+73:40	"                     //"	comment.line.double-slash.posedge.systemverilog
+73:63	" decl: pure_fn"	comment.line.double-slash.posedge.systemverilog
+74:3	"pure"	storage.modifier.posedge.systemverilog
+74:8	"virtual"	storage.modifier.posedge.systemverilog
+74:16	"task"	variable.other.identifier.systemverilog keyword.control.posedge.systemverilog
+74:21	"pure_task"	entity.name.function.declaration.posedge.systemverilog
+74:30	"();"	punctuation.separator.posedge.systemverilog
+74:33	"                            //"	comment.line.double-slash.posedge.systemverilog
+74:63	" decl: pure_task"	comment.line.double-slash.posedge.systemverilog
+76:1	"  //"	comment.line.double-slash.posedge.systemverilog
+76:5	" return types"	comment.line.double-slash.posedge.systemverilog
+77:3	"function"	keyword.control.posedge.systemverilog
+77:12	"void"	storage.type.posedge.systemverilog
+77:17	"by_semicolon"	entity.name.function.declaration.posedge.systemverilog
+77:29	";"	punctuation.separator.posedge.systemverilog
+77:30	"                               //"	comment.line.double-slash.posedge.systemverilog
+77:63	" decl: by_semicolon"	comment.line.double-slash.posedge.systemverilog
+78:3	"endfunction"	keyword.control.posedge.systemverilog
+79:3	"function"	keyword.control.posedge.systemverilog
+79:12	"int"	storage.type.posedge.systemverilog
+79:16	"unsigned"	storage.type.posedge.systemverilog
+79:25	"ret_unsigned"	entity.name.function.declaration.posedge.systemverilog
+79:37	"();"	punctuation.separator.posedge.systemverilog
+79:40	"                     //"	comment.line.double-slash.posedge.systemverilog
+79:63	" decl: ret_unsigned"	comment.line.double-slash.posedge.systemverilog
+80:3	"endfunction"	keyword.control.posedge.systemverilog
+81:3	"function"	keyword.control.posedge.systemverilog
+81:12	"bit"	storage.type.posedge.systemverilog
+81:16	"["	punctuation.separator.posedge.systemverilog
+81:17	"7"	constant.numeric.posedge.systemverilog
+81:18	":"	punctuation.separator.posedge.systemverilog
+81:19	"0"	constant.numeric.posedge.systemverilog
+81:20	"]"	punctuation.separator.posedge.systemverilog
+81:22	"ret_range"	entity.name.function.declaration.posedge.systemverilog
+81:31	"();"	punctuation.separator.posedge.systemverilog
+81:34	"                           //"	comment.line.double-slash.posedge.systemverilog
+81:63	" decl: ret_range"	comment.line.double-slash.posedge.systemverilog
+82:3	"endfunction"	keyword.control.posedge.systemverilog
+83:3	"function"	keyword.control.posedge.systemverilog
+83:12	"logic"	storage.type.posedge.systemverilog
+83:18	"signed"	storage.type.posedge.systemverilog
+83:25	"["	punctuation.separator.posedge.systemverilog
+83:26	"7"	constant.numeric.posedge.systemverilog
+83:27	":"	punctuation.separator.posedge.systemverilog
+83:28	"0"	constant.numeric.posedge.systemverilog
+83:29	"]"	punctuation.separator.posedge.systemverilog
+83:30	"["	punctuation.separator.posedge.systemverilog
+83:31	"3"	constant.numeric.posedge.systemverilog
+83:32	":"	punctuation.separator.posedge.systemverilog
+83:33	"0"	constant.numeric.posedge.systemverilog
+83:34	"]"	punctuation.separator.posedge.systemverilog
+83:36	"ret_packed"	entity.name.function.declaration.posedge.systemverilog
+83:46	"();"	punctuation.separator.posedge.systemverilog
+83:49	"            //"	comment.line.double-slash.posedge.systemverilog
+83:63	" decl: ret_packed"	comment.line.double-slash.posedge.systemverilog
+84:3	"endfunction"	keyword.control.posedge.systemverilog
+85:3	"function"	keyword.control.posedge.systemverilog
+85:12	"names_pkg"	entity.name.type.posedge.systemverilog
+85:21	"::"	keyword.operator.posedge.systemverilog
+85:23	"my_t"	entity.name.type.posedge.systemverilog
+85:28	"ret_scoped"	entity.name.function.declaration.posedge.systemverilog
+85:38	"();"	punctuation.separator.posedge.systemverilog
+85:41	"                    //"	comment.line.double-slash.posedge.systemverilog
+85:63	" decl: ret_scoped"	comment.line.double-slash.posedge.systemverilog
+86:3	"endfunction"	keyword.control.posedge.systemverilog
+87:3	"function"	keyword.control.posedge.systemverilog
+87:12	"uvm_queue"	support.type.library.posedge.systemverilog
+87:21	"#"	keyword.operator.posedge.systemverilog
+87:22	"("	punctuation.separator.posedge.systemverilog
+87:23	"int"	storage.type.posedge.systemverilog
+87:26	")"	punctuation.separator.posedge.systemverilog
+87:28	"ret_param"	entity.name.function.declaration.posedge.systemverilog
+87:37	"();"	punctuation.separator.posedge.systemverilog
+87:40	"                     //"	comment.line.double-slash.posedge.systemverilog
+87:63	" decl: ret_param"	comment.line.double-slash.posedge.systemverilog
+88:3	"endfunction"	keyword.control.posedge.systemverilog
+89:3	"function"	keyword.control.posedge.systemverilog
+89:12	"uvm_queue"	support.type.library.posedge.systemverilog
+89:21	"#"	keyword.operator.posedge.systemverilog
+89:22	"("	punctuation.separator.posedge.systemverilog
+89:23	"my_class"	entity.name.type.posedge.systemverilog
+89:31	"#"	keyword.operator.posedge.systemverilog
+89:32	"("	punctuation.separator.posedge.systemverilog
+89:33	"8"	constant.numeric.posedge.systemverilog
+89:34	")"	punctuation.separator.posedge.systemverilog
+89:35	")"	punctuation.separator.posedge.systemverilog
+89:37	"ret_nested"	entity.name.function.declaration.posedge.systemverilog
+89:47	"();"	punctuation.separator.posedge.systemverilog
+89:50	"           //"	comment.line.double-slash.posedge.systemverilog
+89:63	" decl: ret_nested"	comment.line.double-slash.posedge.systemverilog
+90:3	"endfunction"	keyword.control.posedge.systemverilog
+91:3	"function"	keyword.control.posedge.systemverilog
+91:12	"my_class"	entity.name.type.posedge.systemverilog
+91:20	"#"	keyword.operator.posedge.systemverilog
+91:21	"("	punctuation.separator.posedge.systemverilog
+91:22	"T"	entity.name.type.posedge.systemverilog
+91:23	")"	punctuation.separator.posedge.systemverilog
+91:24	"::"	keyword.operator.posedge.systemverilog
+91:26	"my_t"	entity.name.type.posedge.systemverilog
+91:31	"ret_param_scope"	entity.name.function.declaration.posedge.systemverilog
+91:46	"();"	punctuation.separator.posedge.systemverilog
+91:49	"            //"	comment.line.double-slash.posedge.systemverilog
+91:63	" decl: ret_param_scope"	comment.line.double-slash.posedge.systemverilog
+92:3	"endfunction"	keyword.control.posedge.systemverilog
+93:3	"function"	keyword.control.posedge.systemverilog
+93:12	"virtual"	storage.modifier.posedge.systemverilog
+93:20	"apb_if"	entity.name.type.posedge.systemverilog
+93:27	"ret_vif"	entity.name.function.declaration.posedge.systemverilog
+93:34	"();"	punctuation.separator.posedge.systemverilog
+93:37	"                        //"	comment.line.double-slash.posedge.systemverilog
+93:63	" decl: ret_vif"	comment.line.double-slash.posedge.systemverilog
+94:3	"endfunction"	keyword.control.posedge.systemverilog
+95:3	"function"	keyword.control.posedge.systemverilog
+95:12	"virtual"	storage.modifier.posedge.systemverilog
+95:20	"interface"	variable.other.identifier.systemverilog keyword.control.posedge.systemverilog
+95:30	"apb_if"	entity.name.type.posedge.systemverilog
+95:37	"ret_vif_kw"	entity.name.function.declaration.posedge.systemverilog
+95:47	"();"	punctuation.separator.posedge.systemverilog
+95:50	"           //"	comment.line.double-slash.posedge.systemverilog
+95:63	" decl: ret_vif_kw"	comment.line.double-slash.posedge.systemverilog
+96:3	"endfunction"	keyword.control.posedge.systemverilog
+97:3	"function"	keyword.control.posedge.systemverilog
+97:12	"["	punctuation.separator.posedge.systemverilog
+97:13	"7"	constant.numeric.posedge.systemverilog
+97:14	":"	punctuation.separator.posedge.systemverilog
+97:15	"0"	constant.numeric.posedge.systemverilog
+97:16	"]"	punctuation.separator.posedge.systemverilog
+97:18	"ret_implicit"	entity.name.function.declaration.posedge.systemverilog
+97:30	"("	punctuation.separator.posedge.systemverilog
+97:31	"int"	storage.type.posedge.systemverilog
+97:35	"a"	variable.other.identifier.systemverilog
+97:36	");"	punctuation.separator.posedge.systemverilog
+97:38	"                       //"	comment.line.double-slash.posedge.systemverilog
+97:63	" decl: ret_implicit"	comment.line.double-slash.posedge.systemverilog
+98:3	"endfunction"	keyword.control.posedge.systemverilog
+99:3	"function"	keyword.control.posedge.systemverilog
+99:12	"["	punctuation.separator.posedge.systemverilog
+99:13	"7"	constant.numeric.posedge.systemverilog
+99:14	":"	punctuation.separator.posedge.systemverilog
+99:15	"0"	constant.numeric.posedge.systemverilog
+99:16	"]"	punctuation.separator.posedge.systemverilog
+99:18	"ret_implicit_semi"	entity.name.function.declaration.posedge.systemverilog
+99:35	";"	punctuation.separator.posedge.systemverilog
+99:36	"                         //"	comment.line.double-slash.posedge.systemverilog
+99:63	" decl: ret_implicit_semi"	comment.line.double-slash.posedge.systemverilog
+100:3	"endfunction"	keyword.control.posedge.systemverilog
+101:3	"function"	keyword.control.posedge.systemverilog
+101:12	"automatic"	storage.modifier.posedge.systemverilog
+101:22	"["	punctuation.separator.posedge.systemverilog
+101:23	"T"	entity.name.type.posedge.systemverilog
+101:24	"-"	keyword.operator.posedge.systemverilog
+101:25	"1"	constant.numeric.posedge.systemverilog
+101:26	":"	punctuation.separator.posedge.systemverilog
+101:27	"0"	constant.numeric.posedge.systemverilog
+101:28	"]"	punctuation.separator.posedge.systemverilog
+101:30	"ret_implicit_auto"	entity.name.function.declaration.posedge.systemverilog
+101:47	"();"	punctuation.separator.posedge.systemverilog
+101:50	"           //"	comment.line.double-slash.posedge.systemverilog
+101:63	" decl: ret_implicit_auto"	comment.line.double-slash.posedge.systemverilog
+102:3	"endfunction"	keyword.control.posedge.systemverilog
+103:3	"function"	keyword.control.posedge.systemverilog
+103:12	"["	punctuation.separator.posedge.systemverilog
+103:13	"7"	constant.numeric.posedge.systemverilog
+103:14	":"	punctuation.separator.posedge.systemverilog
+103:15	"0"	constant.numeric.posedge.systemverilog
+103:16	"]"	punctuation.separator.posedge.systemverilog
+103:17	"ret_implicit_tight"	entity.name.function.declaration.posedge.systemverilog
+103:35	"();"	punctuation.separator.posedge.systemverilog
+103:38	"                       //"	comment.line.double-slash.posedge.systemverilog
+103:63	" decl: ret_implicit_tight"	comment.line.double-slash.posedge.systemverilog
+104:3	"endfunction"	keyword.control.posedge.systemverilog
+106:3	"covergroup"	keyword.other.verification.posedge.systemverilog
+106:14	"cg"	entity.name.type.declaration.posedge.systemverilog
+106:17	"with"	keyword.other.verification.posedge.systemverilog
+106:22	"function"	variable.other.identifier.systemverilog keyword.control.posedge.systemverilog
+106:31	"sample"	entity.name.function.declaration.posedge.systemverilog
+106:37	"("	punctuation.separator.posedge.systemverilog
+106:38	"bit"	storage.type.posedge.systemverilog
+106:42	"v"	variable.other.identifier.systemverilog
+106:43	");"	punctuation.separator.posedge.systemverilog
+106:45	"                //"	comment.line.double-slash.posedge.systemverilog
+106:63	" decl: sample"	comment.line.double-slash.posedge.systemverilog
+107:3	"endgroup"	keyword.other.verification.posedge.systemverilog
+108:1	"endclass"	keyword.control.posedge.systemverilog
+108:10	":"	punctuation.separator.posedge.systemverilog
+108:12	"my_class"	entity.name.type.posedge.systemverilog
+110:1	"//"	comment.line.double-slash.posedge.systemverilog
+110:3	" out of block"	comment.line.double-slash.posedge.systemverilog
+111:1	"function"	keyword.control.posedge.systemverilog
+111:10	"void"	storage.type.posedge.systemverilog
+111:15	"my_class"	entity.name.type.posedge.systemverilog
+111:23	"::"	keyword.operator.posedge.systemverilog
+111:25	"oob_fn"	entity.name.function.declaration.posedge.systemverilog
+111:31	"();"	punctuation.separator.posedge.systemverilog
+111:34	"                           //"	comment.line.double-slash.posedge.systemverilog
+111:63	" decl: oob_fn"	comment.line.double-slash.posedge.systemverilog
+112:3	"oob_fn"	entity.name.function.posedge.systemverilog
+112:9	"();"	punctuation.separator.posedge.systemverilog
+112:12	"                                                 //"	comment.line.double-slash.posedge.systemverilog
+112:63	" use: oob_fn"	comment.line.double-slash.posedge.systemverilog
+113:1	"endfunction"	keyword.control.posedge.systemverilog
+113:13	":"	punctuation.separator.posedge.systemverilog
+113:15	"oob_fn"	entity.name.function.posedge.systemverilog
+113:21	"                                        //"	comment.line.double-slash.posedge.systemverilog
+113:63	" use: oob_fn"	comment.line.double-slash.posedge.systemverilog
+114:1	"task"	keyword.control.posedge.systemverilog
+114:6	"my_class"	entity.name.type.posedge.systemverilog
+114:14	"::"	keyword.operator.posedge.systemverilog
+114:16	"oob_task"	entity.name.function.declaration.posedge.systemverilog
+114:24	"();"	punctuation.separator.posedge.systemverilog
+114:27	"                                  //"	comment.line.double-slash.posedge.systemverilog
+114:63	" decl: oob_task"	comment.line.double-slash.posedge.systemverilog
+115:1	"endtask"	keyword.control.posedge.systemverilog
+116:1	"function"	keyword.control.posedge.systemverilog
+116:10	"my_class"	entity.name.type.posedge.systemverilog
+116:18	"::"	keyword.operator.posedge.systemverilog
+116:20	"new"	entity.name.function.declaration.posedge.systemverilog
+116:23	"("	punctuation.separator.posedge.systemverilog
+116:24	"string"	storage.type.posedge.systemverilog
+116:31	"name"	variable.other.identifier.systemverilog
+116:35	");"	punctuation.separator.posedge.systemverilog
+116:37	"                        //"	comment.line.double-slash.posedge.systemverilog
+116:63	" decl: new"	comment.line.double-slash.posedge.systemverilog
+117:3	"super"	variable.language.posedge.systemverilog
+117:8	"."	punctuation.separator.posedge.systemverilog
+117:9	"new"	entity.name.function.posedge.systemverilog
+117:12	"("	punctuation.separator.posedge.systemverilog
+117:13	"name"	variable.other.identifier.systemverilog
+117:17	");"	punctuation.separator.posedge.systemverilog
+117:19	"                                          //"	comment.line.double-slash.posedge.systemverilog
+117:63	" use: new"	comment.line.double-slash.posedge.systemverilog
+118:1	"endfunction"	keyword.control.posedge.systemverilog
+119:1	"function"	keyword.control.posedge.systemverilog
+119:10	"void"	storage.type.posedge.systemverilog
+119:15	"my_class"	entity.name.type.posedge.systemverilog
+119:23	"::"	keyword.operator.posedge.systemverilog
+119:25	"build_phase"	entity.name.function.declaration.posedge.systemverilog
+119:36	"("	punctuation.separator.posedge.systemverilog
+119:37	"uvm_phase"	support.type.library.posedge.systemverilog
+119:47	"phase"	variable.other.identifier.systemverilog
+119:52	");"	punctuation.separator.posedge.systemverilog
+119:54	"       //"	comment.line.double-slash.posedge.systemverilog
+119:63	" decl: build_phase"	comment.line.double-slash.posedge.systemverilog
+120:3	"super"	variable.language.posedge.systemverilog
+120:8	"."	punctuation.separator.posedge.systemverilog
+120:9	"build_phase"	entity.name.function.phase.posedge.systemverilog
+120:20	"("	punctuation.separator.posedge.systemverilog
+120:21	"phase"	variable.other.identifier.systemverilog
+120:26	");"	punctuation.separator.posedge.systemverilog
+120:28	"                                 //"	comment.line.double-slash.posedge.systemverilog
+120:63	" use: build_phase"	comment.line.double-slash.posedge.systemverilog
+121:1	"endfunction"	keyword.control.posedge.systemverilog
+122:1	"function"	keyword.control.posedge.systemverilog
+122:10	"void"	storage.type.posedge.systemverilog
+122:15	"my_class"	entity.name.type.posedge.systemverilog
+122:23	"#"	keyword.operator.posedge.systemverilog
+122:24	"("	punctuation.separator.posedge.systemverilog
+122:25	"T"	variable.other.constant.posedge.systemverilog
+122:26	")"	punctuation.separator.posedge.systemverilog
+122:27	"::"	keyword.operator.posedge.systemverilog
+122:29	"oob_param"	entity.name.function.declaration.posedge.systemverilog
+122:38	"();"	punctuation.separator.posedge.systemverilog
+122:41	"                    //"	comment.line.double-slash.posedge.systemverilog
+122:63	" decl: oob_param"	comment.line.double-slash.posedge.systemverilog
+123:1	"endfunction"	keyword.control.posedge.systemverilog
+124:1	"function"	keyword.control.posedge.systemverilog
+124:10	"my_class"	entity.name.type.posedge.systemverilog
+124:18	"#"	keyword.operator.posedge.systemverilog
+124:19	"("	punctuation.separator.posedge.systemverilog
+124:20	"T"	variable.other.constant.posedge.systemverilog
+124:21	")"	punctuation.separator.posedge.systemverilog
+124:22	"::"	keyword.operator.posedge.systemverilog
+124:24	"new"	entity.name.function.declaration.posedge.systemverilog
+124:27	"("	punctuation.separator.posedge.systemverilog
+124:28	"string"	storage.type.posedge.systemverilog
+124:35	"name"	variable.other.identifier.systemverilog
+124:39	");"	punctuation.separator.posedge.systemverilog
+124:41	"                    //"	comment.line.double-slash.posedge.systemverilog
+124:63	" decl: new"	comment.line.double-slash.posedge.systemverilog
+125:1	"endfunction"	keyword.control.posedge.systemverilog
+126:1	"task"	keyword.control.posedge.systemverilog
+126:6	"my_class"	entity.name.type.posedge.systemverilog
+126:14	"#"	keyword.operator.posedge.systemverilog
+126:15	"("	punctuation.separator.posedge.systemverilog
+126:16	"T"	variable.other.constant.posedge.systemverilog
+126:17	","	punctuation.separator.posedge.systemverilog
+126:19	"8"	constant.numeric.posedge.systemverilog
+126:20	")::"	punctuation.separator.posedge.systemverilog
+126:23	"run_phase"	entity.name.function.declaration.posedge.systemverilog
+126:32	"("	punctuation.separator.posedge.systemverilog
+126:33	"uvm_phase"	support.type.library.posedge.systemverilog
+126:43	"phase"	variable.other.identifier.systemverilog
+126:48	");"	punctuation.separator.posedge.systemverilog
+126:50	"           //"	comment.line.double-slash.posedge.systemverilog
+126:63	" decl: run_phase"	comment.line.double-slash.posedge.systemverilog
+127:1	"endtask"	keyword.control.posedge.systemverilog
+128:1	"function"	keyword.control.posedge.systemverilog
+128:10	"void"	storage.type.posedge.systemverilog
+128:15	"outer"	entity.name.type.posedge.systemverilog
+128:20	"::"	keyword.operator.posedge.systemverilog
+128:22	"inner"	entity.name.type.posedge.systemverilog
+128:27	"::"	keyword.operator.posedge.systemverilog
+128:29	"oob_nested"	entity.name.function.declaration.posedge.systemverilog
+128:39	"();"	punctuation.separator.posedge.systemverilog
+128:42	"                   //"	comment.line.double-slash.posedge.systemverilog
+128:63	" decl: oob_nested"	comment.line.double-slash.posedge.systemverilog
+129:1	"endfunction"	keyword.control.posedge.systemverilog
+130:1	"function"	keyword.control.posedge.systemverilog
+130:10	"my_class"	entity.name.type.posedge.systemverilog
+130:18	"#"	keyword.operator.posedge.systemverilog
+130:19	"("	punctuation.separator.posedge.systemverilog
+130:20	"T"	entity.name.type.posedge.systemverilog
+130:21	")"	punctuation.separator.posedge.systemverilog
+130:22	"::"	keyword.operator.posedge.systemverilog
+130:24	"my_t"	entity.name.type.posedge.systemverilog
+130:29	"my_class"	entity.name.type.posedge.systemverilog
+130:37	"#"	keyword.operator.posedge.systemverilog
+130:38	"("	punctuation.separator.posedge.systemverilog
+130:39	"T"	variable.other.constant.posedge.systemverilog
+130:40	")"	punctuation.separator.posedge.systemverilog
+130:41	"::"	keyword.operator.posedge.systemverilog
+130:43	"oob_both"	entity.name.function.declaration.posedge.systemverilog
+130:51	"();"	punctuation.separator.posedge.systemverilog
+130:54	"       //"	comment.line.double-slash.posedge.systemverilog
+130:63	" decl: oob_both"	comment.line.double-slash.posedge.systemverilog
+131:1	"endfunction"	keyword.control.posedge.systemverilog
+133:1	"//"	comment.line.double-slash.posedge.systemverilog
+133:3	" DPI"	comment.line.double-slash.posedge.systemverilog
+134:1	"import"	keyword.control.posedge.systemverilog
+134:8	"\"DPI-C\""	string.quoted.double.posedge.systemverilog constant.other.dpi.posedge.systemverilog
+134:16	"function"	variable.other.identifier.systemverilog keyword.control.posedge.systemverilog
+134:25	"int"	storage.type.posedge.systemverilog
+134:29	"c_fn"	entity.name.function.declaration.posedge.systemverilog
+134:33	"("	punctuation.separator.posedge.systemverilog
+134:34	"int"	storage.type.posedge.systemverilog
+134:38	"a"	variable.other.identifier.systemverilog
+134:39	");"	punctuation.separator.posedge.systemverilog
+134:41	"                    //"	comment.line.double-slash.posedge.systemverilog
+134:63	" decl: c_fn"	comment.line.double-slash.posedge.systemverilog
+135:1	"export"	keyword.control.posedge.systemverilog
+135:8	"\"DPI-C\""	string.quoted.double.posedge.systemverilog constant.other.dpi.posedge.systemverilog
+135:16	"function"	variable.other.identifier.systemverilog keyword.control.posedge.systemverilog
+135:25	"e_fn"	entity.name.function.declaration.posedge.systemverilog
+135:29	";"	punctuation.separator.posedge.systemverilog
+135:30	"                               //"	comment.line.double-slash.posedge.systemverilog
+135:63	" decl: e_fn"	comment.line.double-slash.posedge.systemverilog
+137:1	"endpackage"	keyword.control.posedge.systemverilog
+137:12	":"	punctuation.separator.posedge.systemverilog
+137:14	"names_pkg"	entity.name.namespace.posedge.systemverilog
+139:1	"//"	comment.line.double-slash.posedge.systemverilog
+139:3	" other bold, untouched by any of the above"	comment.line.double-slash.posedge.systemverilog
+140:1	"module"	keyword.control.posedge.systemverilog
+140:8	"names_top"	entity.name.type.declaration.posedge.systemverilog
+140:17	";"	punctuation.separator.posedge.systemverilog
+140:18	"                                           //"	comment.line.double-slash.posedge.systemverilog
+140:63	" keep: names_top"	comment.line.double-slash.posedge.systemverilog
+141:3	"initial"	keyword.other.timing.posedge.systemverilog
+141:11	"begin"	keyword.control.posedge.systemverilog
+142:5	"`uvm_error"	variable.other.constant.preprocessor.systemverilog keyword.preprocessor.posedge.systemverilog
+142:15	"("	punctuation.separator.posedge.systemverilog
+142:16	"\""	string.quoted.double.posedge.systemverilog constant.other.severity.error.posedge.systemverilog
+142:17	"MY_ID"	string.quoted.double.posedge.systemverilog constant.other.severity.error.posedge.systemverilog
+142:22	"\""	string.quoted.double.posedge.systemverilog constant.other.severity.error.posedge.systemverilog
+142:23	","	punctuation.separator.posedge.systemverilog
+142:24	" \""	string.quoted.double.posedge.systemverilog
+142:26	"message"	string.quoted.double.posedge.systemverilog
+142:33	"\""	string.quoted.double.posedge.systemverilog
+142:34	")"	punctuation.separator.posedge.systemverilog
+142:35	"                          //"	comment.line.double-slash.posedge.systemverilog
+142:63	" keep: MY_ID"	comment.line.double-slash.posedge.systemverilog
+143:5	"uvm_report_info"	support.function.library.posedge.systemverilog
+143:20	"("	punctuation.separator.posedge.systemverilog
+143:21	"\""	string.quoted.double.posedge.systemverilog constant.other.severity.info.posedge.systemverilog
+143:22	"I"	string.quoted.double.posedge.systemverilog constant.other.severity.info.posedge.systemverilog
+143:23	"\""	string.quoted.double.posedge.systemverilog constant.other.severity.info.posedge.systemverilog
+143:24	","	punctuation.separator.posedge.systemverilog
+143:25	" \""	string.quoted.double.posedge.systemverilog
+143:27	"message"	string.quoted.double.posedge.systemverilog
+143:34	"\""	string.quoted.double.posedge.systemverilog
+143:35	");"	punctuation.separator.posedge.systemverilog
+143:37	"                        //"	comment.line.double-slash.posedge.systemverilog
+143:63	" use: uvm_report_info"	comment.line.double-slash.posedge.systemverilog
+144:3	"end"	keyword.control.posedge.systemverilog
+145:1	"endmodule"	keyword.control.posedge.systemverilog

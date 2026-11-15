@@ -1,0 +1,294 @@
+1:1	"//"	comment.line.double-slash.posedge.systemverilog
+1:3	" Rule #1 fixtures: every message ID takes the color of its severity."	comment.line.double-slash.posedge.systemverilog
+2:1	"class"	keyword.control.posedge.systemverilog
+2:7	"severity_cases"	entity.name.type.declaration.posedge.systemverilog
+2:22	"extends"	keyword.control.posedge.systemverilog
+2:30	"uvm_component"	support.type.library.posedge.systemverilog
+2:43	";"	punctuation.separator.posedge.systemverilog
+3:3	"task"	keyword.control.posedge.systemverilog
+3:8	"run_phase"	entity.name.function.declaration.posedge.systemverilog
+3:17	"("	punctuation.separator.posedge.systemverilog
+3:18	"uvm_phase"	support.type.library.posedge.systemverilog
+3:28	"phase"	variable.other.identifier.systemverilog
+3:33	");"	punctuation.separator.posedge.systemverilog
+4:5	"`uvm_info"	variable.other.constant.preprocessor.systemverilog keyword.preprocessor.posedge.systemverilog
+4:14	"("	punctuation.separator.posedge.systemverilog
+4:15	"\""	string.quoted.double.posedge.systemverilog constant.other.severity.info.posedge.systemverilog
+4:16	"INFO_ID"	string.quoted.double.posedge.systemverilog constant.other.severity.info.posedge.systemverilog
+4:23	"\""	string.quoted.double.posedge.systemverilog constant.other.severity.info.posedge.systemverilog
+4:24	","	punctuation.separator.posedge.systemverilog
+4:25	" \""	string.quoted.double.posedge.systemverilog
+4:27	"an info message"	string.quoted.double.posedge.systemverilog
+4:42	"\""	string.quoted.double.posedge.systemverilog
+4:43	","	punctuation.separator.posedge.systemverilog
+4:45	"UVM_LOW"	constant.other.verbosity.low.posedge.systemverilog
+4:52	")"	punctuation.separator.posedge.systemverilog
+5:5	"`uvm_warning"	variable.other.constant.preprocessor.systemverilog keyword.preprocessor.posedge.systemverilog
+5:17	"("	punctuation.separator.posedge.systemverilog
+5:18	"\""	string.quoted.double.posedge.systemverilog constant.other.severity.warning.posedge.systemverilog
+5:19	"WARN_ID"	string.quoted.double.posedge.systemverilog constant.other.severity.warning.posedge.systemverilog
+5:26	"\""	string.quoted.double.posedge.systemverilog constant.other.severity.warning.posedge.systemverilog
+5:27	","	punctuation.separator.posedge.systemverilog
+5:28	" \""	string.quoted.double.posedge.systemverilog
+5:30	"a warning message"	string.quoted.double.posedge.systemverilog
+5:47	"\""	string.quoted.double.posedge.systemverilog
+5:48	")"	punctuation.separator.posedge.systemverilog
+6:5	"`uvm_error"	variable.other.constant.preprocessor.systemverilog keyword.preprocessor.posedge.systemverilog
+6:15	"("	punctuation.separator.posedge.systemverilog
+6:16	"\""	string.quoted.double.posedge.systemverilog constant.other.severity.error.posedge.systemverilog
+6:17	"ALGORITHM_ISSUE"	string.quoted.double.posedge.systemverilog constant.other.severity.error.posedge.systemverilog
+6:32	"\""	string.quoted.double.posedge.systemverilog constant.other.severity.error.posedge.systemverilog
+6:33	","	punctuation.separator.posedge.systemverilog
+6:34	" \""	string.quoted.double.posedge.systemverilog
+6:36	"The apb virtual interface is not configured before run phase"	string.quoted.double.posedge.systemverilog
+6:96	"\""	string.quoted.double.posedge.systemverilog
+6:97	")"	punctuation.separator.posedge.systemverilog
+7:5	"`uvm_fatal"	variable.other.constant.preprocessor.systemverilog keyword.preprocessor.posedge.systemverilog
+7:15	"("	punctuation.separator.posedge.systemverilog
+7:16	"\""	string.quoted.double.posedge.systemverilog constant.other.severity.fatal.posedge.systemverilog
+7:17	"FATAL_ID"	string.quoted.double.posedge.systemverilog constant.other.severity.fatal.posedge.systemverilog
+7:25	"\""	string.quoted.double.posedge.systemverilog constant.other.severity.fatal.posedge.systemverilog
+7:26	","	punctuation.separator.posedge.systemverilog
+7:27	" \""	string.quoted.double.posedge.systemverilog
+7:29	"a fatal message"	string.quoted.double.posedge.systemverilog
+7:44	"\""	string.quoted.double.posedge.systemverilog
+7:45	")"	punctuation.separator.posedge.systemverilog
+8:5	"`uvm_error"	variable.other.constant.preprocessor.systemverilog keyword.preprocessor.posedge.systemverilog
+8:15	"("	punctuation.separator.posedge.systemverilog
+8:16	"get_type_name"	constant.other.severity.error.posedge.systemverilog
+8:29	"("	punctuation.separator.posedge.systemverilog
+8:30	")"	punctuation.separator.posedge.systemverilog
+8:31	","	punctuation.separator.posedge.systemverilog
+8:32	" \""	string.quoted.double.posedge.systemverilog
+8:34	"the ID is a function call"	string.quoted.double.posedge.systemverilog
+8:59	"\""	string.quoted.double.posedge.systemverilog
+8:60	")"	punctuation.separator.posedge.systemverilog
+9:5	"`uvm_error"	variable.other.constant.preprocessor.systemverilog keyword.preprocessor.posedge.systemverilog
+9:15	"("	punctuation.separator.posedge.systemverilog
+9:16	"MY_ID"	constant.other.severity.error.posedge.systemverilog
+9:21	","	punctuation.separator.posedge.systemverilog
+9:22	" \""	string.quoted.double.posedge.systemverilog
+9:24	"the ID is a localparam"	string.quoted.double.posedge.systemverilog
+9:46	"\""	string.quoted.double.posedge.systemverilog
+9:47	")"	punctuation.separator.posedge.systemverilog
+10:5	"`uvm_error"	variable.other.constant.preprocessor.systemverilog keyword.preprocessor.posedge.systemverilog
+10:15	"("	punctuation.separator.posedge.systemverilog
+10:16	"`gfn"	variable.other.constant.preprocessor.systemverilog keyword.preprocessor.posedge.systemverilog
+10:20	","	punctuation.separator.posedge.systemverilog
+10:21	" \""	string.quoted.double.posedge.systemverilog
+10:23	"a macro ID keeps the macro color"	string.quoted.double.posedge.systemverilog
+10:55	"\""	string.quoted.double.posedge.systemverilog
+10:56	")"	punctuation.separator.posedge.systemverilog
+11:5	"`uvm_error"	variable.other.constant.preprocessor.systemverilog keyword.preprocessor.posedge.systemverilog
+11:15	"("	punctuation.separator.posedge.systemverilog
+12:1	"        \""	string.quoted.double.posedge.systemverilog constant.other.severity.error.posedge.systemverilog
+12:10	"MULTILINE_ID"	string.quoted.double.posedge.systemverilog constant.other.severity.error.posedge.systemverilog
+12:22	"\""	string.quoted.double.posedge.systemverilog constant.other.severity.error.posedge.systemverilog
+12:23	","	punctuation.separator.posedge.systemverilog
+13:1	"        \""	string.quoted.double.posedge.systemverilog
+13:10	"the ID is on its own line"	string.quoted.double.posedge.systemverilog
+13:35	"\""	string.quoted.double.posedge.systemverilog
+13:36	")"	punctuation.separator.posedge.systemverilog
+14:5	"`uvm_info_context"	variable.other.constant.preprocessor.systemverilog keyword.preprocessor.posedge.systemverilog
+14:22	"("	punctuation.separator.posedge.systemverilog
+14:23	"\""	string.quoted.double.posedge.systemverilog constant.other.severity.info.posedge.systemverilog
+14:24	"CTX_ID"	string.quoted.double.posedge.systemverilog constant.other.severity.info.posedge.systemverilog
+14:30	"\""	string.quoted.double.posedge.systemverilog constant.other.severity.info.posedge.systemverilog
+14:31	","	punctuation.separator.posedge.systemverilog
+14:32	" \""	string.quoted.double.posedge.systemverilog
+14:34	"context variant"	string.quoted.double.posedge.systemverilog
+14:49	"\""	string.quoted.double.posedge.systemverilog
+14:50	","	punctuation.separator.posedge.systemverilog
+14:52	"UVM_NONE"	constant.other.verbosity.none.posedge.systemverilog
+14:60	","	punctuation.separator.posedge.systemverilog
+14:62	"this"	variable.language.posedge.systemverilog
+14:66	")"	punctuation.separator.posedge.systemverilog
+15:5	"uvm_report_error"	support.function.library.posedge.systemverilog
+15:21	"("	punctuation.separator.posedge.systemverilog
+15:22	"\""	string.quoted.double.posedge.systemverilog constant.other.severity.error.posedge.systemverilog
+15:23	"FN_ERR_ID"	string.quoted.double.posedge.systemverilog constant.other.severity.error.posedge.systemverilog
+15:32	"\""	string.quoted.double.posedge.systemverilog constant.other.severity.error.posedge.systemverilog
+15:33	","	punctuation.separator.posedge.systemverilog
+15:34	" \""	string.quoted.double.posedge.systemverilog
+15:36	"function form"	string.quoted.double.posedge.systemverilog
+15:49	"\""	string.quoted.double.posedge.systemverilog
+15:50	");"	punctuation.separator.posedge.systemverilog
+16:5	"uvm_report_warning"	support.function.library.posedge.systemverilog
+16:23	"("	punctuation.separator.posedge.systemverilog
+16:24	"\""	string.quoted.double.posedge.systemverilog constant.other.severity.warning.posedge.systemverilog
+16:25	"FN_WARN_ID"	string.quoted.double.posedge.systemverilog constant.other.severity.warning.posedge.systemverilog
+16:35	"\""	string.quoted.double.posedge.systemverilog constant.other.severity.warning.posedge.systemverilog
+16:36	","	punctuation.separator.posedge.systemverilog
+16:37	" \""	string.quoted.double.posedge.systemverilog
+16:39	"function form"	string.quoted.double.posedge.systemverilog
+16:52	"\""	string.quoted.double.posedge.systemverilog
+16:53	");"	punctuation.separator.posedge.systemverilog
+17:5	"$error"	support.function.library.posedge.systemverilog constant.other.severity.error.posedge.systemverilog
+17:11	"("	punctuation.separator.posedge.systemverilog
+17:12	"\""	string.quoted.double.posedge.systemverilog
+17:13	"system task error"	string.quoted.double.posedge.systemverilog
+17:30	"\""	string.quoted.double.posedge.systemverilog
+17:31	");"	punctuation.separator.posedge.systemverilog
+18:5	"$fatal"	support.function.library.posedge.systemverilog constant.other.severity.fatal.posedge.systemverilog
+18:11	"("	punctuation.separator.posedge.systemverilog
+18:12	"1"	constant.numeric.posedge.systemverilog
+18:13	","	punctuation.separator.posedge.systemverilog
+18:14	" \""	string.quoted.double.posedge.systemverilog
+18:16	"system task fatal"	string.quoted.double.posedge.systemverilog
+18:33	"\""	string.quoted.double.posedge.systemverilog
+18:34	");"	punctuation.separator.posedge.systemverilog
+19:5	"$warning"	support.function.library.posedge.systemverilog constant.other.severity.warning.posedge.systemverilog
+19:13	"("	punctuation.separator.posedge.systemverilog
+19:14	"\""	string.quoted.double.posedge.systemverilog
+19:15	"system task warning"	string.quoted.double.posedge.systemverilog
+19:34	"\""	string.quoted.double.posedge.systemverilog
+19:35	");"	punctuation.separator.posedge.systemverilog
+20:5	"$info"	support.function.library.posedge.systemverilog constant.other.severity.info.posedge.systemverilog
+20:10	"("	punctuation.separator.posedge.systemverilog
+20:11	"\""	string.quoted.double.posedge.systemverilog
+20:12	"system task info"	string.quoted.double.posedge.systemverilog
+20:28	"\""	string.quoted.double.posedge.systemverilog
+20:29	");"	punctuation.separator.posedge.systemverilog
+21:5	"set_report_severity_action"	entity.name.function.posedge.systemverilog
+21:31	"("	punctuation.separator.posedge.systemverilog
+21:32	"UVM_ERROR"	constant.other.severity.error.posedge.systemverilog
+21:41	","	punctuation.separator.posedge.systemverilog
+21:43	"UVM_DISPLAY"	variable.other.constant.posedge.systemverilog
+21:55	"|"	keyword.operator.posedge.systemverilog
+21:57	"UVM_COUNT"	variable.other.constant.posedge.systemverilog
+21:66	");"	punctuation.separator.posedge.systemverilog
+22:5	"set_report_severity_action"	entity.name.function.posedge.systemverilog
+22:31	"("	punctuation.separator.posedge.systemverilog
+22:32	"UVM_FATAL"	constant.other.severity.fatal.posedge.systemverilog
+22:41	","	punctuation.separator.posedge.systemverilog
+22:43	"UVM_EXIT"	variable.other.constant.posedge.systemverilog
+22:51	");"	punctuation.separator.posedge.systemverilog
+23:5	"set_report_severity_action"	entity.name.function.posedge.systemverilog
+23:31	"("	punctuation.separator.posedge.systemverilog
+23:32	"UVM_WARNING"	constant.other.severity.warning.posedge.systemverilog
+23:43	","	punctuation.separator.posedge.systemverilog
+23:45	"UVM_DISPLAY"	variable.other.constant.posedge.systemverilog
+23:56	");"	punctuation.separator.posedge.systemverilog
+24:5	"set_report_severity_action"	entity.name.function.posedge.systemverilog
+24:31	"("	punctuation.separator.posedge.systemverilog
+24:32	"UVM_INFO"	constant.other.severity.info.posedge.systemverilog
+24:40	","	punctuation.separator.posedge.systemverilog
+24:42	"UVM_DISPLAY"	variable.other.constant.posedge.systemverilog
+24:53	");"	punctuation.separator.posedge.systemverilog
+25:3	"endtask"	keyword.control.posedge.systemverilog
+26:1	"endclass"	keyword.control.posedge.systemverilog
+28:1	"module"	keyword.control.posedge.systemverilog
+28:8	"verbosity_cases"	entity.name.type.declaration.posedge.systemverilog
+28:23	";"	punctuation.separator.posedge.systemverilog
+29:3	"initial"	keyword.other.timing.posedge.systemverilog
+29:11	"begin"	keyword.control.posedge.systemverilog
+30:5	"`uvm_info"	variable.other.constant.preprocessor.systemverilog keyword.preprocessor.posedge.systemverilog
+30:14	"("	punctuation.separator.posedge.systemverilog
+30:15	"\""	string.quoted.double.posedge.systemverilog constant.other.severity.info.posedge.systemverilog
+30:16	"V0"	string.quoted.double.posedge.systemverilog constant.other.severity.info.posedge.systemverilog
+30:18	"\""	string.quoted.double.posedge.systemverilog constant.other.severity.info.posedge.systemverilog
+30:19	","	punctuation.separator.posedge.systemverilog
+30:20	" \""	string.quoted.double.posedge.systemverilog
+30:22	"always"	string.quoted.double.posedge.systemverilog
+30:28	"\""	string.quoted.double.posedge.systemverilog
+30:29	","	punctuation.separator.posedge.systemverilog
+30:31	"UVM_NONE"	constant.other.verbosity.none.posedge.systemverilog
+30:39	")"	punctuation.separator.posedge.systemverilog
+31:5	"`uvm_info"	variable.other.constant.preprocessor.systemverilog keyword.preprocessor.posedge.systemverilog
+31:14	"("	punctuation.separator.posedge.systemverilog
+31:15	"\""	string.quoted.double.posedge.systemverilog constant.other.severity.info.posedge.systemverilog
+31:16	"V1"	string.quoted.double.posedge.systemverilog constant.other.severity.info.posedge.systemverilog
+31:18	"\""	string.quoted.double.posedge.systemverilog constant.other.severity.info.posedge.systemverilog
+31:19	","	punctuation.separator.posedge.systemverilog
+31:20	" \""	string.quoted.double.posedge.systemverilog
+31:22	"low"	string.quoted.double.posedge.systemverilog
+31:25	"\""	string.quoted.double.posedge.systemverilog
+31:26	","	punctuation.separator.posedge.systemverilog
+31:28	"UVM_LOW"	constant.other.verbosity.low.posedge.systemverilog
+31:35	")"	punctuation.separator.posedge.systemverilog
+32:5	"`uvm_info"	variable.other.constant.preprocessor.systemverilog keyword.preprocessor.posedge.systemverilog
+32:14	"("	punctuation.separator.posedge.systemverilog
+32:15	"\""	string.quoted.double.posedge.systemverilog constant.other.severity.info.posedge.systemverilog
+32:16	"V2"	string.quoted.double.posedge.systemverilog constant.other.severity.info.posedge.systemverilog
+32:18	"\""	string.quoted.double.posedge.systemverilog constant.other.severity.info.posedge.systemverilog
+32:19	","	punctuation.separator.posedge.systemverilog
+32:20	" \""	string.quoted.double.posedge.systemverilog
+32:22	"medium"	string.quoted.double.posedge.systemverilog
+32:28	"\""	string.quoted.double.posedge.systemverilog
+32:29	","	punctuation.separator.posedge.systemverilog
+32:31	"UVM_MEDIUM"	constant.other.verbosity.medium.posedge.systemverilog
+32:41	")"	punctuation.separator.posedge.systemverilog
+33:5	"`uvm_info"	variable.other.constant.preprocessor.systemverilog keyword.preprocessor.posedge.systemverilog
+33:14	"("	punctuation.separator.posedge.systemverilog
+33:15	"\""	string.quoted.double.posedge.systemverilog constant.other.severity.info.posedge.systemverilog
+33:16	"V3"	string.quoted.double.posedge.systemverilog constant.other.severity.info.posedge.systemverilog
+33:18	"\""	string.quoted.double.posedge.systemverilog constant.other.severity.info.posedge.systemverilog
+33:19	","	punctuation.separator.posedge.systemverilog
+33:20	" \""	string.quoted.double.posedge.systemverilog
+33:22	"high"	string.quoted.double.posedge.systemverilog
+33:26	"\""	string.quoted.double.posedge.systemverilog
+33:27	","	punctuation.separator.posedge.systemverilog
+33:29	"UVM_HIGH"	constant.other.verbosity.high.posedge.systemverilog
+33:37	")"	punctuation.separator.posedge.systemverilog
+34:5	"`uvm_info"	variable.other.constant.preprocessor.systemverilog keyword.preprocessor.posedge.systemverilog
+34:14	"("	punctuation.separator.posedge.systemverilog
+34:15	"\""	string.quoted.double.posedge.systemverilog constant.other.severity.info.posedge.systemverilog
+34:16	"V4"	string.quoted.double.posedge.systemverilog constant.other.severity.info.posedge.systemverilog
+34:18	"\""	string.quoted.double.posedge.systemverilog constant.other.severity.info.posedge.systemverilog
+34:19	","	punctuation.separator.posedge.systemverilog
+34:20	" \""	string.quoted.double.posedge.systemverilog
+34:22	"full"	string.quoted.double.posedge.systemverilog
+34:26	"\""	string.quoted.double.posedge.systemverilog
+34:27	","	punctuation.separator.posedge.systemverilog
+34:29	"UVM_FULL"	constant.other.verbosity.full.posedge.systemverilog
+34:37	")"	punctuation.separator.posedge.systemverilog
+35:5	"`uvm_info"	variable.other.constant.preprocessor.systemverilog keyword.preprocessor.posedge.systemverilog
+35:14	"("	punctuation.separator.posedge.systemverilog
+35:15	"\""	string.quoted.double.posedge.systemverilog constant.other.severity.info.posedge.systemverilog
+35:16	"V5"	string.quoted.double.posedge.systemverilog constant.other.severity.info.posedge.systemverilog
+35:18	"\""	string.quoted.double.posedge.systemverilog constant.other.severity.info.posedge.systemverilog
+35:19	","	punctuation.separator.posedge.systemverilog
+35:20	" \""	string.quoted.double.posedge.systemverilog
+35:22	"debug"	string.quoted.double.posedge.systemverilog
+35:27	"\""	string.quoted.double.posedge.systemverilog
+35:28	","	punctuation.separator.posedge.systemverilog
+35:30	"UVM_DEBUG"	constant.other.verbosity.debug.posedge.systemverilog
+35:39	")"	punctuation.separator.posedge.systemverilog
+36:3	"end"	keyword.control.posedge.systemverilog
+37:1	"endmodule"	keyword.control.posedge.systemverilog
+39:1	"covergroup"	keyword.other.verification.posedge.systemverilog
+39:12	"cg_cases"	entity.name.type.declaration.posedge.systemverilog
+39:20	";"	punctuation.separator.posedge.systemverilog
+40:3	"cp"	entity.name.label.verification.posedge.systemverilog
+40:5	":"	punctuation.separator.posedge.systemverilog
+40:7	"coverpoint"	keyword.other.verification.posedge.systemverilog
+40:18	"x"	variable.other.identifier.systemverilog
+40:20	"{"	punctuation.separator.posedge.systemverilog
+41:5	"bins"	keyword.other.verification.posedge.systemverilog
+41:18	"ok"	variable.other.identifier.systemverilog
+41:24	"="	keyword.operator.posedge.systemverilog
+41:26	"{["	punctuation.separator.posedge.systemverilog
+41:28	"0"	constant.numeric.posedge.systemverilog
+41:29	":"	punctuation.separator.posedge.systemverilog
+41:30	"3"	constant.numeric.posedge.systemverilog
+41:31	"]};"	punctuation.separator.posedge.systemverilog
+42:5	"illegal_bins"	keyword.other.verification.illegal.posedge.systemverilog
+42:18	"bad"	variable.other.identifier.systemverilog
+42:24	"="	keyword.operator.posedge.systemverilog
+42:26	"{"	punctuation.separator.posedge.systemverilog
+42:27	"4"	constant.numeric.base.posedge.systemverilog
+42:28	"'"	constant.numeric.base.posedge.systemverilog
+42:29	"b"	constant.numeric.base.posedge.systemverilog
+42:30	"1"	constant.numeric.posedge.systemverilog
+42:31	"x"	constant.numeric.xz.posedge.systemverilog
+42:32	"0"	constant.numeric.posedge.systemverilog
+42:33	"z"	constant.numeric.xz.posedge.systemverilog
+42:34	"};"	punctuation.separator.posedge.systemverilog
+43:5	"ignore_bins"	keyword.other.verification.ignore.posedge.systemverilog
+43:18	"skip"	variable.other.identifier.systemverilog
+43:24	"="	keyword.operator.posedge.systemverilog
+43:26	"{"	punctuation.separator.posedge.systemverilog
+43:27	"7"	constant.numeric.posedge.systemverilog
+43:28	"};"	punctuation.separator.posedge.systemverilog
+44:3	"}"	punctuation.separator.posedge.systemverilog
+45:1	"endgroup"	keyword.other.verification.posedge.systemverilog
